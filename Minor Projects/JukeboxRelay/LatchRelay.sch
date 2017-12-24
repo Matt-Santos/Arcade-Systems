@@ -1,0 +1,175 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:LatchRelay-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Q_NPN_BCE Q2
+U 1 1 5906F92D
+P 4950 3450
+F 0 "Q2" H 5141 3496 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 5141 3405 50  0000 L CNN
+F 2 "" H 5150 3550 50  0001 C CNN
+F 3 "" H 4950 3450 50  0001 C CNN
+	1    4950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_BCE Q1
+U 1 1 5906FA24
+P 4050 3450
+F 0 "Q1" H 4240 3496 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 4240 3405 50  0000 L CNN
+F 2 "" H 4250 3550 50  0001 C CNN
+F 3 "" H 4050 3450 50  0001 C CNN
+	1    4050 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5906FB0A
+P 4500 4200
+F 0 "#PWR?" H 4500 3950 50  0001 C CNN
+F 1 "GND" H 4505 4027 50  0000 C CNN
+F 2 "" H 4500 4200 50  0001 C CNN
+F 3 "" H 4500 4200 50  0001 C CNN
+	1    4500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5906FCC7
+P 4500 2700
+F 0 "#PWR?" H 4500 2550 50  0001 C CNN
+F 1 "VCC" H 4517 2873 50  0000 C CNN
+F 2 "" H 4500 2700 50  0001 C CNN
+F 3 "" H 4500 2700 50  0001 C CNN
+	1    4500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3900 5050 3650
+Wire Wire Line
+	3950 3650 3950 3900
+$Comp
+L R R?
+U 1 1 5906FEAF
+P 3950 3000
+F 0 "R?" H 4020 3046 50  0000 L CNN
+F 1 "R" H 4020 2955 50  0000 L CNN
+F 2 "" V 3880 3000 50  0001 C CNN
+F 3 "" H 3950 3000 50  0001 C CNN
+	1    3950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5906FFD1
+P 5050 3000
+F 0 "R?" H 5120 3046 50  0000 L CNN
+F 1 "R" H 5120 2955 50  0000 L CNN
+F 2 "" V 4980 3000 50  0001 C CNN
+F 3 "" H 5050 3000 50  0001 C CNN
+	1    5050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 59070039
+P 4850 3200
+F 0 "R?" V 4643 3200 50  0000 C CNN
+F 1 "R" V 4734 3200 50  0000 C CNN
+F 2 "" V 4780 3200 50  0001 C CNN
+F 3 "" H 4850 3200 50  0001 C CNN
+	1    4850 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59070128
+P 4150 3200
+F 0 "R?" V 3943 3200 50  0000 C CNN
+F 1 "R" V 4034 3200 50  0000 C CNN
+F 2 "" V 4080 3200 50  0001 C CNN
+F 3 "" H 4150 3200 50  0001 C CNN
+	1    4150 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 3900 5050 3900
+Wire Wire Line
+	4500 4200 4500 3900
+Connection ~ 4500 3900
+Wire Wire Line
+	5050 3150 5050 3250
+Wire Wire Line
+	5000 3200 5650 3200
+Connection ~ 5050 3200
+Wire Wire Line
+	3950 3250 3950 3150
+Wire Wire Line
+	4000 3200 3950 3200
+Connection ~ 3950 3200
+Wire Wire Line
+	4300 3200 4750 3450
+Wire Wire Line
+	4700 3200 4250 3450
+Wire Wire Line
+	5050 2700 5050 2850
+Wire Wire Line
+	3950 2700 5050 2700
+Wire Wire Line
+	3950 2850 3950 2700
+Connection ~ 4500 2700
+$Comp
+L Q_NMOS_DGS Q?
+U 1 1 59070703
+P 5850 3200
+F 0 "Q?" H 6055 3246 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 6055 3155 50  0000 L CNN
+F 2 "" H 6050 3300 50  0001 C CNN
+F 3 "" H 5850 3200 50  0001 C CNN
+	1    5850 3200
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
