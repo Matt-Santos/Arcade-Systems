@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name relay)(type Legacy)(uri ${KIPRJMOD}/Library/relay.lib)(options "")(descr ""))
+  (lib (name RES_42)(type Legacy)(uri ${KIPRJMOD}/Library/RES_42.lib)(options "")(descr ""))
+  (lib (name YAG_FMP200)(type Legacy)(uri ${KIPRJMOD}/Library/YAG_FMP200.lib)(options "")(descr ""))
+)
