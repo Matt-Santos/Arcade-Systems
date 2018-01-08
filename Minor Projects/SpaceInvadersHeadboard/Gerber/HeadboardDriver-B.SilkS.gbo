@@ -1,0 +1,21 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-12-24 revision 570866557)-makepkg*
+G04 #@! TF.CreationDate,2018-01-07T21:48:38-05:00*
+G04 #@! TF.ProjectId,HeadboardDriver,48656164626F6172644472697665722E,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Legend,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-12-24 revision 570866557)-makepkg) date Sun Jan  7 21:48:38 2018*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.152400*%
+G04 APERTURE END LIST*
+D10*
+X185293000Y-73152000D02*
+G75*
+G03X185293000Y-73152000I-381000J0D01*
+G01*
+M02*
