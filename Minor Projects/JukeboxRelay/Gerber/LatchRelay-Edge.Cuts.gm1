@@ -1,11 +1,11 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-12-24 revision 570866557)-makepkg*
-G04 #@! TF.CreationDate,2018-01-07T21:56:49-05:00*
-G04 #@! TF.ProjectId,LatchRelay,4C6174636852656C61792E6B69636164,rev?*
-G04 #@! TF.SameCoordinates,Original*
-G04 #@! TF.FileFunction,Profile,NP*
+%TF.GenerationSoftware,KiCad,Pcbnew,(5.0.0-rc2-dev-720-g9704891c8)*%
+%TF.CreationDate,2018-06-11T17:03:39-04:00*%
+%TF.ProjectId,LatchRelay,4C6174636852656C61792E6B69636164,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (2017-12-24 revision 570866557)-makepkg) date Sun Jan  7 21:56:49 2018*
+G04 Created by KiCad (PCBNEW (5.0.0-rc2-dev-720-g9704891c8)) date Mon Jun 11 17:03:39 2018*
 %MOMM*%
 %LPD*%
 G01*

@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(2017-12-24 revision 570866557)-makepkg")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc2-dev-720-g9704891c8)")
 
   (general
     (thickness 1.6)
@@ -65,7 +65,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF5F)
     (pcbplotparams
-      (layerselection 0x010f0_ffffffff)
+      (layerselection 0x010e0_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
