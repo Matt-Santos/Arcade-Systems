@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "4xxx_IEEE")(type "Legacy")(uri "${KIPRJMOD}/4xxx_IEEE.lib")(options "")(descr ""))
+  (lib (name "DriverBoard-rescue")(type "KiCad")(uri "${KIPRJMOD}/DriverBoard-rescue.kicad_sym")(options "")(descr ""))
+)

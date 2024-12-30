@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name EC2-5NU)(type Legacy)(uri ${KIPRJMOD}/Library/EC2-5NU.lib)(options "")(descr ""))
-  (lib (name CD40193BE)(type Legacy)(uri ${KIPRJMOD}/Library/CD40193BE.lib)(options "")(descr ""))
-)

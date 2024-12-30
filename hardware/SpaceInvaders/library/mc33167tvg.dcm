@@ -1,0 +1,111 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GL2576-12TB5T_copy
+D 12V 3A, 52KHz Step Down Converter, TO220-5
+K 12V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-15TB5T_copy
+D 15V 3A, 52KHz Step Down Converter, TO220-5
+K 15V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-3.3TB5T_copy
+D 3.3V 3A, 52KHz Step Down Converter, TO220-5
+K 3.3V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-5.0TB5T_copy
+D 5V 3A, 52KHz Step Down Converter, TO220-5
+K 5V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-ATB5T_copy
+D Adjustable 3A, 52KHz Step Down Converter, TO220-5
+K Adjustable 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP LM2575-12BT_copy
+D Fixed 12V 52kHz Simple 1A Buck Regulator, TO-220-5
+K Buck regulator Switcher
+F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
+$ENDCMP
+#
+$CMP LM2575-3.3BT_copy
+D Fixed 3.3V 52kHz Simple 1A Buck Regulator, TO-220-5
+K Buck regulator Switcher
+F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
+$ENDCMP
+#
+$CMP LM2575-5.0BT_copy
+D Fixed 5.0V 52kHz Simple 1A Buck Regulator, TO-220-5
+K Buck regulator Switcher
+F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
+$ENDCMP
+#
+$CMP LM2575BT-ADJ_copy
+D Adjustable 52kHz Simple 1A Buck Regulator, TO-220-5
+K Buck regulator Switcher
+F http://ww1.microchip.com/downloads/en/DeviceDoc/lm2575.pdf
+$ENDCMP
+#
+$CMP LM2576HVT-15_copy
+D 15V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-220-5
+K Step-Down Voltage Regulator 15V 3A High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576HVT-3.3_copy
+D 3.3V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-220-5
+K Step-Down Voltage Regulator 3.3V 3A High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576HVT-5_copy
+D 5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-220-5
+K Step-Down Voltage Regulator 5V 3A High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576HVT-ADJ_copy
+D Adjustable Output Voltage, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-220-5
+K Step-Down Voltage Regulator 3A Adjustable High Voltage
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576T-12_copy
+D 12V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 12V 3A
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576T-15_copy
+D 15V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 15V 3A
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576T-3.3_copy
+D 3.3V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 3.3V 3A
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576T-5_copy
+D 5V, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 5V 3A
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+$CMP LM2576T-ADJ_copy
+D Adjustable Output Voltage, 3A SIMPLE SWITCHER® Step-Down Voltage Regulator, TO-220-5
+K Step-Down Voltage Regulator 3A Adjustable
+F http://www.ti.com/lit/ds/symlink/lm2576.pdf
+$ENDCMP
+#
+#End Doc Library
