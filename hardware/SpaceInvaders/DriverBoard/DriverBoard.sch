@@ -1,0 +1,929 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 3650 1050 0    50   ~ 0
+Common
+Text Label 3650 1550 0    50   ~ 0
+Flashers
+Text Label 3650 1250 0    50   ~ 0
+Eyes
+Text Label 6200 1950 2    50   ~ 0
+12V
+Text Label 1250 2700 2    50   ~ 0
+Control_F
+Text Label 1250 2450 2    50   ~ 0
+Flashers
+Wire Wire Line
+	2550 1300 2600 1300
+Text Label 1250 1050 2    50   ~ 0
+Side_A
+Text Label 2600 1050 0    50   ~ 0
+Side_B
+Text Label 2600 1750 0    50   ~ 0
+Side_D
+$Comp
+L Device:Q_NMOS_GDS Q2
+U 1 1 5FF1A923
+P 2350 1300
+F 0 "Q2" H 2555 1346 50  0000 L CNN
+F 1 "FQP30N06L" H 2555 1255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2550 1400 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf" H 2350 1300 50  0001 C CNN
+	1    2350 1300
+	-1   0    0    -1  
+$EndComp
+Text Label 1250 1300 2    50   ~ 0
+Control_A
+Text Label 2600 1300 0    50   ~ 0
+Control_B
+Text Label 2600 2000 0    50   ~ 0
+Control_D
+Wire Wire Line
+	1600 2950 1250 2950
+Wire Wire Line
+	1300 2700 1250 2700
+Wire Wire Line
+	1250 2450 1600 2450
+$Comp
+L Device:Q_NMOS_DGS Q5
+U 1 1 5FF094ED
+P 1500 2700
+F 0 "Q5" H 1750 2750 50  0000 C CNN
+F 1 "ZVN2110A" H 1900 2650 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92S_Wide" H 1700 2800 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZVN2110A.pdf" H 1500 2700 50  0001 C CNN
+	1    1500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2950 1600 2900
+Wire Wire Line
+	1600 2450 1600 2500
+Wire Notes Line
+	550  550  3300 550 
+Wire Notes Line
+	3300 550  3300 3850
+Wire Notes Line
+	550  3850 550  550 
+Text Notes 700  850  0    197  ~ 0
+Low Side Drivers
+$Comp
+L Device:Speaker LS1
+U 1 1 5FEDD917
+P 7500 2950
+F 0 "LS1" H 7670 2946 50  0000 L CNN
+F 1 "GF0506" H 7670 2855 50  0000 L CNN
+F 2 "" H 7500 2750 50  0001 C CNN
+F 3 "https://www.digikey.ca/en/products/detail/cui-devices/GF0506/304435" H 7490 2900 50  0001 C CNN
+	1    7500 2950
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3300 3850 550  3850
+Text Label 6700 2950 0    50   ~ 0
+Sound
+Text Label 6700 3050 0    50   ~ 0
+Common
+Text Label 1600 4200 0    50   ~ 0
+6.3V
+Text Label 1400 5200 2    50   ~ 0
+Common
+Text Label 3650 1650 0    50   ~ 0
+Sound
+Text Notes 7400 3450 0    50   ~ 0
+8 Ohm\n1/2 Watt\n1.2V Max
+$Comp
+L Regulator_Linear:LM337_TO220 U1
+U 1 1 5FEB9969
+P 1100 4200
+F 0 "U1" H 1100 3958 50  0000 C CNN
+F 1 "LM338T/NOPB" H 1100 4049 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1100 4000 50  0001 C CIN
+F 3 "https://www.ti.com/lit/ds/symlink/lm338.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1609261639629" H 1100 4200 50  0001 C CNN
+	1    1100 4200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FEBC3AB
+P 1500 4450
+F 0 "R2" H 1570 4496 50  0000 L CNN
+F 1 "1k" H 1570 4405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1430 4450 50  0001 C CNN
+F 3 "N/A" H 1500 4450 50  0001 C CNN
+	1    1500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FEBD024
+P 1500 4950
+F 0 "R3" H 1570 4996 50  0000 L CNN
+F 1 "3.9k" H 1570 4905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1430 4950 50  0001 C CNN
+F 3 "N/A" H 1500 4950 50  0001 C CNN
+	1    1500 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4500 1100 4700
+Wire Wire Line
+	1100 4700 1500 4700
+Wire Wire Line
+	1500 4700 1500 4600
+Wire Wire Line
+	1500 4700 1500 4800
+Connection ~ 1500 4700
+Wire Wire Line
+	1500 4300 1500 4200
+Wire Wire Line
+	1500 4200 1400 4200
+Wire Wire Line
+	1500 5100 1500 5200
+Text Label 700  4200 2    50   ~ 0
+12V
+Wire Wire Line
+	1500 4200 1600 4200
+Connection ~ 1500 4200
+Wire Wire Line
+	700  4200 800  4200
+Wire Wire Line
+	1400 5200 1500 5200
+$Comp
+L MCU_Microchip_PIC16:PIC16F18344-xSL U3
+U 1 1 5FF31EC8
+P 3700 4700
+F 0 "U3" H 3400 5100 50  0000 C CNN
+F 1 "PIC16F1705" H 4000 5100 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3700 4400 50  0001 C CNN
+F 3 "https://www.digikey.ca/en/products/detail/microchip-technology/PIC16F1705-I-P/4439830" H 3700 4000 50  0001 C CNN
+	1    3700 4700
+	1    0    0    -1  
+$EndComp
+Text Label 4500 4700 0    50   ~ 0
+Sound
+Text Label 4500 4400 0    50   ~ 0
+Control_D
+Text Label 4500 4800 0    50   ~ 0
+Control_F
+Wire Wire Line
+	3700 4200 3700 4100
+Wire Wire Line
+	3700 5100 3700 5200
+$Comp
+L Connector:Conn_01x05_Male J2
+U 1 1 5FF6EEBB
+P 3400 3200
+F 0 "J2" H 3500 3600 50  0000 C CNN
+F 1 "Program" H 3550 3500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 3400 3200 50  0001 C CNN
+F 3 "N/A" H 3400 3200 50  0001 C CNN
+	1    3400 3200
+	1    0    0    -1  
+$EndComp
+Text Label 3700 3400 0    50   ~ 0
+ICSPCLK
+Text Label 3700 3300 0    50   ~ 0
+ICSPDAT
+Text Label 3700 3000 0    50   ~ 0
+MCLR
+Text Label 2400 4700 2    50   ~ 0
+MCLR
+Wire Wire Line
+	2400 5200 3700 5200
+Wire Wire Line
+	2900 4400 3000 4400
+Wire Wire Line
+	3000 4500 2900 4500
+Wire Wire Line
+	2400 4700 2500 4700
+Wire Wire Line
+	3700 3100 3600 3100
+Wire Wire Line
+	3700 3200 3600 3200
+Wire Wire Line
+	3700 3300 3600 3300
+Text Label 2400 5200 2    50   ~ 0
+Common
+Text Label 4500 4500 0    50   ~ 0
+Control_C
+Text Label 2900 4600 2    50   ~ 0
+Control_B
+Text Label 4500 4600 0    50   ~ 0
+Control_A
+Text Label 2900 4500 2    50   ~ 0
+ICSPCLK
+Text Label 2900 4400 2    50   ~ 0
+ICSPDAT
+Wire Wire Line
+	4400 4400 4500 4400
+Wire Wire Line
+	4400 4600 4500 4600
+Wire Wire Line
+	4400 4500 4500 4500
+Wire Wire Line
+	2900 4900 3000 4900
+$Comp
+L Device:R R4
+U 1 1 60060742
+P 2500 4400
+F 0 "R4" H 2570 4446 50  0000 L CNN
+F 1 "10k" H 2570 4355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2430 4400 50  0001 C CNN
+F 3 "N/A" H 2500 4400 50  0001 C CNN
+	1    2500 4400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4100 2500 4100
+Wire Wire Line
+	2500 4700 2500 4550
+Connection ~ 2500 4700
+Wire Wire Line
+	2500 4700 3000 4700
+Wire Wire Line
+	2500 4250 2500 4100
+Connection ~ 2500 4100
+Wire Wire Line
+	2500 4100 3700 4100
+Text Label 1250 2950 2    50   ~ 0
+Common
+Wire Wire Line
+	2250 1500 2250 1550
+Wire Wire Line
+	2600 1050 2250 1050
+Wire Wire Line
+	2250 1050 2250 1100
+Wire Wire Line
+	2250 1550 2600 1550
+Text Label 2600 1550 0    50   ~ 0
+Common
+Wire Wire Line
+	1300 1300 1250 1300
+Text Label 1250 1750 2    50   ~ 0
+Side_C
+Text Label 1250 2000 2    50   ~ 0
+Control_C
+Wire Wire Line
+	1250 1050 1600 1050
+Wire Wire Line
+	1600 1550 1250 1550
+Text Label 1250 1550 2    50   ~ 0
+Common
+Wire Wire Line
+	1600 1500 1600 1550
+Wire Wire Line
+	1600 1100 1600 1050
+$Comp
+L Device:Q_NMOS_GDS Q1
+U 1 1 600D7511
+P 1500 1300
+F 0 "Q1" H 1705 1346 50  0000 L CNN
+F 1 "FQP30N06L" H 1705 1255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1700 1400 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf" H 1500 1300 50  0001 C CNN
+	1    1500 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2000 2600 2000
+$Comp
+L Device:Q_NMOS_GDS Q4
+U 1 1 600E4B6E
+P 2350 2000
+F 0 "Q4" H 2555 2046 50  0000 L CNN
+F 1 "FQP30N06L" H 2555 1955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2550 2100 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf" H 2350 2000 50  0001 C CNN
+	1    2350 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2200 2250 2250
+Wire Wire Line
+	2600 1750 2250 1750
+Wire Wire Line
+	2250 1750 2250 1800
+Wire Wire Line
+	2250 2250 2600 2250
+Text Label 2600 2250 0    50   ~ 0
+Common
+Wire Wire Line
+	1300 2000 1250 2000
+Wire Wire Line
+	1250 1750 1600 1750
+Wire Wire Line
+	1600 2250 1250 2250
+Text Label 1250 2250 2    50   ~ 0
+Common
+Wire Wire Line
+	1600 2200 1600 2250
+Wire Wire Line
+	1600 1800 1600 1750
+$Comp
+L Device:Q_NMOS_GDS Q3
+U 1 1 600E4B81
+P 1500 2000
+F 0 "Q3" H 1705 2046 50  0000 L CNN
+F 1 "FQP30N06L" H 1705 1955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1700 2100 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf" H 1500 2000 50  0001 C CNN
+	1    1500 2000
+	1    0    0    -1  
+$EndComp
+Text Label 2000 4100 2    50   ~ 0
+6.3V
+$Comp
+L Device:D D1
+U 1 1 60121561
+P 2250 4100
+F 0 "D1" H 2250 4000 50  0000 C CNN
+F 1 "1N4007" H 2250 4200 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2250 4100 50  0001 C CNN
+F 3 "https://www.digikey.ca/en/products/detail/micro-commercial-co/1N4007-TP/773644" H 2250 4100 50  0001 C CNN
+	1    2250 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2100 4100 2000 4100
+Text Notes 1550 4600 0    50   ~ 0
+1/4W
+Text Notes 1550 5100 0    50   ~ 0
+1/4W
+Text Notes 2450 4550 2    50   ~ 0
+1/4W
+Wire Wire Line
+	3000 4800 2900 4800
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 601918E1
+P 6400 1950
+F 0 "J3" H 6250 2200 50  0000 C CNN
+F 1 "Power Adapter" H 6200 2100 50  0000 C CNN
+F 2 "" H 6400 1950 50  0001 C CNN
+F 3 "N/A" H 6400 1950 50  0001 C CNN
+	1    6400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4600 3000 4600
+$Comp
+L Graphic:SYM_Arrow45_Normal Socket1
+U 1 1 5FED47C1
+P 3100 4250
+F 0 "Socket1" H 2900 4350 50  0001 C CNN
+F 1 "Socket" H 2900 4350 50  0000 C CNN
+F 2 "" H 3100 4250 50  0001 C CNN
+F 3 "https://www.digikey.ca/en/products/detail/on-shore-technology-inc/ED14DT/4147595" H 3100 4250 50  0001 C CNN
+	1    3100 4250
+	1    0    0    -1  
+$EndComp
+Text Label 3700 3200 0    50   ~ 0
+Common
+Text Label 3800 4100 0    50   ~ 0
+Vdd
+Wire Wire Line
+	3800 4100 3700 4100
+Connection ~ 3700 4100
+Text Label 3700 3100 0    50   ~ 0
+Vdd
+Wire Wire Line
+	3700 3400 3600 3400
+Wire Wire Line
+	3600 3000 3700 3000
+Text Label 3650 1850 0    50   ~ 0
+Side_D
+Text Label 3650 1950 0    50   ~ 0
+Side_C
+Text Label 3650 1750 0    50   ~ 0
+Side_B
+Text Label 3650 2050 0    50   ~ 0
+Side_A
+Text Label 3650 950  0    50   ~ 0
+12V
+Text Label 3650 1150 0    50   ~ 0
+6.3V
+Entry Wire Line
+	3950 2050 4050 2150
+Entry Wire Line
+	3950 1950 4050 2050
+Entry Wire Line
+	3950 1850 4050 1950
+Entry Wire Line
+	3950 1750 4050 1850
+Entry Wire Line
+	3950 1650 4050 1750
+Entry Wire Line
+	3950 1550 4050 1650
+Entry Wire Line
+	3950 1450 4050 1550
+Entry Wire Line
+	3950 1350 4050 1450
+Entry Wire Line
+	3950 1250 4050 1350
+Entry Wire Line
+	3950 1150 4050 1250
+Entry Wire Line
+	3950 1050 4050 1150
+Entry Wire Line
+	3950 950  4050 1050
+Wire Wire Line
+	3650 2050 3950 2050
+Wire Wire Line
+	3950 1950 3650 1950
+Wire Wire Line
+	3650 1850 3950 1850
+Wire Wire Line
+	3650 1750 3950 1750
+Wire Wire Line
+	3950 1650 3650 1650
+Wire Wire Line
+	3650 1550 3950 1550
+Wire Wire Line
+	3950 1450 3650 1450
+Wire Wire Line
+	3650 1350 3950 1350
+Wire Wire Line
+	3950 1250 3650 1250
+Wire Wire Line
+	3650 1150 3950 1150
+Wire Wire Line
+	3950 1050 3650 1050
+Wire Wire Line
+	3650 950  3950 950 
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 5FFBBC55
+P 5150 1150
+F 0 "J4" H 4950 1600 50  0000 C CNN
+F 1 "Ring Lighting" H 4950 1500 50  0000 C CNN
+F 2 "" H 5150 1150 50  0001 C CNN
+F 3 "" H 5150 1150 50  0001 C CNN
+	1    5150 1150
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	4400 1450 4500 1350
+Entry Wire Line
+	4400 1350 4500 1250
+Entry Wire Line
+	4400 1250 4500 1150
+Entry Wire Line
+	4400 1150 4500 1050
+Entry Wire Line
+	4400 1050 4500 950 
+Text Label 4950 1350 2    50   ~ 0
+Side_D
+Text Label 4950 1250 2    50   ~ 0
+Side_C
+Text Label 4950 1150 2    50   ~ 0
+Side_B
+Text Label 4950 1050 2    50   ~ 0
+Side_A
+Text Label 4950 950  2    50   ~ 0
+6.3V
+Text Label 6200 2050 2    50   ~ 0
+Common
+Wire Wire Line
+	4500 1350 4950 1350
+Wire Wire Line
+	4500 1250 4950 1250
+Wire Wire Line
+	4500 1150 4950 1150
+Wire Wire Line
+	4500 1050 4950 1050
+Wire Wire Line
+	4500 950  4950 950 
+Entry Wire Line
+	5450 2150 5550 2050
+Entry Wire Line
+	5450 2050 5550 1950
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 6006E74D
+P 6400 2950
+F 0 "J5" H 6300 3200 50  0000 C CNN
+F 1 "Speaker" H 6300 3100 50  0000 C CNN
+F 2 "" H 6400 2950 50  0001 C CNN
+F 3 "https://www.digikey.ca/en/products/detail/sullins-connector-solutions/PREC040SAAN-RC/2774814" H 6400 2950 50  0001 C CNN
+	1    6400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Lamp J10
+U 1 1 600BA1C0
+P 9000 1650
+F 0 "J10" H 9300 1750 50  0000 C CNN
+F 1 "12V Steady" H 9350 1650 50  0000 C CNN
+F 2 "" H 9000 1650 50  0001 C CNN
+F 3 "https://www.digikey.ca/en/products/detail/sullins-connector-solutions/PREC040SAAN-RC/2774814" H 9000 1650 50  0001 C CNN
+	1    9000 1650
+	1    0    0    -1  
+$EndComp
+Text Label 6200 3050 2    50   ~ 0
+Common
+Entry Wire Line
+	5850 3050 5750 2950
+Entry Wire Line
+	5850 2950 5750 2850
+Text Label 6200 2950 2    50   ~ 0
+Sound
+$Comp
+L Connector_Generic:Conn_01x06 J6
+U 1 1 600E093D
+P 6200 1150
+F 0 "J6" H 5950 1600 50  0000 C CNN
+F 1 "Back Lighting" H 5950 1500 50  0000 C CNN
+F 2 "" H 6200 1150 50  0001 C CNN
+F 3 "" H 6200 1150 50  0001 C CNN
+	1    6200 1150
+	1    0    0    -1  
+$EndComp
+Text Label 6000 1350 2    50   ~ 0
+Flashers
+Text Label 6000 1250 2    50   ~ 0
+Eyes
+Text Label 6000 1150 2    50   ~ 0
+6.3V
+Text Label 6000 950  2    50   ~ 0
+12V
+Text Label 6000 1050 2    50   ~ 0
+Common
+Entry Wire Line
+	5450 1450 5550 1350
+Entry Wire Line
+	5450 1350 5550 1250
+Entry Wire Line
+	5450 1250 5550 1150
+Entry Wire Line
+	5450 1150 5550 1050
+Entry Wire Line
+	5450 1050 5550 950 
+Wire Wire Line
+	5550 1350 6000 1350
+Wire Wire Line
+	5550 1250 6000 1250
+Wire Wire Line
+	5550 1150 6000 1150
+Wire Wire Line
+	5550 1050 6000 1050
+Wire Wire Line
+	5550 950  6000 950 
+Text Label 2900 4900 2    50   ~ 0
+Control_E
+$Comp
+L Device:Lamp J11
+U 1 1 6019FA86
+P 9000 2250
+F 0 "J11" H 9300 2350 50  0000 C CNN
+F 1 "Eyes" H 9250 2250 50  0000 C CNN
+F 2 "" H 9000 2250 50  0001 C CNN
+F 3 "https://www.digikey.ca/en/products/detail/sullins-connector-solutions/PREC040SAAN-RC/2774814" H 9000 2250 50  0001 C CNN
+	1    9000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Lamp J9
+U 1 1 601A026D
+P 9000 1050
+F 0 "J9" H 9300 1150 50  0000 C CNN
+F 1 "6.3V Steady" H 9350 1050 50  0000 C CNN
+F 2 "" H 9000 1050 50  0001 C CNN
+F 3 "https://www.digikey.ca/en/products/detail/sullins-connector-solutions/PREC040SAAN-RC/2774814" H 9000 1050 50  0001 C CNN
+	1    9000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Lamp J12
+U 1 1 601A0808
+P 9000 2850
+F 0 "J12" H 9300 2950 50  0000 C CNN
+F 1 "Flashers" H 9300 2850 50  0000 C CNN
+F 2 "" H 9000 2850 50  0001 C CNN
+F 3 "https://www.digikey.ca/en/products/detail/sullins-connector-solutions/PREC040SAAN-RC/2774814" H 9000 2850 50  0001 C CNN
+	1    9000 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 1450 8300 1450
+Wire Wire Line
+	9000 1850 8500 1850
+Wire Wire Line
+	9000 2650 8300 2650
+Wire Wire Line
+	8300 2050 9000 2050
+Connection ~ 8300 2050
+Wire Wire Line
+	8300 2050 8300 2650
+Wire Wire Line
+	8300 1450 8300 2050
+Connection ~ 8300 1450
+Wire Wire Line
+	9000 1250 8500 1250
+Wire Wire Line
+	8200 850  8200 1150
+Wire Wire Line
+	8200 1150 6550 1150
+Wire Wire Line
+	8200 850  9000 850 
+Wire Wire Line
+	9000 2450 8200 2450
+Wire Wire Line
+	8200 2450 8200 1250
+Wire Wire Line
+	8200 1250 6550 1250
+Wire Wire Line
+	8100 1350 8100 3050
+Wire Wire Line
+	8100 3050 9000 3050
+Wire Wire Line
+	6550 1350 8100 1350
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 60222819
+P 6500 2950
+F 0 "J7" H 6650 3200 50  0000 C CNN
+F 1 "Speaker" H 6650 3100 50  0000 C CNN
+F 2 "" H 6500 2950 50  0001 C CNN
+F 3 "~" H 6500 2950 50  0001 C CNN
+	1    6500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2050 5550 2050
+$Comp
+L Connector:Conn_01x06_Male J8
+U 1 1 6025DD16
+P 6350 1150
+F 0 "J8" H 6600 1600 50  0000 C CNN
+F 1 "Back Lighting" H 6600 1500 50  0000 C CNN
+F 2 "" H 6350 1150 50  0001 C CNN
+F 3 "~" H 6350 1150 50  0001 C CNN
+	1    6350 1150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6550 1450
+$Comp
+L Device:Q_NMOS_DGS Q7
+U 1 1 602BF085
+P 2300 2700
+F 0 "Q7" H 2550 2750 50  0000 C CNN
+F 1 "ZVN2110A" H 2700 2650 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92S_Wide" H 2500 2800 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZVN2110A.pdf" H 2300 2700 50  0001 C CNN
+	1    2300 2700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2950 2550 2950
+Text Label 2550 2950 0    50   ~ 0
+Common
+Wire Wire Line
+	2200 2950 2200 2900
+Wire Wire Line
+	2200 2500 2200 2450
+Wire Wire Line
+	2200 2450 2550 2450
+Wire Wire Line
+	2500 2700 2550 2700
+Text Label 2550 2450 0    50   ~ 0
+Eyes
+Text Label 2550 2700 0    50   ~ 0
+Control_E
+Text Label 3650 1450 0    50   ~ 0
+Aux_1
+Text Label 4950 1450 2    50   ~ 0
+Aux_1
+Entry Wire Line
+	4400 1550 4500 1450
+Wire Wire Line
+	4500 1450 4950 1450
+Text Label 6000 1450 2    50   ~ 0
+Aux_2
+Wire Wire Line
+	6000 1450 5550 1450
+Entry Wire Line
+	5450 1550 5550 1450
+Wire Wire Line
+	1600 3700 1250 3700
+Wire Wire Line
+	1300 3450 1250 3450
+Wire Wire Line
+	1250 3200 1600 3200
+$Comp
+L Device:Q_NMOS_DGS Q6
+U 1 1 603288E5
+P 1500 3450
+F 0 "Q6" H 1750 3500 50  0000 C CNN
+F 1 "ZVN2110A" H 1900 3400 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92S_Wide" H 1700 3550 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ZVN2110A.pdf" H 1500 3450 50  0001 C CNN
+	1    1500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3700 1600 3650
+Wire Wire Line
+	1600 3200 1600 3250
+Text Label 1250 3700 2    50   ~ 0
+Common
+Text Label 1250 3200 2    50   ~ 0
+Aux_1
+Text Label 1250 3450 2    50   ~ 0
+Control_G
+Wire Wire Line
+	8300 1450 8300 950 
+Wire Wire Line
+	8300 950  6550 950 
+Wire Wire Line
+	6550 1050 8500 1050
+Wire Wire Line
+	8500 1050 8500 1250
+Connection ~ 8500 1250
+Wire Wire Line
+	8500 1250 8500 1850
+Wire Wire Line
+	4400 4700 4500 4700
+$Comp
+L Device:R_Variable R1
+U 1 1 60407844
+P 7200 2450
+F 0 "R1" H 7328 2496 50  0000 L CNN
+F 1 "10k" H 7328 2405 50  0000 L CNN
+F 2 "" V 7130 2450 50  0001 C CNN
+F 3 "~" H 7200 2450 50  0001 C CNN
+	1    7200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60424A35
+P 7150 2950
+F 0 "C1" V 6898 2950 50  0000 C CNN
+F 1 "470u" V 6989 2950 50  0000 C CNN
+F 2 "" H 7188 2800 50  0001 C CNN
+F 3 "~" H 7150 2950 50  0001 C CNN
+	1    7150 2950
+	0    1    1    0   
+$EndComp
+Text Notes 7500 2500 0    50   ~ 0
+Volume\nControl
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 604304D3
+P 6400 2400
+F 0 "J13" H 6300 2650 50  0000 C CNN
+F 1 "Volume" H 6300 2550 50  0000 C CNN
+F 2 "" H 6400 2400 50  0001 C CNN
+F 3 "N/A" H 6400 2400 50  0001 C CNN
+	1    6400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J14
+U 1 1 6043DCDC
+P 6500 2400
+F 0 "J14" H 6650 2650 50  0000 C CNN
+F 1 "Volume" H 6650 2550 50  0000 C CNN
+F 2 "" H 6500 2400 50  0001 C CNN
+F 3 "~" H 6500 2400 50  0001 C CNN
+	1    6500 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2400 7050 2400
+Wire Wire Line
+	7050 2400 7050 2300
+Wire Wire Line
+	7050 2300 7200 2300
+Wire Wire Line
+	7200 2600 7050 2600
+Wire Wire Line
+	7050 2600 7050 2500
+Wire Wire Line
+	7050 2500 6700 2500
+Entry Wire Line
+	5850 2500 5750 2400
+Entry Wire Line
+	5850 2400 5750 2300
+Text Label 5750 4350 0    50   ~ 0
+Volume
+$Comp
+L Device:R R6
+U 1 1 6045BDE5
+P 5650 5000
+F 0 "R6" H 5720 5046 50  0000 L CNN
+F 1 "2k" H 5720 4955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5580 5000 50  0001 C CNN
+F 3 "N/A" H 5650 5000 50  0001 C CNN
+	1    5650 5000
+	1    0    0    1   
+$EndComp
+Text Label 6200 2400 2    50   ~ 0
+Volume
+Text Label 6200 2500 2    50   ~ 0
+6.3V
+Wire Wire Line
+	7000 2950 6700 2950
+Wire Wire Line
+	6700 3050 7300 3050
+Wire Wire Line
+	5850 2950 6200 2950
+Wire Wire Line
+	6200 3050 5850 3050
+Wire Wire Line
+	5850 2400 6200 2400
+Wire Wire Line
+	5850 2500 6200 2500
+$Comp
+L Device:R R5
+U 1 1 604F8D18
+P 5650 4600
+F 0 "R5" H 5720 4646 50  0000 L CNN
+F 1 "470" H 5720 4555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5580 4600 50  0001 C CNN
+F 3 "N/A" H 5650 4600 50  0001 C CNN
+	1    5650 4600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5650 4450 5650 4350
+Wire Wire Line
+	5650 4350 5750 4350
+Wire Wire Line
+	5650 5150 5650 5200
+Wire Wire Line
+	4400 4900 4500 4900
+Text Notes 5750 4800 0    50   ~ 0
+1V to 5.1V
+Text Label 3650 1350 0    50   ~ 0
+Volume
+Text Notes 1650 1700 0    50   ~ 0
+55 Degrees C
+Wire Bus Line
+	4050 2200 5750 2200
+Text Label 4500 4900 0    50   ~ 0
+Control_G
+Wire Wire Line
+	5650 4750 5650 4800
+Text Label 5500 4800 2    50   ~ 0
+Control_V
+Wire Wire Line
+	5500 4800 5650 4800
+Connection ~ 5650 4800
+Wire Wire Line
+	5650 4800 5650 4850
+Wire Wire Line
+	3700 5200 5650 5200
+Connection ~ 3700 5200
+Text Label 2900 4800 2    50   ~ 0
+Control_V
+Wire Wire Line
+	4500 4800 4400 4800
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 606A9D6D
+P 3450 1150
+F 0 "J1" H 3250 1600 50  0000 C CNN
+F 1 "Control Board" H 3250 1500 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 3450 1150 50  0001 C CNN
+F 3 "~" H 3450 1150 50  0001 C CNN
+	1    3450 1150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J15
+U 1 1 606B18A3
+P 3450 1750
+F 0 "J15" H 3200 1250 50  0000 C CNN
+F 1 "Control Board" H 3200 1350 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical" H 3450 1750 50  0001 C CNN
+F 3 "~" H 3450 1750 50  0001 C CNN
+	1    3450 1750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1950 6200 1950
+Wire Bus Line
+	5750 2200 5750 2950
+Wire Bus Line
+	4400 1050 4400 2200
+Wire Bus Line
+	5450 1050 5450 2200
+Wire Bus Line
+	4050 1050 4050 2200
+Text Notes 3800 4200 0    50   ~ 0
+5.5V
+$EndSCHEMATC

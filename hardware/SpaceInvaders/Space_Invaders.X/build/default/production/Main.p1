@@ -1,0 +1,6245 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"164 ./mcc_generated_files/adc.h
+[; ;./mcc_generated_files/adc.h: 164: void ADC_StartConversion(void);
+[v _ADC_StartConversion `(v ~T0 @X0 0 ef ]
+"196
+[; ;./mcc_generated_files/adc.h: 196: _Bool ADC_IsConversionDone(void);
+[v _ADC_IsConversionDone `(a ~T0 @X0 0 ef ]
+"229
+[; ;./mcc_generated_files/adc.h: 229: adc_result_t ADC_GetConversionResult(void);
+[v _ADC_GetConversionResult `(ui ~T0 @X0 0 ef ]
+"1915 C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1915:     struct {
+[s S100 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S100 . LATA0 LATA1 LATA2 . LATA4 LATA5 ]
+"1914
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1914: typedef union {
+[u S99 `S100 1 ]
+[n S99 . . ]
+"1924
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1924: extern volatile LATAbits_t LATAbits __attribute__((address(0x10C)));
+[v _LATAbits `VS99 ~T0 @X0 0 e@268 ]
+"1960
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1960:     struct {
+[s S102 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S102 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 ]
+"1959
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1959: typedef union {
+[u S101 `S102 1 ]
+[n S101 . . ]
+"1969
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1969: extern volatile LATCbits_t LATCbits __attribute__((address(0x10E)));
+[v _LATCbits `VS101 ~T0 @X0 0 e@270 ]
+"129 ./mcc_generated_files/dac.h
+[; ;./mcc_generated_files/dac.h: 129: void DAC_SetOutput(uint8_t inputData);
+[v _DAC_SetOutput `(v ~T0 @X0 0 ef1`uc ]
+[v F3948 `(v ~T0 @X0 1 tf1`ul ]
+"92 C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\pic.h
+[v __delay `JF3948 ~T0 @X0 0 e ]
+[p i __delay ]
+"75 C:\Program Files (x86)\Microchip\Compiler\pic\include\c90\stdlib.h
+[; ;C:\Program Files (x86)\Microchip\Compiler\pic\include\c90\stdlib.h: 75: extern int rand(void);
+[v _rand `(i ~T0 @X0 0 ef ]
+[p mainexit ]
+"74 ./mcc_generated_files/mcc.h
+[; ;./mcc_generated_files/mcc.h: 74: void SYSTEM_Initialize(void);
+[v _SYSTEM_Initialize `(v ~T0 @X0 0 ef ]
+[v F4031 `(v ~T0 @X0 0 tf ]
+"155 ./mcc_generated_files/tmr0.h
+[; ;./mcc_generated_files/tmr0.h: 155:  void TMR0_SetInterruptHandler(void (* InterruptHandler)(void));
+[v _TMR0_SetInterruptHandler `(v ~T0 @X0 0 ef1`*F4031 ]
+"357 C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 357:     struct {
+[s S26 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S26 . IOCIF INTF TMR0IF IOCIE INTE TMR0IE PEIE GIE ]
+"367
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 367:     struct {
+[s S27 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S27 . . T0IF . T0IE ]
+"356
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 356: typedef union {
+[u S25 `S26 1 `S27 1 ]
+[n S25 . . . ]
+"374
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 374: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS25 ~T0 @X0 0 e@11 ]
+"54 C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 54: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"74
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 74: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"94
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 94: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"114
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 114: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"177
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 177: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"197
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 197: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"221
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 221: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"241
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 241: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"261
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 261: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"313
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 313: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"333
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 333: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"353
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 353: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"431
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 431: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"481
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 481: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"531
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 531: __asm("PIR1 equ 011h");
+[; <" PIR1 equ 011h ;# ">
+"602
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 602: __asm("PIR2 equ 012h");
+[; <" PIR2 equ 012h ;# ">
+"659
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 659: __asm("PIR3 equ 013h");
+[; <" PIR3 equ 013h ;# ">
+"704
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 704: __asm("TMR0 equ 015h");
+[; <" TMR0 equ 015h ;# ">
+"724
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 724: __asm("TMR1 equ 016h");
+[; <" TMR1 equ 016h ;# ">
+"731
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 731: __asm("TMR1L equ 016h");
+[; <" TMR1L equ 016h ;# ">
+"751
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 751: __asm("TMR1H equ 017h");
+[; <" TMR1H equ 017h ;# ">
+"771
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 771: __asm("T1CON equ 018h");
+[; <" T1CON equ 018h ;# ">
+"843
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 843: __asm("T1GCON equ 019h");
+[; <" T1GCON equ 019h ;# ">
+"913
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 913: __asm("TMR2 equ 01Ah");
+[; <" TMR2 equ 01Ah ;# ">
+"933
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 933: __asm("PR2 equ 01Bh");
+[; <" PR2 equ 01Bh ;# ">
+"953
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 953: __asm("T2CON equ 01Ch");
+[; <" T2CON equ 01Ch ;# ">
+"1024
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1024: __asm("TRISA equ 08Ch");
+[; <" TRISA equ 08Ch ;# ">
+"1069
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1069: __asm("TRISC equ 08Eh");
+[; <" TRISC equ 08Eh ;# ">
+"1119
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1119: __asm("PIE1 equ 091h");
+[; <" PIE1 equ 091h ;# ">
+"1190
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1190: __asm("PIE2 equ 092h");
+[; <" PIE2 equ 092h ;# ">
+"1247
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1247: __asm("PIE3 equ 093h");
+[; <" PIE3 equ 093h ;# ">
+"1292
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1292: __asm("OPTION_REG equ 095h");
+[; <" OPTION_REG equ 095h ;# ">
+"1375
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1375: __asm("PCON equ 096h");
+[; <" PCON equ 096h ;# ">
+"1432
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1432: __asm("WDTCON equ 097h");
+[; <" WDTCON equ 097h ;# ">
+"1491
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1491: __asm("OSCTUNE equ 098h");
+[; <" OSCTUNE equ 098h ;# ">
+"1549
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1549: __asm("OSCCON equ 099h");
+[; <" OSCCON equ 099h ;# ">
+"1621
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1621: __asm("OSCSTAT equ 09Ah");
+[; <" OSCSTAT equ 09Ah ;# ">
+"1683
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1683: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"1690
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1690: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"1710
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1710: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"1730
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1730: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"1810
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1810: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"1863
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1863: __asm("ADCON2 equ 09Fh");
+[; <" ADCON2 equ 09Fh ;# ">
+"1911
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1911: __asm("LATA equ 010Ch");
+[; <" LATA equ 010Ch ;# ">
+"1956
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 1956: __asm("LATC equ 010Eh");
+[; <" LATC equ 010Eh ;# ">
+"2006
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2006: __asm("CM1CON0 equ 0111h");
+[; <" CM1CON0 equ 0111h ;# ">
+"2063
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2063: __asm("CM1CON1 equ 0112h");
+[; <" CM1CON1 equ 0112h ;# ">
+"2139
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2139: __asm("CM2CON0 equ 0113h");
+[; <" CM2CON0 equ 0113h ;# ">
+"2196
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2196: __asm("CM2CON1 equ 0114h");
+[; <" CM2CON1 equ 0114h ;# ">
+"2272
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2272: __asm("CMOUT equ 0115h");
+[; <" CMOUT equ 0115h ;# ">
+"2298
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2298: __asm("BORCON equ 0116h");
+[; <" BORCON equ 0116h ;# ">
+"2331
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2331: __asm("FVRCON equ 0117h");
+[; <" FVRCON equ 0117h ;# ">
+"2407
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2407: __asm("DAC1CON0 equ 0118h");
+[; <" DAC1CON0 equ 0118h ;# ">
+"2517
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2517: __asm("DAC1CON1 equ 0119h");
+[; <" DAC1CON1 equ 0119h ;# ">
+"2637
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2637: __asm("ZCD1CON equ 011Ch");
+[; <" ZCD1CON equ 011Ch ;# ">
+"2683
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2683: __asm("ANSELA equ 018Ch");
+[; <" ANSELA equ 018Ch ;# ">
+"2728
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2728: __asm("ANSELC equ 018Eh");
+[; <" ANSELC equ 018Eh ;# ">
+"2778
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2778: __asm("PMADR equ 0191h");
+[; <" PMADR equ 0191h ;# ">
+"2785
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2785: __asm("PMADRL equ 0191h");
+[; <" PMADRL equ 0191h ;# ">
+"2805
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2805: __asm("PMADRH equ 0192h");
+[; <" PMADRH equ 0192h ;# ">
+"2825
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2825: __asm("PMDAT equ 0193h");
+[; <" PMDAT equ 0193h ;# ">
+"2832
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2832: __asm("PMDATL equ 0193h");
+[; <" PMDATL equ 0193h ;# ">
+"2852
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2852: __asm("PMDATH equ 0194h");
+[; <" PMDATH equ 0194h ;# ">
+"2872
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2872: __asm("PMCON1 equ 0195h");
+[; <" PMCON1 equ 0195h ;# ">
+"2928
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2928: __asm("PMCON2 equ 0196h");
+[; <" PMCON2 equ 0196h ;# ">
+"2948
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2948: __asm("VREGCON equ 0197h");
+[; <" VREGCON equ 0197h ;# ">
+"2969
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2969: __asm("RC1REG equ 0199h");
+[; <" RC1REG equ 0199h ;# ">
+"2974
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2974: __asm("RCREG equ 0199h");
+[; <" RCREG equ 0199h ;# ">
+"2978
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 2978: __asm("RCREG1 equ 0199h");
+[; <" RCREG1 equ 0199h ;# ">
+"3023
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3023: __asm("TX1REG equ 019Ah");
+[; <" TX1REG equ 019Ah ;# ">
+"3028
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3028: __asm("TXREG1 equ 019Ah");
+[; <" TXREG1 equ 019Ah ;# ">
+"3032
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3032: __asm("TXREG equ 019Ah");
+[; <" TXREG equ 019Ah ;# ">
+"3077
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3077: __asm("SP1BRG equ 019Bh");
+[; <" SP1BRG equ 019Bh ;# ">
+"3084
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3084: __asm("SP1BRGL equ 019Bh");
+[; <" SP1BRGL equ 019Bh ;# ">
+"3089
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3089: __asm("SPBRG equ 019Bh");
+[; <" SPBRG equ 019Bh ;# ">
+"3093
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3093: __asm("SPBRG1 equ 019Bh");
+[; <" SPBRG1 equ 019Bh ;# ">
+"3097
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3097: __asm("SPBRGL equ 019Bh");
+[; <" SPBRGL equ 019Bh ;# ">
+"3154
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3154: __asm("SP1BRGH equ 019Ch");
+[; <" SP1BRGH equ 019Ch ;# ">
+"3159
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3159: __asm("SPBRGH equ 019Ch");
+[; <" SPBRGH equ 019Ch ;# ">
+"3163
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3163: __asm("SPBRGH1 equ 019Ch");
+[; <" SPBRGH1 equ 019Ch ;# ">
+"3208
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3208: __asm("RC1STA equ 019Dh");
+[; <" RC1STA equ 019Dh ;# ">
+"3213
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3213: __asm("RCSTA1 equ 019Dh");
+[; <" RCSTA1 equ 019Dh ;# ">
+"3217
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3217: __asm("RCSTA equ 019Dh");
+[; <" RCSTA equ 019Dh ;# ">
+"3388
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3388: __asm("TX1STA equ 019Eh");
+[; <" TX1STA equ 019Eh ;# ">
+"3393
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3393: __asm("TXSTA1 equ 019Eh");
+[; <" TXSTA1 equ 019Eh ;# ">
+"3397
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3397: __asm("TXSTA equ 019Eh");
+[; <" TXSTA equ 019Eh ;# ">
+"3568
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3568: __asm("BAUD1CON equ 019Fh");
+[; <" BAUD1CON equ 019Fh ;# ">
+"3573
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3573: __asm("BAUDCON1 equ 019Fh");
+[; <" BAUDCON1 equ 019Fh ;# ">
+"3577
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3577: __asm("BAUDCTL1 equ 019Fh");
+[; <" BAUDCTL1 equ 019Fh ;# ">
+"3581
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3581: __asm("BAUDCON equ 019Fh");
+[; <" BAUDCON equ 019Fh ;# ">
+"3585
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3585: __asm("BAUDCTL equ 019Fh");
+[; <" BAUDCTL equ 019Fh ;# ">
+"3814
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3814: __asm("WPUA equ 020Ch");
+[; <" WPUA equ 020Ch ;# ">
+"3864
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3864: __asm("WPUC equ 020Eh");
+[; <" WPUC equ 020Eh ;# ">
+"3914
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3914: __asm("SSP1BUF equ 0211h");
+[; <" SSP1BUF equ 0211h ;# ">
+"3919
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 3919: __asm("SSPBUF equ 0211h");
+[; <" SSPBUF equ 0211h ;# ">
+"4168
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 4168: __asm("SSP1ADD equ 0212h");
+[; <" SSP1ADD equ 0212h ;# ">
+"4173
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 4173: __asm("SSPADD equ 0212h");
+[; <" SSPADD equ 0212h ;# ">
+"4422
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 4422: __asm("SSP1MSK equ 0213h");
+[; <" SSP1MSK equ 0213h ;# ">
+"4427
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 4427: __asm("SSPMSK equ 0213h");
+[; <" SSPMSK equ 0213h ;# ">
+"4676
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 4676: __asm("SSP1STAT equ 0214h");
+[; <" SSP1STAT equ 0214h ;# ">
+"4681
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 4681: __asm("SSPSTAT equ 0214h");
+[; <" SSPSTAT equ 0214h ;# ">
+"4798
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 4798: __asm("SSP1CON1 equ 0215h");
+[; <" SSP1CON1 equ 0215h ;# ">
+"4803
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 4803: __asm("SSPCON equ 0215h");
+[; <" SSPCON equ 0215h ;# ">
+"4807
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 4807: __asm("SSPCON1 equ 0215h");
+[; <" SSPCON1 equ 0215h ;# ">
+"4811
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 4811: __asm("SSP1CON equ 0215h");
+[; <" SSP1CON equ 0215h ;# ">
+"5068
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5068: __asm("SSP1CON2 equ 0216h");
+[; <" SSP1CON2 equ 0216h ;# ">
+"5073
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5073: __asm("SSPCON2 equ 0216h");
+[; <" SSPCON2 equ 0216h ;# ">
+"5190
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5190: __asm("SSP1CON3 equ 0217h");
+[; <" SSP1CON3 equ 0217h ;# ">
+"5195
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5195: __asm("SSPCON3 equ 0217h");
+[; <" SSPCON3 equ 0217h ;# ">
+"5312
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5312: __asm("ODCONA equ 028Ch");
+[; <" ODCONA equ 028Ch ;# ">
+"5357
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5357: __asm("ODCONC equ 028Eh");
+[; <" ODCONC equ 028Eh ;# ">
+"5407
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5407: __asm("CCPR1 equ 0291h");
+[; <" CCPR1 equ 0291h ;# ">
+"5414
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5414: __asm("CCPR1L equ 0291h");
+[; <" CCPR1L equ 0291h ;# ">
+"5434
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5434: __asm("CCPR1H equ 0292h");
+[; <" CCPR1H equ 0292h ;# ">
+"5454
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5454: __asm("CCP1CON equ 0293h");
+[; <" CCP1CON equ 0293h ;# ">
+"5459
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5459: __asm("ECCP1CON equ 0293h");
+[; <" ECCP1CON equ 0293h ;# ">
+"5610
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5610: __asm("CCPR2 equ 0298h");
+[; <" CCPR2 equ 0298h ;# ">
+"5617
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5617: __asm("CCPR2L equ 0298h");
+[; <" CCPR2L equ 0298h ;# ">
+"5637
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5637: __asm("CCPR2H equ 0299h");
+[; <" CCPR2H equ 0299h ;# ">
+"5657
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5657: __asm("CCP2CON equ 029Ah");
+[; <" CCP2CON equ 029Ah ;# ">
+"5662
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5662: __asm("ECCP2CON equ 029Ah");
+[; <" ECCP2CON equ 029Ah ;# ">
+"5813
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5813: __asm("CCPTMRS equ 029Eh");
+[; <" CCPTMRS equ 029Eh ;# ">
+"5901
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5901: __asm("SLRCONA equ 030Ch");
+[; <" SLRCONA equ 030Ch ;# ">
+"5946
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5946: __asm("SLRCONC equ 030Eh");
+[; <" SLRCONC equ 030Eh ;# ">
+"5996
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 5996: __asm("INLVLA equ 038Ch");
+[; <" INLVLA equ 038Ch ;# ">
+"6046
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6046: __asm("INLVLC equ 038Eh");
+[; <" INLVLC equ 038Eh ;# ">
+"6096
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6096: __asm("IOCAP equ 0391h");
+[; <" IOCAP equ 0391h ;# ">
+"6146
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6146: __asm("IOCAN equ 0392h");
+[; <" IOCAN equ 0392h ;# ">
+"6196
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6196: __asm("IOCAF equ 0393h");
+[; <" IOCAF equ 0393h ;# ">
+"6246
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6246: __asm("IOCCP equ 0397h");
+[; <" IOCCP equ 0397h ;# ">
+"6296
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6296: __asm("IOCCN equ 0398h");
+[; <" IOCCN equ 0398h ;# ">
+"6346
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6346: __asm("IOCCF equ 0399h");
+[; <" IOCCF equ 0399h ;# ">
+"6396
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6396: __asm("TMR4 equ 0415h");
+[; <" TMR4 equ 0415h ;# ">
+"6416
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6416: __asm("PR4 equ 0416h");
+[; <" PR4 equ 0416h ;# ">
+"6436
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6436: __asm("T4CON equ 0417h");
+[; <" T4CON equ 0417h ;# ">
+"6507
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6507: __asm("TMR6 equ 041Ch");
+[; <" TMR6 equ 041Ch ;# ">
+"6527
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6527: __asm("PR6 equ 041Dh");
+[; <" PR6 equ 041Dh ;# ">
+"6547
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6547: __asm("T6CON equ 041Eh");
+[; <" T6CON equ 041Eh ;# ">
+"6618
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6618: __asm("OPA1CON equ 0511h");
+[; <" OPA1CON equ 0511h ;# ">
+"6672
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6672: __asm("OPA2CON equ 0515h");
+[; <" OPA2CON equ 0515h ;# ">
+"6726
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6726: __asm("PWM3DCL equ 0617h");
+[; <" PWM3DCL equ 0617h ;# ">
+"6762
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6762: __asm("PWM3DCH equ 0618h");
+[; <" PWM3DCH equ 0618h ;# ">
+"6832
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6832: __asm("PWM3CON equ 0619h");
+[; <" PWM3CON equ 0619h ;# ">
+"6837
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6837: __asm("PWM3CON0 equ 0619h");
+[; <" PWM3CON0 equ 0619h ;# ">
+"6898
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6898: __asm("PWM4DCL equ 061Ah");
+[; <" PWM4DCL equ 061Ah ;# ">
+"6934
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 6934: __asm("PWM4DCH equ 061Bh");
+[; <" PWM4DCH equ 061Bh ;# ">
+"7004
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7004: __asm("PWM4CON equ 061Ch");
+[; <" PWM4CON equ 061Ch ;# ">
+"7009
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7009: __asm("PWM4CON0 equ 061Ch");
+[; <" PWM4CON0 equ 061Ch ;# ">
+"7070
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7070: __asm("COG1PHR equ 0691h");
+[; <" COG1PHR equ 0691h ;# ">
+"7128
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7128: __asm("COG1PHF equ 0692h");
+[; <" COG1PHF equ 0692h ;# ">
+"7186
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7186: __asm("COG1BLKR equ 0693h");
+[; <" COG1BLKR equ 0693h ;# ">
+"7244
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7244: __asm("COG1BLKF equ 0694h");
+[; <" COG1BLKF equ 0694h ;# ">
+"7302
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7302: __asm("COG1DBR equ 0695h");
+[; <" COG1DBR equ 0695h ;# ">
+"7360
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7360: __asm("COG1DBF equ 0696h");
+[; <" COG1DBF equ 0696h ;# ">
+"7418
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7418: __asm("COG1CON0 equ 0697h");
+[; <" COG1CON0 equ 0697h ;# ">
+"7489
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7489: __asm("COG1CON1 equ 0698h");
+[; <" COG1CON1 equ 0698h ;# ">
+"7540
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7540: __asm("COG1RIS equ 0699h");
+[; <" COG1RIS equ 0699h ;# ">
+"7596
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7596: __asm("COG1RSIM equ 069Ah");
+[; <" COG1RSIM equ 069Ah ;# ">
+"7652
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7652: __asm("COG1FIS equ 069Bh");
+[; <" COG1FIS equ 069Bh ;# ">
+"7708
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7708: __asm("COG1FSIM equ 069Ch");
+[; <" COG1FSIM equ 069Ch ;# ">
+"7764
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7764: __asm("COG1ASD0 equ 069Dh");
+[; <" COG1ASD0 equ 069Dh ;# ">
+"7830
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7830: __asm("COG1ASD1 equ 069Eh");
+[; <" COG1ASD1 equ 069Eh ;# ">
+"7868
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7868: __asm("COG1STR equ 069Fh");
+[; <" COG1STR equ 069Fh ;# ">
+"7930
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7930: __asm("PPSLOCK equ 0E0Fh");
+[; <" PPSLOCK equ 0E0Fh ;# ">
+"7950
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7950: __asm("INTPPS equ 0E10h");
+[; <" INTPPS equ 0E10h ;# ">
+"7970
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7970: __asm("T0CKIPPS equ 0E11h");
+[; <" T0CKIPPS equ 0E11h ;# ">
+"7990
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 7990: __asm("T1CKIPPS equ 0E12h");
+[; <" T1CKIPPS equ 0E12h ;# ">
+"8010
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8010: __asm("T1GPPS equ 0E13h");
+[; <" T1GPPS equ 0E13h ;# ">
+"8030
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8030: __asm("CCP1PPS equ 0E14h");
+[; <" CCP1PPS equ 0E14h ;# ">
+"8050
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8050: __asm("CCP2PPS equ 0E15h");
+[; <" CCP2PPS equ 0E15h ;# ">
+"8070
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8070: __asm("COGINPPS equ 0E17h");
+[; <" COGINPPS equ 0E17h ;# ">
+"8090
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8090: __asm("SSPCLKPPS equ 0E20h");
+[; <" SSPCLKPPS equ 0E20h ;# ">
+"8110
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8110: __asm("SSPDATPPS equ 0E21h");
+[; <" SSPDATPPS equ 0E21h ;# ">
+"8130
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8130: __asm("SSPSSPPS equ 0E22h");
+[; <" SSPSSPPS equ 0E22h ;# ">
+"8150
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8150: __asm("RXPPS equ 0E24h");
+[; <" RXPPS equ 0E24h ;# ">
+"8170
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8170: __asm("CKPPS equ 0E25h");
+[; <" CKPPS equ 0E25h ;# ">
+"8190
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8190: __asm("CLCIN0PPS equ 0E28h");
+[; <" CLCIN0PPS equ 0E28h ;# ">
+"8210
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8210: __asm("CLCIN1PPS equ 0E29h");
+[; <" CLCIN1PPS equ 0E29h ;# ">
+"8230
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8230: __asm("CLCIN2PPS equ 0E2Ah");
+[; <" CLCIN2PPS equ 0E2Ah ;# ">
+"8250
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8250: __asm("CLCIN3PPS equ 0E2Bh");
+[; <" CLCIN3PPS equ 0E2Bh ;# ">
+"8270
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8270: __asm("RA0PPS equ 0E90h");
+[; <" RA0PPS equ 0E90h ;# ">
+"8290
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8290: __asm("RA1PPS equ 0E91h");
+[; <" RA1PPS equ 0E91h ;# ">
+"8310
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8310: __asm("RA2PPS equ 0E92h");
+[; <" RA2PPS equ 0E92h ;# ">
+"8330
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8330: __asm("RA4PPS equ 0E94h");
+[; <" RA4PPS equ 0E94h ;# ">
+"8350
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8350: __asm("RA5PPS equ 0E95h");
+[; <" RA5PPS equ 0E95h ;# ">
+"8370
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8370: __asm("RC0PPS equ 0EA0h");
+[; <" RC0PPS equ 0EA0h ;# ">
+"8390
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8390: __asm("RC1PPS equ 0EA1h");
+[; <" RC1PPS equ 0EA1h ;# ">
+"8410
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8410: __asm("RC2PPS equ 0EA2h");
+[; <" RC2PPS equ 0EA2h ;# ">
+"8430
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8430: __asm("RC3PPS equ 0EA3h");
+[; <" RC3PPS equ 0EA3h ;# ">
+"8450
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8450: __asm("RC4PPS equ 0EA4h");
+[; <" RC4PPS equ 0EA4h ;# ">
+"8470
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8470: __asm("RC5PPS equ 0EA5h");
+[; <" RC5PPS equ 0EA5h ;# ">
+"8490
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8490: __asm("CLCDATA equ 0F0Fh");
+[; <" CLCDATA equ 0F0Fh ;# ">
+"8522
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8522: __asm("CLC1CON equ 0F10h");
+[; <" CLC1CON equ 0F10h ;# ">
+"8640
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8640: __asm("CLC1POL equ 0F11h");
+[; <" CLC1POL equ 0F11h ;# ">
+"8718
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8718: __asm("CLC1SEL0 equ 0F12h");
+[; <" CLC1SEL0 equ 0F12h ;# ">
+"8810
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8810: __asm("CLC1SEL1 equ 0F13h");
+[; <" CLC1SEL1 equ 0F13h ;# ">
+"8902
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8902: __asm("CLC1SEL2 equ 0F14h");
+[; <" CLC1SEL2 equ 0F14h ;# ">
+"8994
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 8994: __asm("CLC1SEL3 equ 0F15h");
+[; <" CLC1SEL3 equ 0F15h ;# ">
+"9086
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 9086: __asm("CLC1GLS0 equ 0F16h");
+[; <" CLC1GLS0 equ 0F16h ;# ">
+"9198
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 9198: __asm("CLC1GLS1 equ 0F17h");
+[; <" CLC1GLS1 equ 0F17h ;# ">
+"9310
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 9310: __asm("CLC1GLS2 equ 0F18h");
+[; <" CLC1GLS2 equ 0F18h ;# ">
+"9422
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 9422: __asm("CLC1GLS3 equ 0F19h");
+[; <" CLC1GLS3 equ 0F19h ;# ">
+"9534
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 9534: __asm("CLC2CON equ 0F1Ah");
+[; <" CLC2CON equ 0F1Ah ;# ">
+"9652
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 9652: __asm("CLC2POL equ 0F1Bh");
+[; <" CLC2POL equ 0F1Bh ;# ">
+"9730
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 9730: __asm("CLC2SEL0 equ 0F1Ch");
+[; <" CLC2SEL0 equ 0F1Ch ;# ">
+"9822
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 9822: __asm("CLC2SEL1 equ 0F1Dh");
+[; <" CLC2SEL1 equ 0F1Dh ;# ">
+"9914
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 9914: __asm("CLC2SEL2 equ 0F1Eh");
+[; <" CLC2SEL2 equ 0F1Eh ;# ">
+"10006
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 10006: __asm("CLC2SEL3 equ 0F1Fh");
+[; <" CLC2SEL3 equ 0F1Fh ;# ">
+"10098
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 10098: __asm("CLC2GLS0 equ 0F20h");
+[; <" CLC2GLS0 equ 0F20h ;# ">
+"10210
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 10210: __asm("CLC2GLS1 equ 0F21h");
+[; <" CLC2GLS1 equ 0F21h ;# ">
+"10322
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 10322: __asm("CLC2GLS2 equ 0F22h");
+[; <" CLC2GLS2 equ 0F22h ;# ">
+"10434
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 10434: __asm("CLC2GLS3 equ 0F23h");
+[; <" CLC2GLS3 equ 0F23h ;# ">
+"10546
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 10546: __asm("CLC3CON equ 0F24h");
+[; <" CLC3CON equ 0F24h ;# ">
+"10664
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 10664: __asm("CLC3POL equ 0F25h");
+[; <" CLC3POL equ 0F25h ;# ">
+"10742
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 10742: __asm("CLC3SEL0 equ 0F26h");
+[; <" CLC3SEL0 equ 0F26h ;# ">
+"10834
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 10834: __asm("CLC3SEL1 equ 0F27h");
+[; <" CLC3SEL1 equ 0F27h ;# ">
+"10926
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 10926: __asm("CLC3SEL2 equ 0F28h");
+[; <" CLC3SEL2 equ 0F28h ;# ">
+"11018
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11018: __asm("CLC3SEL3 equ 0F29h");
+[; <" CLC3SEL3 equ 0F29h ;# ">
+"11110
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11110: __asm("CLC3GLS0 equ 0F2Ah");
+[; <" CLC3GLS0 equ 0F2Ah ;# ">
+"11222
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11222: __asm("CLC3GLS1 equ 0F2Bh");
+[; <" CLC3GLS1 equ 0F2Bh ;# ">
+"11334
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11334: __asm("CLC3GLS2 equ 0F2Ch");
+[; <" CLC3GLS2 equ 0F2Ch ;# ">
+"11446
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11446: __asm("CLC3GLS3 equ 0F2Dh");
+[; <" CLC3GLS3 equ 0F2Dh ;# ">
+"11558
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11558: __asm("ICDBK0H equ 0F9Eh");
+[; <" ICDBK0H equ 0F9Eh ;# ">
+"11614
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11614: __asm("STATUS_SHAD equ 0FE4h");
+[; <" STATUS_SHAD equ 0FE4h ;# ">
+"11646
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11646: __asm("WREG_SHAD equ 0FE5h");
+[; <" WREG_SHAD equ 0FE5h ;# ">
+"11666
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11666: __asm("BSR_SHAD equ 0FE6h");
+[; <" BSR_SHAD equ 0FE6h ;# ">
+"11686
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11686: __asm("PCLATH_SHAD equ 0FE7h");
+[; <" PCLATH_SHAD equ 0FE7h ;# ">
+"11706
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11706: __asm("FSR0L_SHAD equ 0FE8h");
+[; <" FSR0L_SHAD equ 0FE8h ;# ">
+"11726
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11726: __asm("FSR0H_SHAD equ 0FE9h");
+[; <" FSR0H_SHAD equ 0FE9h ;# ">
+"11746
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11746: __asm("FSR1L_SHAD equ 0FEAh");
+[; <" FSR1L_SHAD equ 0FEAh ;# ">
+"11766
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11766: __asm("FSR1H_SHAD equ 0FEBh");
+[; <" FSR1H_SHAD equ 0FEBh ;# ">
+"11786
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11786: __asm("STKPTR equ 0FEDh");
+[; <" STKPTR equ 0FEDh ;# ">
+"11806
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11806: __asm("TOSL equ 0FEEh");
+[; <" TOSL equ 0FEEh ;# ">
+"11826
+[; ;C:/Users/msoul/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1705.h: 11826: __asm("TOSH equ 0FEFh");
+[; <" TOSH equ 0FEFh ;# ">
+"7 ./Sound.h
+[; ;./Sound.h: 7: const uint8_t Beat_A[750] = {0x7f,0x7b,0x62,0x43,0x29,0x11,0x0b,0x19,0x2f,0x48,0x66,0x7e,0x95,0xae,0xc1,0xd5,0xe2,0xf4,0xfa,0xfa,0xfd,0xf9,0xfa,0xf3,0xea,0xe2,0xd3,0xcd,0xbc,0xb4,0xa7,0x97,0x8a,0x7e,0x7a,0x6a,0x5e,0x53,0x46,0x3c,0x33,0x3d,0x48,0x51,0x5b,0x5d,0x59,0x4a,0x42,0x2e,0x1d,0x09,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x0b,0x17,0x29,0x3a,0x45,0x58,0x6c,0x7a,0x86,0x97,0xa6,0xb3,0xbe,0xd0,0xde,0xea,0xf6,0xfc,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfa,0xf2,0xeb,0xde,0xd7,0xd1,0xc4,0xbf,0xb5,0xaf,0xa6,0xa0,0x94,0x8a,0x8b,0x80,0x7e,0x77,0x71,0x6b,0x62,0x5c,0x56,0x4e,0x4a,0x40,0x3d,0x39,0x35,0x30,0x29,0x27,0x22,0x1e,0x1a,0x17,0x08,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0x1d,0x35,0x49,0x5a,0x68,0x73,0x7f,0x82,0x86,0x85,0x88,0x88,0x85,0x83,0x7d,0x7c,0x70,0x71,0x67,0x5a,0x58,0x4e,0x46,0x3e,0x3a,0x30,0x26,0x20,0x23,0x30,0x43,0x50,0x5b,0x5c,0x56,0x4f,0x41,0x38,0x2a,0x19,0x0e,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x08,0x13,0x21,0x2d,0x3a,0x4a,0x5d,0x70,0x7c,0x87,0x99,0xac,0xbc,0xcb,0xdb,0xeb,0xf9,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xf9,0xee,0xe2,0xd8,0xd4,0xc7,0xc1,0xb5,0xae,0xa3,0x95,0x8f,0x86,0x7f,0x77,0x73,0x6b,0x5f,0x5e,0x50,0x47,0x49,0x39,0x35,0x30,0x28,0x20,0x19,0x19,0x15,0x0b,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x19,0x2e,0x42,0x55,0x5d,0x65,0x71,0x75,0x79,0x7c,0x79,0x74,0x71,0x6a,0x62,0x5a,0x53,0x49,0x3d,0x35,0x2f,0x28,0x1d,0x17,0x0e,0x07,0x00,0x01,0x00,0x12,0x20,0x2b,0x33,0x2f,0x2c,0x1f,0x15,0x05,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0x12,0x1e,0x2f,0x3e,0x53,0x64,0x76,0x84,0x96,0xa8,0xb8,0xc9,0xdb,0xe9,0xf9,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfd,0xfc,0xfd,0xfc,0xfc,0xf0,0xe6,0xe0,0xd7,0xca,0xc2,0xbb,0xb2,0xaf,0xa3,0x9b,0x8e,0x86,0x7f,0x82,0x78,0x6d,0x6d,0x60,0x55,0x49,0x41,0x3b,0x38,0x33,0x30,0x2b,0x29,0x20,0x1a,0x0e,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0b,0x21,0x3c,0x51,0x65,0x78,0x7e,0x80,0x84,0x89,0x8b,0x8b,0x8b,0x88,0x81,0x7e,0x74,0x71,0x65,0x5b,0x54,0x4f,0x43,0x35,0x30,0x26,0x20,0x15,0x17,0x13,0x1e,0x2e,0x3a,0x41,0x3f,0x45,0x38,0x2f,0x26,0x15,0x07,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x08,0x15,0x25,0x32,0x43,0x58,0x6a,0x7c,0x83,0x95,0xa9,0xbd,0xcd,0xd8,0xe6,0xf6,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfa,0xf3,0xeb,0xdf,0xd5,0xcb,0xbe,0xb6,0xb1,0xa3,0x9c,0x93,0x8d,0x80,0x7f,0x79,0x71,0x6b,0x60,0x5e,0x53,0x50,0x4c,0x46,0x39,0x36,0x31,0x2a,0x28,0x1f,0x1d,0x15,0x17,0x12,0x0c,0x12,0x0c,0x0f,0x0b,0x08,0x06,0x0b,0x0a,0x08,0x0c,0x02,0x09,0x0e,0x0a,0x0b,0x0a,0x10,0x10,0x11,0x1a,0x14,0x1b,0x1e,0x20,0x20,0x23,0x28,0x2b,0x33,0x31,0x34,0x38,0x3c,0x3f,0x44,0x47,0x4c,0x4f,0x54,0x56,0x5e,0x5f,0x61,0x68,0x6b,0x72,0x6e,0x74,0x77,0x7d,0x7e,0x80,0x7f,0x83,0x86,0x86,0x8d,0x89,0x90,0x94,0x9c,0x96,0x97,0x9c,0x9c,0x9c,0x9d,0xa1,0xa5,0xa9,0xa4,0xa9,0xa6,0xab,0xa5,0xa7,0xac,0xad,0xad,0xac,0xb0,0xac,0xaf,0xae,0xad,0xad,0xb0,0xab,0xad,0xac,0xb0,0xb3,0xb3,0xaf,0xad,0xaf,0xac,0xad,0xae,0xae,0xaa,0xb0,0xad,0xa5,0xad,0xad,0xa4,0xa7,0xa8,0xa8,0xa1,0xa2,0xa0,0x9a,0x94,0x96,0x96,0x8b,0x93,0x8d,0x91,0x90,0x88,0x8b,0x8b,0x8b,0x8b,0x89,0x81,0x84,0x85,0x86,0x83,0x7f,0x84,0x7e,0x80,0x80,0x80,0x80,0x80,0x80,0x7e,0x7f,0x7e,0x7e,0x7f,0x7e,0x7e,0x7f,0x7e,0x7b,0x7c,0x7b,0x7a,0x77,0x75,0x76,0x72,0x79,0x75,0x77,0x71,0x70,0x73,0x6c,0x71,0x6f,0x70,0x70,0x6e,0x6d,0x71,0x6f,0x70,0x00};
+[v _Beat_A `Cuc ~T0 @X0 -> 750 `i e ]
+[i _Beat_A
+:U ..
+-> -> 127 `i `uc
+-> -> 123 `i `uc
+-> -> 98 `i `uc
+-> -> 67 `i `uc
+-> -> 41 `i `uc
+-> -> 17 `i `uc
+-> -> 11 `i `uc
+-> -> 25 `i `uc
+-> -> 47 `i `uc
+-> -> 72 `i `uc
+-> -> 102 `i `uc
+-> -> 126 `i `uc
+-> -> 149 `i `uc
+-> -> 174 `i `uc
+-> -> 193 `i `uc
+-> -> 213 `i `uc
+-> -> 226 `i `uc
+-> -> 244 `i `uc
+-> -> 250 `i `uc
+-> -> 250 `i `uc
+-> -> 253 `i `uc
+-> -> 249 `i `uc
+-> -> 250 `i `uc
+-> -> 243 `i `uc
+-> -> 234 `i `uc
+-> -> 226 `i `uc
+-> -> 211 `i `uc
+-> -> 205 `i `uc
+-> -> 188 `i `uc
+-> -> 180 `i `uc
+-> -> 167 `i `uc
+-> -> 151 `i `uc
+-> -> 138 `i `uc
+-> -> 126 `i `uc
+-> -> 122 `i `uc
+-> -> 106 `i `uc
+-> -> 94 `i `uc
+-> -> 83 `i `uc
+-> -> 70 `i `uc
+-> -> 60 `i `uc
+-> -> 51 `i `uc
+-> -> 61 `i `uc
+-> -> 72 `i `uc
+-> -> 81 `i `uc
+-> -> 91 `i `uc
+-> -> 93 `i `uc
+-> -> 89 `i `uc
+-> -> 74 `i `uc
+-> -> 66 `i `uc
+-> -> 46 `i `uc
+-> -> 29 `i `uc
+-> -> 9 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 11 `i `uc
+-> -> 23 `i `uc
+-> -> 41 `i `uc
+-> -> 58 `i `uc
+-> -> 69 `i `uc
+-> -> 88 `i `uc
+-> -> 108 `i `uc
+-> -> 122 `i `uc
+-> -> 134 `i `uc
+-> -> 151 `i `uc
+-> -> 166 `i `uc
+-> -> 179 `i `uc
+-> -> 190 `i `uc
+-> -> 208 `i `uc
+-> -> 222 `i `uc
+-> -> 234 `i `uc
+-> -> 246 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 250 `i `uc
+-> -> 242 `i `uc
+-> -> 235 `i `uc
+-> -> 222 `i `uc
+-> -> 215 `i `uc
+-> -> 209 `i `uc
+-> -> 196 `i `uc
+-> -> 191 `i `uc
+-> -> 181 `i `uc
+-> -> 175 `i `uc
+-> -> 166 `i `uc
+-> -> 160 `i `uc
+-> -> 148 `i `uc
+-> -> 138 `i `uc
+-> -> 139 `i `uc
+-> -> 128 `i `uc
+-> -> 126 `i `uc
+-> -> 119 `i `uc
+-> -> 113 `i `uc
+-> -> 107 `i `uc
+-> -> 98 `i `uc
+-> -> 92 `i `uc
+-> -> 86 `i `uc
+-> -> 78 `i `uc
+-> -> 74 `i `uc
+-> -> 64 `i `uc
+-> -> 61 `i `uc
+-> -> 57 `i `uc
+-> -> 53 `i `uc
+-> -> 48 `i `uc
+-> -> 41 `i `uc
+-> -> 39 `i `uc
+-> -> 34 `i `uc
+-> -> 30 `i `uc
+-> -> 26 `i `uc
+-> -> 23 `i `uc
+-> -> 8 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 4 `i `uc
+-> -> 29 `i `uc
+-> -> 53 `i `uc
+-> -> 73 `i `uc
+-> -> 90 `i `uc
+-> -> 104 `i `uc
+-> -> 115 `i `uc
+-> -> 127 `i `uc
+-> -> 130 `i `uc
+-> -> 134 `i `uc
+-> -> 133 `i `uc
+-> -> 136 `i `uc
+-> -> 136 `i `uc
+-> -> 133 `i `uc
+-> -> 131 `i `uc
+-> -> 125 `i `uc
+-> -> 124 `i `uc
+-> -> 112 `i `uc
+-> -> 113 `i `uc
+-> -> 103 `i `uc
+-> -> 90 `i `uc
+-> -> 88 `i `uc
+-> -> 78 `i `uc
+-> -> 70 `i `uc
+-> -> 62 `i `uc
+-> -> 58 `i `uc
+-> -> 48 `i `uc
+-> -> 38 `i `uc
+-> -> 32 `i `uc
+-> -> 35 `i `uc
+-> -> 48 `i `uc
+-> -> 67 `i `uc
+-> -> 80 `i `uc
+-> -> 91 `i `uc
+-> -> 92 `i `uc
+-> -> 86 `i `uc
+-> -> 79 `i `uc
+-> -> 65 `i `uc
+-> -> 56 `i `uc
+-> -> 42 `i `uc
+-> -> 25 `i `uc
+-> -> 14 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 19 `i `uc
+-> -> 33 `i `uc
+-> -> 45 `i `uc
+-> -> 58 `i `uc
+-> -> 74 `i `uc
+-> -> 93 `i `uc
+-> -> 112 `i `uc
+-> -> 124 `i `uc
+-> -> 135 `i `uc
+-> -> 153 `i `uc
+-> -> 172 `i `uc
+-> -> 188 `i `uc
+-> -> 203 `i `uc
+-> -> 219 `i `uc
+-> -> 235 `i `uc
+-> -> 249 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 249 `i `uc
+-> -> 238 `i `uc
+-> -> 226 `i `uc
+-> -> 216 `i `uc
+-> -> 212 `i `uc
+-> -> 199 `i `uc
+-> -> 193 `i `uc
+-> -> 181 `i `uc
+-> -> 174 `i `uc
+-> -> 163 `i `uc
+-> -> 149 `i `uc
+-> -> 143 `i `uc
+-> -> 134 `i `uc
+-> -> 127 `i `uc
+-> -> 119 `i `uc
+-> -> 115 `i `uc
+-> -> 107 `i `uc
+-> -> 95 `i `uc
+-> -> 94 `i `uc
+-> -> 80 `i `uc
+-> -> 71 `i `uc
+-> -> 73 `i `uc
+-> -> 57 `i `uc
+-> -> 53 `i `uc
+-> -> 48 `i `uc
+-> -> 40 `i `uc
+-> -> 32 `i `uc
+-> -> 25 `i `uc
+-> -> 25 `i `uc
+-> -> 21 `i `uc
+-> -> 11 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 25 `i `uc
+-> -> 46 `i `uc
+-> -> 66 `i `uc
+-> -> 85 `i `uc
+-> -> 93 `i `uc
+-> -> 101 `i `uc
+-> -> 113 `i `uc
+-> -> 117 `i `uc
+-> -> 121 `i `uc
+-> -> 124 `i `uc
+-> -> 121 `i `uc
+-> -> 116 `i `uc
+-> -> 113 `i `uc
+-> -> 106 `i `uc
+-> -> 98 `i `uc
+-> -> 90 `i `uc
+-> -> 83 `i `uc
+-> -> 73 `i `uc
+-> -> 61 `i `uc
+-> -> 53 `i `uc
+-> -> 47 `i `uc
+-> -> 40 `i `uc
+-> -> 29 `i `uc
+-> -> 23 `i `uc
+-> -> 14 `i `uc
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 18 `i `uc
+-> -> 32 `i `uc
+-> -> 43 `i `uc
+-> -> 51 `i `uc
+-> -> 47 `i `uc
+-> -> 44 `i `uc
+-> -> 31 `i `uc
+-> -> 21 `i `uc
+-> -> 5 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 4 `i `uc
+-> -> 18 `i `uc
+-> -> 30 `i `uc
+-> -> 47 `i `uc
+-> -> 62 `i `uc
+-> -> 83 `i `uc
+-> -> 100 `i `uc
+-> -> 118 `i `uc
+-> -> 132 `i `uc
+-> -> 150 `i `uc
+-> -> 168 `i `uc
+-> -> 184 `i `uc
+-> -> 201 `i `uc
+-> -> 219 `i `uc
+-> -> 233 `i `uc
+-> -> 249 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 240 `i `uc
+-> -> 230 `i `uc
+-> -> 224 `i `uc
+-> -> 215 `i `uc
+-> -> 202 `i `uc
+-> -> 194 `i `uc
+-> -> 187 `i `uc
+-> -> 178 `i `uc
+-> -> 175 `i `uc
+-> -> 163 `i `uc
+-> -> 155 `i `uc
+-> -> 142 `i `uc
+-> -> 134 `i `uc
+-> -> 127 `i `uc
+-> -> 130 `i `uc
+-> -> 120 `i `uc
+-> -> 109 `i `uc
+-> -> 109 `i `uc
+-> -> 96 `i `uc
+-> -> 85 `i `uc
+-> -> 73 `i `uc
+-> -> 65 `i `uc
+-> -> 59 `i `uc
+-> -> 56 `i `uc
+-> -> 51 `i `uc
+-> -> 48 `i `uc
+-> -> 43 `i `uc
+-> -> 41 `i `uc
+-> -> 32 `i `uc
+-> -> 26 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 11 `i `uc
+-> -> 33 `i `uc
+-> -> 60 `i `uc
+-> -> 81 `i `uc
+-> -> 101 `i `uc
+-> -> 120 `i `uc
+-> -> 126 `i `uc
+-> -> 128 `i `uc
+-> -> 132 `i `uc
+-> -> 137 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 136 `i `uc
+-> -> 129 `i `uc
+-> -> 126 `i `uc
+-> -> 116 `i `uc
+-> -> 113 `i `uc
+-> -> 101 `i `uc
+-> -> 91 `i `uc
+-> -> 84 `i `uc
+-> -> 79 `i `uc
+-> -> 67 `i `uc
+-> -> 53 `i `uc
+-> -> 48 `i `uc
+-> -> 38 `i `uc
+-> -> 32 `i `uc
+-> -> 21 `i `uc
+-> -> 23 `i `uc
+-> -> 19 `i `uc
+-> -> 30 `i `uc
+-> -> 46 `i `uc
+-> -> 58 `i `uc
+-> -> 65 `i `uc
+-> -> 63 `i `uc
+-> -> 69 `i `uc
+-> -> 56 `i `uc
+-> -> 47 `i `uc
+-> -> 38 `i `uc
+-> -> 21 `i `uc
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 21 `i `uc
+-> -> 37 `i `uc
+-> -> 50 `i `uc
+-> -> 67 `i `uc
+-> -> 88 `i `uc
+-> -> 106 `i `uc
+-> -> 124 `i `uc
+-> -> 131 `i `uc
+-> -> 149 `i `uc
+-> -> 169 `i `uc
+-> -> 189 `i `uc
+-> -> 205 `i `uc
+-> -> 216 `i `uc
+-> -> 230 `i `uc
+-> -> 246 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 250 `i `uc
+-> -> 243 `i `uc
+-> -> 235 `i `uc
+-> -> 223 `i `uc
+-> -> 213 `i `uc
+-> -> 203 `i `uc
+-> -> 190 `i `uc
+-> -> 182 `i `uc
+-> -> 177 `i `uc
+-> -> 163 `i `uc
+-> -> 156 `i `uc
+-> -> 147 `i `uc
+-> -> 141 `i `uc
+-> -> 128 `i `uc
+-> -> 127 `i `uc
+-> -> 121 `i `uc
+-> -> 113 `i `uc
+-> -> 107 `i `uc
+-> -> 96 `i `uc
+-> -> 94 `i `uc
+-> -> 83 `i `uc
+-> -> 80 `i `uc
+-> -> 76 `i `uc
+-> -> 70 `i `uc
+-> -> 57 `i `uc
+-> -> 54 `i `uc
+-> -> 49 `i `uc
+-> -> 42 `i `uc
+-> -> 40 `i `uc
+-> -> 31 `i `uc
+-> -> 29 `i `uc
+-> -> 21 `i `uc
+-> -> 23 `i `uc
+-> -> 18 `i `uc
+-> -> 12 `i `uc
+-> -> 18 `i `uc
+-> -> 12 `i `uc
+-> -> 15 `i `uc
+-> -> 11 `i `uc
+-> -> 8 `i `uc
+-> -> 6 `i `uc
+-> -> 11 `i `uc
+-> -> 10 `i `uc
+-> -> 8 `i `uc
+-> -> 12 `i `uc
+-> -> 2 `i `uc
+-> -> 9 `i `uc
+-> -> 14 `i `uc
+-> -> 10 `i `uc
+-> -> 11 `i `uc
+-> -> 10 `i `uc
+-> -> 16 `i `uc
+-> -> 16 `i `uc
+-> -> 17 `i `uc
+-> -> 26 `i `uc
+-> -> 20 `i `uc
+-> -> 27 `i `uc
+-> -> 30 `i `uc
+-> -> 32 `i `uc
+-> -> 32 `i `uc
+-> -> 35 `i `uc
+-> -> 40 `i `uc
+-> -> 43 `i `uc
+-> -> 51 `i `uc
+-> -> 49 `i `uc
+-> -> 52 `i `uc
+-> -> 56 `i `uc
+-> -> 60 `i `uc
+-> -> 63 `i `uc
+-> -> 68 `i `uc
+-> -> 71 `i `uc
+-> -> 76 `i `uc
+-> -> 79 `i `uc
+-> -> 84 `i `uc
+-> -> 86 `i `uc
+-> -> 94 `i `uc
+-> -> 95 `i `uc
+-> -> 97 `i `uc
+-> -> 104 `i `uc
+-> -> 107 `i `uc
+-> -> 114 `i `uc
+-> -> 110 `i `uc
+-> -> 116 `i `uc
+-> -> 119 `i `uc
+-> -> 125 `i `uc
+-> -> 126 `i `uc
+-> -> 128 `i `uc
+-> -> 127 `i `uc
+-> -> 131 `i `uc
+-> -> 134 `i `uc
+-> -> 134 `i `uc
+-> -> 141 `i `uc
+-> -> 137 `i `uc
+-> -> 144 `i `uc
+-> -> 148 `i `uc
+-> -> 156 `i `uc
+-> -> 150 `i `uc
+-> -> 151 `i `uc
+-> -> 156 `i `uc
+-> -> 156 `i `uc
+-> -> 156 `i `uc
+-> -> 157 `i `uc
+-> -> 161 `i `uc
+-> -> 165 `i `uc
+-> -> 169 `i `uc
+-> -> 164 `i `uc
+-> -> 169 `i `uc
+-> -> 166 `i `uc
+-> -> 171 `i `uc
+-> -> 165 `i `uc
+-> -> 167 `i `uc
+-> -> 172 `i `uc
+-> -> 173 `i `uc
+-> -> 173 `i `uc
+-> -> 172 `i `uc
+-> -> 176 `i `uc
+-> -> 172 `i `uc
+-> -> 175 `i `uc
+-> -> 174 `i `uc
+-> -> 173 `i `uc
+-> -> 173 `i `uc
+-> -> 176 `i `uc
+-> -> 171 `i `uc
+-> -> 173 `i `uc
+-> -> 172 `i `uc
+-> -> 176 `i `uc
+-> -> 179 `i `uc
+-> -> 179 `i `uc
+-> -> 175 `i `uc
+-> -> 173 `i `uc
+-> -> 175 `i `uc
+-> -> 172 `i `uc
+-> -> 173 `i `uc
+-> -> 174 `i `uc
+-> -> 174 `i `uc
+-> -> 170 `i `uc
+-> -> 176 `i `uc
+-> -> 173 `i `uc
+-> -> 165 `i `uc
+-> -> 173 `i `uc
+-> -> 173 `i `uc
+-> -> 164 `i `uc
+-> -> 167 `i `uc
+-> -> 168 `i `uc
+-> -> 168 `i `uc
+-> -> 161 `i `uc
+-> -> 162 `i `uc
+-> -> 160 `i `uc
+-> -> 154 `i `uc
+-> -> 148 `i `uc
+-> -> 150 `i `uc
+-> -> 150 `i `uc
+-> -> 139 `i `uc
+-> -> 147 `i `uc
+-> -> 141 `i `uc
+-> -> 145 `i `uc
+-> -> 144 `i `uc
+-> -> 136 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 137 `i `uc
+-> -> 129 `i `uc
+-> -> 132 `i `uc
+-> -> 133 `i `uc
+-> -> 134 `i `uc
+-> -> 131 `i `uc
+-> -> 127 `i `uc
+-> -> 132 `i `uc
+-> -> 126 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 123 `i `uc
+-> -> 124 `i `uc
+-> -> 123 `i `uc
+-> -> 122 `i `uc
+-> -> 119 `i `uc
+-> -> 117 `i `uc
+-> -> 118 `i `uc
+-> -> 114 `i `uc
+-> -> 121 `i `uc
+-> -> 117 `i `uc
+-> -> 119 `i `uc
+-> -> 113 `i `uc
+-> -> 112 `i `uc
+-> -> 115 `i `uc
+-> -> 108 `i `uc
+-> -> 113 `i `uc
+-> -> 111 `i `uc
+-> -> 112 `i `uc
+-> -> 112 `i `uc
+-> -> 110 `i `uc
+-> -> 109 `i `uc
+-> -> 113 `i `uc
+-> -> 111 `i `uc
+-> -> 112 `i `uc
+-> -> 0 `i `uc
+..
+]
+"8
+[; ;./Sound.h: 8: const uint8_t Beat_B[750] = {0x7e,0x80,0x82,0x7f,0x81,0x74,0x56,0x3a,0x1e,0x0f,0x10,0x22,0x3e,0x56,0x72,0x8c,0xa1,0xbd,0xd3,0xe3,0xee,0xf7,0xfd,0xfc,0xfd,0xfd,0xfa,0xf4,0xee,0xe1,0xd6,0xca,0xbf,0xb0,0xa1,0x96,0x8a,0x7f,0x73,0x69,0x5b,0x4d,0x47,0x3c,0x36,0x42,0x4d,0x59,0x5e,0x59,0x55,0x43,0x33,0x22,0x0e,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0f,0x21,0x30,0x3c,0x51,0x66,0x73,0x7d,0x8d,0x9a,0xa9,0xbb,0xc7,0xd7,0xe3,0xf2,0xfa,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfc,0xfd,0xf7,0xec,0xe9,0xe0,0xcf,0xca,0xbf,0xb6,0xae,0xa8,0x9b,0x95,0x8a,0x7f,0x7d,0x79,0x74,0x68,0x65,0x5c,0x57,0x50,0x48,0x3f,0x3d,0x37,0x2c,0x20,0x1b,0x18,0x15,0x16,0x0f,0x11,0x0d,0x0d,0x07,0x0c,0x09,0x07,0x08,0x01,0x05,0x08,0x06,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x18,0x35,0x4f,0x69,0x7d,0x88,0x96,0xa3,0xaa,0xb4,0xbd,0xb8,0xb9,0xb6,0xb5,0xab,0xa7,0xa3,0x9a,0x92,0x81,0x7f,0x7a,0x76,0x69,0x5e,0x5a,0x4f,0x44,0x48,0x54,0x65,0x74,0x7b,0x7c,0x74,0x6d,0x63,0x51,0x43,0x32,0x23,0x1d,0x17,0x0b,0x08,0x02,0x01,0x05,0x05,0x0f,0x14,0x1e,0x27,0x33,0x44,0x53,0x63,0x73,0x7e,0x91,0x9c,0xae,0xbd,0xcb,0xdf,0xe6,0xf9,0xfc,0xfd,0xfc,0xfd,0xfc,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfc,0xf5,0xe9,0xdd,0xd2,0xcc,0xc0,0xba,0xac,0xa0,0x98,0x8a,0x81,0x7c,0x76,0x6c,0x60,0x58,0x50,0x49,0x40,0x3b,0x38,0x2d,0x2a,0x21,0x1b,0x19,0x14,0x0b,0x07,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x13,0x30,0x4a,0x60,0x6f,0x7e,0x7f,0x87,0x8f,0x94,0x97,0x95,0x8f,0x8d,0x86,0x7f,0x7d,0x75,0x6e,0x65,0x5e,0x56,0x4f,0x46,0x3f,0x33,0x2d,0x2a,0x29,0x35,0x45,0x59,0x5f,0x62,0x5d,0x53,0x43,0x33,0x23,0x18,0x0b,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x0c,0x18,0x25,0x35,0x49,0x54,0x68,0x79,0x81,0x92,0xa6,0xb7,0xc6,0xdc,0xea,0xf6,0xfd,0xfc,0xfd,0xfc,0xfd,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfc,0xfd,0xfc,0xfd,0xfc,0xfb,0xf4,0xec,0xe4,0xd8,0xce,0xc9,0xbd,0xb2,0xa9,0x9e,0x94,0x8f,0x88,0x7f,0x7b,0x6f,0x68,0x66,0x59,0x51,0x4e,0x46,0x3e,0x37,0x33,0x2c,0x29,0x23,0x1d,0x1b,0x16,0x12,0x10,0x0e,0x06,0x08,0x08,0x03,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x00,0x04,0x04,0x07,0x0b,0x0b,0x11,0x10,0x13,0x1a,0x1b,0x1b,0x27,0x26,0x28,0x32,0x34,0x30,0x37,0x3c,0x3e,0x43,0x47,0x4c,0x4e,0x59,0x59,0x56,0x5e,0x65,0x69,0x6d,0x71,0x7a,0x74,0x7c,0x7f,0x7e,0x81,0x7f,0x88,0x8e,0x8b,0x8b,0x91,0x90,0x92,0x97,0x96,0x98,0x9d,0x9f,0xa5,0xa4,0xa7,0xa8,0xa8,0xad,0xb0,0xae,0xad,0xad,0xb0,0xb4,0xb1,0xb4,0xb4,0xb8,0xb8,0xb6,0xb5,0xb7,0xb8,0xba,0xb7,0xbc,0xb8,0xb6,0xb9,0xb9,0xb7,0xae,0xb4,0xb1,0xb6,0xb4,0xb1,0xac,0xae,0xaa,0xae,0xaa,0xa4,0xa9,0xa7,0xab,0xa6,0xa9,0x9f,0xa1,0xa1,0xa3,0x9d,0x9c,0x9b,0x99,0x99,0x96,0x97,0x97,0x92,0x8d,0x92,0x8d,0x8a,0x8c,0x85,0x83,0x87,0x82,0x87,0x82,0x80,0x80,0x7e,0x7e,0x7f,0x7e,0x7f,0x7e,0x7f,0x7e,0x7f,0x7d,0x79,0x7c,0x7c,0x7b,0x7d,0x77,0x72,0x76,0x75,0x75,0x6e,0x74,0x6d,0x70,0x6f,0x6e,0x71,0x68,0x6e,0x6a,0x6a,0x6b,0x6a,0x67,0x68,0x64,0x65,0x64,0x65,0x64,0x66,0x6c,0x6a,0x6e,0x67,0x68,0x63,0x68,0x67,0x63,0x68,0x63,0x69,0x6b,0x6b,0x68,0x6b,0x6d,0x69,0x6b,0x6c,0x6f,0x71,0x72,0x6f,0x71,0x71,0x71,0x6f,0x6e,0x70,0x70,0x73,0x72,0x77,0x73,0x75,0x75,0x78,0x76,0x72,0x77,0x75,0x74,0x6e,0x71,0x71,0x73,0x77,0x78,0x74,0x77,0x74,0x77,0x7d,0x7b,0x7f,0x7b,0x7c,0x7f,0x7e,0x7f,0x7f,0x7e,0x7f,0x7e,0x7f,0x81,0x80,0x83,0x7e,0x80,0x83,0x7f,0x88,0x86,0x86,0x85,0x89,0x8c,0x82,0x8c,0x8a,0x84,0x89,0x88,0x8d,0x87,0x8e,0x8a,0x8c,0x8c,0x8a,0x8e,0x87,0x8c,0x8a,0x8e,0x89,0x8a,0x8b,0x8b,0x8b,0x8b,0x8a,0x8c,0x8d,0x8b,0x8b,0x88,0x88,0x89,0x8b,0x8b,0x8d,0x00};
+[v _Beat_B `Cuc ~T0 @X0 -> 750 `i e ]
+[i _Beat_B
+:U ..
+-> -> 126 `i `uc
+-> -> 128 `i `uc
+-> -> 130 `i `uc
+-> -> 127 `i `uc
+-> -> 129 `i `uc
+-> -> 116 `i `uc
+-> -> 86 `i `uc
+-> -> 58 `i `uc
+-> -> 30 `i `uc
+-> -> 15 `i `uc
+-> -> 16 `i `uc
+-> -> 34 `i `uc
+-> -> 62 `i `uc
+-> -> 86 `i `uc
+-> -> 114 `i `uc
+-> -> 140 `i `uc
+-> -> 161 `i `uc
+-> -> 189 `i `uc
+-> -> 211 `i `uc
+-> -> 227 `i `uc
+-> -> 238 `i `uc
+-> -> 247 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 250 `i `uc
+-> -> 244 `i `uc
+-> -> 238 `i `uc
+-> -> 225 `i `uc
+-> -> 214 `i `uc
+-> -> 202 `i `uc
+-> -> 191 `i `uc
+-> -> 176 `i `uc
+-> -> 161 `i `uc
+-> -> 150 `i `uc
+-> -> 138 `i `uc
+-> -> 127 `i `uc
+-> -> 115 `i `uc
+-> -> 105 `i `uc
+-> -> 91 `i `uc
+-> -> 77 `i `uc
+-> -> 71 `i `uc
+-> -> 60 `i `uc
+-> -> 54 `i `uc
+-> -> 66 `i `uc
+-> -> 77 `i `uc
+-> -> 89 `i `uc
+-> -> 94 `i `uc
+-> -> 89 `i `uc
+-> -> 85 `i `uc
+-> -> 67 `i `uc
+-> -> 51 `i `uc
+-> -> 34 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 15 `i `uc
+-> -> 33 `i `uc
+-> -> 48 `i `uc
+-> -> 60 `i `uc
+-> -> 81 `i `uc
+-> -> 102 `i `uc
+-> -> 115 `i `uc
+-> -> 125 `i `uc
+-> -> 141 `i `uc
+-> -> 154 `i `uc
+-> -> 169 `i `uc
+-> -> 187 `i `uc
+-> -> 199 `i `uc
+-> -> 215 `i `uc
+-> -> 227 `i `uc
+-> -> 242 `i `uc
+-> -> 250 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 247 `i `uc
+-> -> 236 `i `uc
+-> -> 233 `i `uc
+-> -> 224 `i `uc
+-> -> 207 `i `uc
+-> -> 202 `i `uc
+-> -> 191 `i `uc
+-> -> 182 `i `uc
+-> -> 174 `i `uc
+-> -> 168 `i `uc
+-> -> 155 `i `uc
+-> -> 149 `i `uc
+-> -> 138 `i `uc
+-> -> 127 `i `uc
+-> -> 125 `i `uc
+-> -> 121 `i `uc
+-> -> 116 `i `uc
+-> -> 104 `i `uc
+-> -> 101 `i `uc
+-> -> 92 `i `uc
+-> -> 87 `i `uc
+-> -> 80 `i `uc
+-> -> 72 `i `uc
+-> -> 63 `i `uc
+-> -> 61 `i `uc
+-> -> 55 `i `uc
+-> -> 44 `i `uc
+-> -> 32 `i `uc
+-> -> 27 `i `uc
+-> -> 24 `i `uc
+-> -> 21 `i `uc
+-> -> 22 `i `uc
+-> -> 15 `i `uc
+-> -> 17 `i `uc
+-> -> 13 `i `uc
+-> -> 13 `i `uc
+-> -> 7 `i `uc
+-> -> 12 `i `uc
+-> -> 9 `i `uc
+-> -> 7 `i `uc
+-> -> 8 `i `uc
+-> -> 1 `i `uc
+-> -> 5 `i `uc
+-> -> 8 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 24 `i `uc
+-> -> 53 `i `uc
+-> -> 79 `i `uc
+-> -> 105 `i `uc
+-> -> 125 `i `uc
+-> -> 136 `i `uc
+-> -> 150 `i `uc
+-> -> 163 `i `uc
+-> -> 170 `i `uc
+-> -> 180 `i `uc
+-> -> 189 `i `uc
+-> -> 184 `i `uc
+-> -> 185 `i `uc
+-> -> 182 `i `uc
+-> -> 181 `i `uc
+-> -> 171 `i `uc
+-> -> 167 `i `uc
+-> -> 163 `i `uc
+-> -> 154 `i `uc
+-> -> 146 `i `uc
+-> -> 129 `i `uc
+-> -> 127 `i `uc
+-> -> 122 `i `uc
+-> -> 118 `i `uc
+-> -> 105 `i `uc
+-> -> 94 `i `uc
+-> -> 90 `i `uc
+-> -> 79 `i `uc
+-> -> 68 `i `uc
+-> -> 72 `i `uc
+-> -> 84 `i `uc
+-> -> 101 `i `uc
+-> -> 116 `i `uc
+-> -> 123 `i `uc
+-> -> 124 `i `uc
+-> -> 116 `i `uc
+-> -> 109 `i `uc
+-> -> 99 `i `uc
+-> -> 81 `i `uc
+-> -> 67 `i `uc
+-> -> 50 `i `uc
+-> -> 35 `i `uc
+-> -> 29 `i `uc
+-> -> 23 `i `uc
+-> -> 11 `i `uc
+-> -> 8 `i `uc
+-> -> 2 `i `uc
+-> -> 1 `i `uc
+-> -> 5 `i `uc
+-> -> 5 `i `uc
+-> -> 15 `i `uc
+-> -> 20 `i `uc
+-> -> 30 `i `uc
+-> -> 39 `i `uc
+-> -> 51 `i `uc
+-> -> 68 `i `uc
+-> -> 83 `i `uc
+-> -> 99 `i `uc
+-> -> 115 `i `uc
+-> -> 126 `i `uc
+-> -> 145 `i `uc
+-> -> 156 `i `uc
+-> -> 174 `i `uc
+-> -> 189 `i `uc
+-> -> 203 `i `uc
+-> -> 223 `i `uc
+-> -> 230 `i `uc
+-> -> 249 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 245 `i `uc
+-> -> 233 `i `uc
+-> -> 221 `i `uc
+-> -> 210 `i `uc
+-> -> 204 `i `uc
+-> -> 192 `i `uc
+-> -> 186 `i `uc
+-> -> 172 `i `uc
+-> -> 160 `i `uc
+-> -> 152 `i `uc
+-> -> 138 `i `uc
+-> -> 129 `i `uc
+-> -> 124 `i `uc
+-> -> 118 `i `uc
+-> -> 108 `i `uc
+-> -> 96 `i `uc
+-> -> 88 `i `uc
+-> -> 80 `i `uc
+-> -> 73 `i `uc
+-> -> 64 `i `uc
+-> -> 59 `i `uc
+-> -> 56 `i `uc
+-> -> 45 `i `uc
+-> -> 42 `i `uc
+-> -> 33 `i `uc
+-> -> 27 `i `uc
+-> -> 25 `i `uc
+-> -> 20 `i `uc
+-> -> 11 `i `uc
+-> -> 7 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 19 `i `uc
+-> -> 48 `i `uc
+-> -> 74 `i `uc
+-> -> 96 `i `uc
+-> -> 111 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 135 `i `uc
+-> -> 143 `i `uc
+-> -> 148 `i `uc
+-> -> 151 `i `uc
+-> -> 149 `i `uc
+-> -> 143 `i `uc
+-> -> 141 `i `uc
+-> -> 134 `i `uc
+-> -> 127 `i `uc
+-> -> 125 `i `uc
+-> -> 117 `i `uc
+-> -> 110 `i `uc
+-> -> 101 `i `uc
+-> -> 94 `i `uc
+-> -> 86 `i `uc
+-> -> 79 `i `uc
+-> -> 70 `i `uc
+-> -> 63 `i `uc
+-> -> 51 `i `uc
+-> -> 45 `i `uc
+-> -> 42 `i `uc
+-> -> 41 `i `uc
+-> -> 53 `i `uc
+-> -> 69 `i `uc
+-> -> 89 `i `uc
+-> -> 95 `i `uc
+-> -> 98 `i `uc
+-> -> 93 `i `uc
+-> -> 83 `i `uc
+-> -> 67 `i `uc
+-> -> 51 `i `uc
+-> -> 35 `i `uc
+-> -> 24 `i `uc
+-> -> 11 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 12 `i `uc
+-> -> 24 `i `uc
+-> -> 37 `i `uc
+-> -> 53 `i `uc
+-> -> 73 `i `uc
+-> -> 84 `i `uc
+-> -> 104 `i `uc
+-> -> 121 `i `uc
+-> -> 129 `i `uc
+-> -> 146 `i `uc
+-> -> 166 `i `uc
+-> -> 183 `i `uc
+-> -> 198 `i `uc
+-> -> 220 `i `uc
+-> -> 234 `i `uc
+-> -> 246 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 251 `i `uc
+-> -> 244 `i `uc
+-> -> 236 `i `uc
+-> -> 228 `i `uc
+-> -> 216 `i `uc
+-> -> 206 `i `uc
+-> -> 201 `i `uc
+-> -> 189 `i `uc
+-> -> 178 `i `uc
+-> -> 169 `i `uc
+-> -> 158 `i `uc
+-> -> 148 `i `uc
+-> -> 143 `i `uc
+-> -> 136 `i `uc
+-> -> 127 `i `uc
+-> -> 123 `i `uc
+-> -> 111 `i `uc
+-> -> 104 `i `uc
+-> -> 102 `i `uc
+-> -> 89 `i `uc
+-> -> 81 `i `uc
+-> -> 78 `i `uc
+-> -> 70 `i `uc
+-> -> 62 `i `uc
+-> -> 55 `i `uc
+-> -> 51 `i `uc
+-> -> 44 `i `uc
+-> -> 41 `i `uc
+-> -> 35 `i `uc
+-> -> 29 `i `uc
+-> -> 27 `i `uc
+-> -> 22 `i `uc
+-> -> 18 `i `uc
+-> -> 16 `i `uc
+-> -> 14 `i `uc
+-> -> 6 `i `uc
+-> -> 8 `i `uc
+-> -> 8 `i `uc
+-> -> 3 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 4 `i `uc
+-> -> 4 `i `uc
+-> -> 7 `i `uc
+-> -> 11 `i `uc
+-> -> 11 `i `uc
+-> -> 17 `i `uc
+-> -> 16 `i `uc
+-> -> 19 `i `uc
+-> -> 26 `i `uc
+-> -> 27 `i `uc
+-> -> 27 `i `uc
+-> -> 39 `i `uc
+-> -> 38 `i `uc
+-> -> 40 `i `uc
+-> -> 50 `i `uc
+-> -> 52 `i `uc
+-> -> 48 `i `uc
+-> -> 55 `i `uc
+-> -> 60 `i `uc
+-> -> 62 `i `uc
+-> -> 67 `i `uc
+-> -> 71 `i `uc
+-> -> 76 `i `uc
+-> -> 78 `i `uc
+-> -> 89 `i `uc
+-> -> 89 `i `uc
+-> -> 86 `i `uc
+-> -> 94 `i `uc
+-> -> 101 `i `uc
+-> -> 105 `i `uc
+-> -> 109 `i `uc
+-> -> 113 `i `uc
+-> -> 122 `i `uc
+-> -> 116 `i `uc
+-> -> 124 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 129 `i `uc
+-> -> 127 `i `uc
+-> -> 136 `i `uc
+-> -> 142 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 145 `i `uc
+-> -> 144 `i `uc
+-> -> 146 `i `uc
+-> -> 151 `i `uc
+-> -> 150 `i `uc
+-> -> 152 `i `uc
+-> -> 157 `i `uc
+-> -> 159 `i `uc
+-> -> 165 `i `uc
+-> -> 164 `i `uc
+-> -> 167 `i `uc
+-> -> 168 `i `uc
+-> -> 168 `i `uc
+-> -> 173 `i `uc
+-> -> 176 `i `uc
+-> -> 174 `i `uc
+-> -> 173 `i `uc
+-> -> 173 `i `uc
+-> -> 176 `i `uc
+-> -> 180 `i `uc
+-> -> 177 `i `uc
+-> -> 180 `i `uc
+-> -> 180 `i `uc
+-> -> 184 `i `uc
+-> -> 184 `i `uc
+-> -> 182 `i `uc
+-> -> 181 `i `uc
+-> -> 183 `i `uc
+-> -> 184 `i `uc
+-> -> 186 `i `uc
+-> -> 183 `i `uc
+-> -> 188 `i `uc
+-> -> 184 `i `uc
+-> -> 182 `i `uc
+-> -> 185 `i `uc
+-> -> 185 `i `uc
+-> -> 183 `i `uc
+-> -> 174 `i `uc
+-> -> 180 `i `uc
+-> -> 177 `i `uc
+-> -> 182 `i `uc
+-> -> 180 `i `uc
+-> -> 177 `i `uc
+-> -> 172 `i `uc
+-> -> 174 `i `uc
+-> -> 170 `i `uc
+-> -> 174 `i `uc
+-> -> 170 `i `uc
+-> -> 164 `i `uc
+-> -> 169 `i `uc
+-> -> 167 `i `uc
+-> -> 171 `i `uc
+-> -> 166 `i `uc
+-> -> 169 `i `uc
+-> -> 159 `i `uc
+-> -> 161 `i `uc
+-> -> 161 `i `uc
+-> -> 163 `i `uc
+-> -> 157 `i `uc
+-> -> 156 `i `uc
+-> -> 155 `i `uc
+-> -> 153 `i `uc
+-> -> 153 `i `uc
+-> -> 150 `i `uc
+-> -> 151 `i `uc
+-> -> 151 `i `uc
+-> -> 146 `i `uc
+-> -> 141 `i `uc
+-> -> 146 `i `uc
+-> -> 141 `i `uc
+-> -> 138 `i `uc
+-> -> 140 `i `uc
+-> -> 133 `i `uc
+-> -> 131 `i `uc
+-> -> 135 `i `uc
+-> -> 130 `i `uc
+-> -> 135 `i `uc
+-> -> 130 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 126 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 125 `i `uc
+-> -> 121 `i `uc
+-> -> 124 `i `uc
+-> -> 124 `i `uc
+-> -> 123 `i `uc
+-> -> 125 `i `uc
+-> -> 119 `i `uc
+-> -> 114 `i `uc
+-> -> 118 `i `uc
+-> -> 117 `i `uc
+-> -> 117 `i `uc
+-> -> 110 `i `uc
+-> -> 116 `i `uc
+-> -> 109 `i `uc
+-> -> 112 `i `uc
+-> -> 111 `i `uc
+-> -> 110 `i `uc
+-> -> 113 `i `uc
+-> -> 104 `i `uc
+-> -> 110 `i `uc
+-> -> 106 `i `uc
+-> -> 106 `i `uc
+-> -> 107 `i `uc
+-> -> 106 `i `uc
+-> -> 103 `i `uc
+-> -> 104 `i `uc
+-> -> 100 `i `uc
+-> -> 101 `i `uc
+-> -> 100 `i `uc
+-> -> 101 `i `uc
+-> -> 100 `i `uc
+-> -> 102 `i `uc
+-> -> 108 `i `uc
+-> -> 106 `i `uc
+-> -> 110 `i `uc
+-> -> 103 `i `uc
+-> -> 104 `i `uc
+-> -> 99 `i `uc
+-> -> 104 `i `uc
+-> -> 103 `i `uc
+-> -> 99 `i `uc
+-> -> 104 `i `uc
+-> -> 99 `i `uc
+-> -> 105 `i `uc
+-> -> 107 `i `uc
+-> -> 107 `i `uc
+-> -> 104 `i `uc
+-> -> 107 `i `uc
+-> -> 109 `i `uc
+-> -> 105 `i `uc
+-> -> 107 `i `uc
+-> -> 108 `i `uc
+-> -> 111 `i `uc
+-> -> 113 `i `uc
+-> -> 114 `i `uc
+-> -> 111 `i `uc
+-> -> 113 `i `uc
+-> -> 113 `i `uc
+-> -> 113 `i `uc
+-> -> 111 `i `uc
+-> -> 110 `i `uc
+-> -> 112 `i `uc
+-> -> 112 `i `uc
+-> -> 115 `i `uc
+-> -> 114 `i `uc
+-> -> 119 `i `uc
+-> -> 115 `i `uc
+-> -> 117 `i `uc
+-> -> 117 `i `uc
+-> -> 120 `i `uc
+-> -> 118 `i `uc
+-> -> 114 `i `uc
+-> -> 119 `i `uc
+-> -> 117 `i `uc
+-> -> 116 `i `uc
+-> -> 110 `i `uc
+-> -> 113 `i `uc
+-> -> 113 `i `uc
+-> -> 115 `i `uc
+-> -> 119 `i `uc
+-> -> 120 `i `uc
+-> -> 116 `i `uc
+-> -> 119 `i `uc
+-> -> 116 `i `uc
+-> -> 119 `i `uc
+-> -> 125 `i `uc
+-> -> 123 `i `uc
+-> -> 127 `i `uc
+-> -> 123 `i `uc
+-> -> 124 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 129 `i `uc
+-> -> 128 `i `uc
+-> -> 131 `i `uc
+-> -> 126 `i `uc
+-> -> 128 `i `uc
+-> -> 131 `i `uc
+-> -> 127 `i `uc
+-> -> 136 `i `uc
+-> -> 134 `i `uc
+-> -> 134 `i `uc
+-> -> 133 `i `uc
+-> -> 137 `i `uc
+-> -> 140 `i `uc
+-> -> 130 `i `uc
+-> -> 140 `i `uc
+-> -> 138 `i `uc
+-> -> 132 `i `uc
+-> -> 137 `i `uc
+-> -> 136 `i `uc
+-> -> 141 `i `uc
+-> -> 135 `i `uc
+-> -> 142 `i `uc
+-> -> 138 `i `uc
+-> -> 140 `i `uc
+-> -> 140 `i `uc
+-> -> 138 `i `uc
+-> -> 142 `i `uc
+-> -> 135 `i `uc
+-> -> 140 `i `uc
+-> -> 138 `i `uc
+-> -> 142 `i `uc
+-> -> 137 `i `uc
+-> -> 138 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 138 `i `uc
+-> -> 140 `i `uc
+-> -> 141 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 136 `i `uc
+-> -> 136 `i `uc
+-> -> 137 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 141 `i `uc
+-> -> 0 `i `uc
+..
+]
+"9
+[; ;./Sound.h: 9: const uint8_t Beat_C[750] = {0x82,0x80,0x80,0x7f,0x7f,0x84,0x87,0x7f,0x81,0x83,0x83,0x81,0x80,0x83,0x7f,0x81,0x80,0x85,0x7a,0x5f,0x3d,0x21,0x0d,0x0b,0x1a,0x31,0x4f,0x6b,0x84,0x9d,0xbc,0xd2,0xe5,0xf0,0xfb,0xfd,0xfc,0xfd,0xfd,0xfc,0xfb,0xf4,0xe8,0xdd,0xd1,0xc5,0xba,0xa9,0x99,0x8b,0x7d,0x78,0x6b,0x5f,0x50,0x4a,0x41,0x3a,0x3b,0x48,0x59,0x58,0x5f,0x5b,0x4c,0x39,0x2a,0x18,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x0e,0x1f,0x31,0x41,0x4f,0x61,0x73,0x7e,0x89,0x9d,0xac,0xbf,0xce,0xd9,0xe5,0xf1,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xef,0xe3,0xdf,0xd8,0xc7,0xbe,0xa7,0x82,0x62,0x3d,0x29,0x1f,0x22,0x2d,0x3c,0x51,0x62,0x70,0x7b,0x87,0x8c,0x98,0x9f,0xa0,0xa3,0x99,0x94,0x91,0x87,0x7e,0x7b,0x70,0x65,0x54,0x48,0x39,0x2a,0x20,0x0f,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x04,0x17,0x2b,0x44,0x5a,0x74,0x84,0x9b,0xac,0xbc,0xd4,0xe6,0xf9,0xfc,0xfd,0xfc,0xfd,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xf8,0xdb,0xb2,0x8d,0x72,0x62,0x63,0x6d,0x79,0x83,0x94,0xa8,0xb8,0xc6,0xcb,0xd8,0xdc,0xe1,0xde,0xde,0xd6,0xcf,0xcb,0xbd,0xb4,0xa2,0x94,0x83,0x7a,0x66,0x5a,0x4d,0x3d,0x2d,0x1b,0x15,0x02,0x00,0x00,0x00,0x00,0x00,0x02,0x08,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x08,0x19,0x30,0x43,0x52,0x6b,0x7d,0x8c,0x9a,0xaf,0xc0,0xcf,0xd9,0xec,0xfa,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfc,0xfd,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xf9,0xf1,0xe8,0xdc,0xd3,0xc2,0x9c,0x7c,0x5e,0x47,0x41,0x40,0x4d,0x5d,0x6c,0x7c,0x8b,0x99,0xaa,0xb8,0xbf,0xc3,0xc4,0xc4,0xc2,0xbe,0xb1,0xa8,0xa1,0x93,0x83,0x7d,0x71,0x63,0x53,0x40,0x33,0x21,0x16,0x09,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x01,0x02,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x08,0x1f,0x31,0x47,0x5c,0x6c,0x7e,0x8e,0xa7,0xb7,0xc6,0xdb,0xec,0xfa,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfa,0xf8,0xe5,0xcf,0xa2,0x83,0x68,0x52,0x55,0x52,0x65,0x77,0x82,0x96,0xa9,0xb4,0xc8,0xce,0xd5,0xd8,0xde,0xd6,0xcb,0xc2,0xb5,0xae,0x9d,0x94,0x84,0x7e,0x6e,0x5b,0x4f,0x41,0x2e,0x22,0x16,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x05,0x0a,0x0b,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x02,0x14,0x29,0x3f,0x51,0x65,0x78,0x88,0x9c,0xab,0xbc,0xd1,0xdf,0xf0,0xfc,0xfd,0xfc,0xfd,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfd,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfc,0xfd,0xfd,0xfa,0xf2,0xe7,0xdd,0xd6,0xcd,0xc1,0xb8,0xb0,0xa9,0x9e,0x93,0x8c,0x84,0x7e,0x7f,0x79,0x71,0x6a,0x62,0x5a,0x52,0x4b,0x4c,0x46,0x40,0x3c,0x39,0x32,0x2a,0x28,0x22,0x29,0x20,0x21,0x1d,0x1a,0x1c,0x1b,0x19,0x18,0x18,0x1b,0x1f,0x1a,0x1c,0x20,0x24,0x1f,0x24,0x1f,0x25,0x27,0x27,0x2a,0x2b,0x2c,0x2f,0x37,0x37,0x38,0x3a,0x42,0x42,0x44,0x48,0x4d,0x4e,0x4e,0x52,0x56,0x5a,0x64,0x64,0x65,0x68,0x6a,0x6f,0x72,0x73,0x78,0x76,0x76,0x7f,0x7d,0x83,0x80,0x80,0x85,0x86,0x86,0x8f,0x89,0x8e,0x94,0x94,0x97,0x96,0x9b,0x98,0x9d,0x9b,0xa1,0xa6,0xa2,0xa1,0xab,0xa8,0xa7,0xa8,0xa7,0xa8,0xa7,0xab,0xaa,0xad,0xad,0xad,0xab,0xae,0xab,0xaa,0xa6,0xab,0xa7,0xa9,0xac,0xa6,0xaa,0xaa,0xa6,0xa2,0xa1,0xa1,0xa2,0xa1,0xa2,0xa1,0xa3,0x9c,0x9c,0x9a,0x9a,0x94,0x95,0x97,0x97,0x92,0x8d,0x93,0x8c,0x8e,0x89,0x93,0x92,0x8d,0x8d,0x00};
+[v _Beat_C `Cuc ~T0 @X0 -> 750 `i e ]
+[i _Beat_C
+:U ..
+-> -> 130 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 127 `i `uc
+-> -> 127 `i `uc
+-> -> 132 `i `uc
+-> -> 135 `i `uc
+-> -> 127 `i `uc
+-> -> 129 `i `uc
+-> -> 131 `i `uc
+-> -> 131 `i `uc
+-> -> 129 `i `uc
+-> -> 128 `i `uc
+-> -> 131 `i `uc
+-> -> 127 `i `uc
+-> -> 129 `i `uc
+-> -> 128 `i `uc
+-> -> 133 `i `uc
+-> -> 122 `i `uc
+-> -> 95 `i `uc
+-> -> 61 `i `uc
+-> -> 33 `i `uc
+-> -> 13 `i `uc
+-> -> 11 `i `uc
+-> -> 26 `i `uc
+-> -> 49 `i `uc
+-> -> 79 `i `uc
+-> -> 107 `i `uc
+-> -> 132 `i `uc
+-> -> 157 `i `uc
+-> -> 188 `i `uc
+-> -> 210 `i `uc
+-> -> 229 `i `uc
+-> -> 240 `i `uc
+-> -> 251 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 251 `i `uc
+-> -> 244 `i `uc
+-> -> 232 `i `uc
+-> -> 221 `i `uc
+-> -> 209 `i `uc
+-> -> 197 `i `uc
+-> -> 186 `i `uc
+-> -> 169 `i `uc
+-> -> 153 `i `uc
+-> -> 139 `i `uc
+-> -> 125 `i `uc
+-> -> 120 `i `uc
+-> -> 107 `i `uc
+-> -> 95 `i `uc
+-> -> 80 `i `uc
+-> -> 74 `i `uc
+-> -> 65 `i `uc
+-> -> 58 `i `uc
+-> -> 59 `i `uc
+-> -> 72 `i `uc
+-> -> 89 `i `uc
+-> -> 88 `i `uc
+-> -> 95 `i `uc
+-> -> 91 `i `uc
+-> -> 76 `i `uc
+-> -> 57 `i `uc
+-> -> 42 `i `uc
+-> -> 24 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 14 `i `uc
+-> -> 31 `i `uc
+-> -> 49 `i `uc
+-> -> 65 `i `uc
+-> -> 79 `i `uc
+-> -> 97 `i `uc
+-> -> 115 `i `uc
+-> -> 126 `i `uc
+-> -> 137 `i `uc
+-> -> 157 `i `uc
+-> -> 172 `i `uc
+-> -> 191 `i `uc
+-> -> 206 `i `uc
+-> -> 217 `i `uc
+-> -> 229 `i `uc
+-> -> 241 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 239 `i `uc
+-> -> 227 `i `uc
+-> -> 223 `i `uc
+-> -> 216 `i `uc
+-> -> 199 `i `uc
+-> -> 190 `i `uc
+-> -> 167 `i `uc
+-> -> 130 `i `uc
+-> -> 98 `i `uc
+-> -> 61 `i `uc
+-> -> 41 `i `uc
+-> -> 31 `i `uc
+-> -> 34 `i `uc
+-> -> 45 `i `uc
+-> -> 60 `i `uc
+-> -> 81 `i `uc
+-> -> 98 `i `uc
+-> -> 112 `i `uc
+-> -> 123 `i `uc
+-> -> 135 `i `uc
+-> -> 140 `i `uc
+-> -> 152 `i `uc
+-> -> 159 `i `uc
+-> -> 160 `i `uc
+-> -> 163 `i `uc
+-> -> 153 `i `uc
+-> -> 148 `i `uc
+-> -> 145 `i `uc
+-> -> 135 `i `uc
+-> -> 126 `i `uc
+-> -> 123 `i `uc
+-> -> 112 `i `uc
+-> -> 101 `i `uc
+-> -> 84 `i `uc
+-> -> 72 `i `uc
+-> -> 57 `i `uc
+-> -> 42 `i `uc
+-> -> 32 `i `uc
+-> -> 15 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 4 `i `uc
+-> -> 23 `i `uc
+-> -> 43 `i `uc
+-> -> 68 `i `uc
+-> -> 90 `i `uc
+-> -> 116 `i `uc
+-> -> 132 `i `uc
+-> -> 155 `i `uc
+-> -> 172 `i `uc
+-> -> 188 `i `uc
+-> -> 212 `i `uc
+-> -> 230 `i `uc
+-> -> 249 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 248 `i `uc
+-> -> 219 `i `uc
+-> -> 178 `i `uc
+-> -> 141 `i `uc
+-> -> 114 `i `uc
+-> -> 98 `i `uc
+-> -> 99 `i `uc
+-> -> 109 `i `uc
+-> -> 121 `i `uc
+-> -> 131 `i `uc
+-> -> 148 `i `uc
+-> -> 168 `i `uc
+-> -> 184 `i `uc
+-> -> 198 `i `uc
+-> -> 203 `i `uc
+-> -> 216 `i `uc
+-> -> 220 `i `uc
+-> -> 225 `i `uc
+-> -> 222 `i `uc
+-> -> 222 `i `uc
+-> -> 214 `i `uc
+-> -> 207 `i `uc
+-> -> 203 `i `uc
+-> -> 189 `i `uc
+-> -> 180 `i `uc
+-> -> 162 `i `uc
+-> -> 148 `i `uc
+-> -> 131 `i `uc
+-> -> 122 `i `uc
+-> -> 102 `i `uc
+-> -> 90 `i `uc
+-> -> 77 `i `uc
+-> -> 61 `i `uc
+-> -> 45 `i `uc
+-> -> 27 `i `uc
+-> -> 21 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 8 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 25 `i `uc
+-> -> 48 `i `uc
+-> -> 67 `i `uc
+-> -> 82 `i `uc
+-> -> 107 `i `uc
+-> -> 125 `i `uc
+-> -> 140 `i `uc
+-> -> 154 `i `uc
+-> -> 175 `i `uc
+-> -> 192 `i `uc
+-> -> 207 `i `uc
+-> -> 217 `i `uc
+-> -> 236 `i `uc
+-> -> 250 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 249 `i `uc
+-> -> 241 `i `uc
+-> -> 232 `i `uc
+-> -> 220 `i `uc
+-> -> 211 `i `uc
+-> -> 194 `i `uc
+-> -> 156 `i `uc
+-> -> 124 `i `uc
+-> -> 94 `i `uc
+-> -> 71 `i `uc
+-> -> 65 `i `uc
+-> -> 64 `i `uc
+-> -> 77 `i `uc
+-> -> 93 `i `uc
+-> -> 108 `i `uc
+-> -> 124 `i `uc
+-> -> 139 `i `uc
+-> -> 153 `i `uc
+-> -> 170 `i `uc
+-> -> 184 `i `uc
+-> -> 191 `i `uc
+-> -> 195 `i `uc
+-> -> 196 `i `uc
+-> -> 196 `i `uc
+-> -> 194 `i `uc
+-> -> 190 `i `uc
+-> -> 177 `i `uc
+-> -> 168 `i `uc
+-> -> 161 `i `uc
+-> -> 147 `i `uc
+-> -> 131 `i `uc
+-> -> 125 `i `uc
+-> -> 113 `i `uc
+-> -> 99 `i `uc
+-> -> 83 `i `uc
+-> -> 64 `i `uc
+-> -> 51 `i `uc
+-> -> 33 `i `uc
+-> -> 22 `i `uc
+-> -> 9 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 8 `i `uc
+-> -> 31 `i `uc
+-> -> 49 `i `uc
+-> -> 71 `i `uc
+-> -> 92 `i `uc
+-> -> 108 `i `uc
+-> -> 126 `i `uc
+-> -> 142 `i `uc
+-> -> 167 `i `uc
+-> -> 183 `i `uc
+-> -> 198 `i `uc
+-> -> 219 `i `uc
+-> -> 236 `i `uc
+-> -> 250 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 250 `i `uc
+-> -> 248 `i `uc
+-> -> 229 `i `uc
+-> -> 207 `i `uc
+-> -> 162 `i `uc
+-> -> 131 `i `uc
+-> -> 104 `i `uc
+-> -> 82 `i `uc
+-> -> 85 `i `uc
+-> -> 82 `i `uc
+-> -> 101 `i `uc
+-> -> 119 `i `uc
+-> -> 130 `i `uc
+-> -> 150 `i `uc
+-> -> 169 `i `uc
+-> -> 180 `i `uc
+-> -> 200 `i `uc
+-> -> 206 `i `uc
+-> -> 213 `i `uc
+-> -> 216 `i `uc
+-> -> 222 `i `uc
+-> -> 214 `i `uc
+-> -> 203 `i `uc
+-> -> 194 `i `uc
+-> -> 181 `i `uc
+-> -> 174 `i `uc
+-> -> 157 `i `uc
+-> -> 148 `i `uc
+-> -> 132 `i `uc
+-> -> 126 `i `uc
+-> -> 110 `i `uc
+-> -> 91 `i `uc
+-> -> 79 `i `uc
+-> -> 65 `i `uc
+-> -> 46 `i `uc
+-> -> 34 `i `uc
+-> -> 22 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 5 `i `uc
+-> -> 10 `i `uc
+-> -> 11 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 20 `i `uc
+-> -> 41 `i `uc
+-> -> 63 `i `uc
+-> -> 81 `i `uc
+-> -> 101 `i `uc
+-> -> 120 `i `uc
+-> -> 136 `i `uc
+-> -> 156 `i `uc
+-> -> 171 `i `uc
+-> -> 188 `i `uc
+-> -> 209 `i `uc
+-> -> 223 `i `uc
+-> -> 240 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 250 `i `uc
+-> -> 242 `i `uc
+-> -> 231 `i `uc
+-> -> 221 `i `uc
+-> -> 214 `i `uc
+-> -> 205 `i `uc
+-> -> 193 `i `uc
+-> -> 184 `i `uc
+-> -> 176 `i `uc
+-> -> 169 `i `uc
+-> -> 158 `i `uc
+-> -> 147 `i `uc
+-> -> 140 `i `uc
+-> -> 132 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 121 `i `uc
+-> -> 113 `i `uc
+-> -> 106 `i `uc
+-> -> 98 `i `uc
+-> -> 90 `i `uc
+-> -> 82 `i `uc
+-> -> 75 `i `uc
+-> -> 76 `i `uc
+-> -> 70 `i `uc
+-> -> 64 `i `uc
+-> -> 60 `i `uc
+-> -> 57 `i `uc
+-> -> 50 `i `uc
+-> -> 42 `i `uc
+-> -> 40 `i `uc
+-> -> 34 `i `uc
+-> -> 41 `i `uc
+-> -> 32 `i `uc
+-> -> 33 `i `uc
+-> -> 29 `i `uc
+-> -> 26 `i `uc
+-> -> 28 `i `uc
+-> -> 27 `i `uc
+-> -> 25 `i `uc
+-> -> 24 `i `uc
+-> -> 24 `i `uc
+-> -> 27 `i `uc
+-> -> 31 `i `uc
+-> -> 26 `i `uc
+-> -> 28 `i `uc
+-> -> 32 `i `uc
+-> -> 36 `i `uc
+-> -> 31 `i `uc
+-> -> 36 `i `uc
+-> -> 31 `i `uc
+-> -> 37 `i `uc
+-> -> 39 `i `uc
+-> -> 39 `i `uc
+-> -> 42 `i `uc
+-> -> 43 `i `uc
+-> -> 44 `i `uc
+-> -> 47 `i `uc
+-> -> 55 `i `uc
+-> -> 55 `i `uc
+-> -> 56 `i `uc
+-> -> 58 `i `uc
+-> -> 66 `i `uc
+-> -> 66 `i `uc
+-> -> 68 `i `uc
+-> -> 72 `i `uc
+-> -> 77 `i `uc
+-> -> 78 `i `uc
+-> -> 78 `i `uc
+-> -> 82 `i `uc
+-> -> 86 `i `uc
+-> -> 90 `i `uc
+-> -> 100 `i `uc
+-> -> 100 `i `uc
+-> -> 101 `i `uc
+-> -> 104 `i `uc
+-> -> 106 `i `uc
+-> -> 111 `i `uc
+-> -> 114 `i `uc
+-> -> 115 `i `uc
+-> -> 120 `i `uc
+-> -> 118 `i `uc
+-> -> 118 `i `uc
+-> -> 127 `i `uc
+-> -> 125 `i `uc
+-> -> 131 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 133 `i `uc
+-> -> 134 `i `uc
+-> -> 134 `i `uc
+-> -> 143 `i `uc
+-> -> 137 `i `uc
+-> -> 142 `i `uc
+-> -> 148 `i `uc
+-> -> 148 `i `uc
+-> -> 151 `i `uc
+-> -> 150 `i `uc
+-> -> 155 `i `uc
+-> -> 152 `i `uc
+-> -> 157 `i `uc
+-> -> 155 `i `uc
+-> -> 161 `i `uc
+-> -> 166 `i `uc
+-> -> 162 `i `uc
+-> -> 161 `i `uc
+-> -> 171 `i `uc
+-> -> 168 `i `uc
+-> -> 167 `i `uc
+-> -> 168 `i `uc
+-> -> 167 `i `uc
+-> -> 168 `i `uc
+-> -> 167 `i `uc
+-> -> 171 `i `uc
+-> -> 170 `i `uc
+-> -> 173 `i `uc
+-> -> 173 `i `uc
+-> -> 173 `i `uc
+-> -> 171 `i `uc
+-> -> 174 `i `uc
+-> -> 171 `i `uc
+-> -> 170 `i `uc
+-> -> 166 `i `uc
+-> -> 171 `i `uc
+-> -> 167 `i `uc
+-> -> 169 `i `uc
+-> -> 172 `i `uc
+-> -> 166 `i `uc
+-> -> 170 `i `uc
+-> -> 170 `i `uc
+-> -> 166 `i `uc
+-> -> 162 `i `uc
+-> -> 161 `i `uc
+-> -> 161 `i `uc
+-> -> 162 `i `uc
+-> -> 161 `i `uc
+-> -> 162 `i `uc
+-> -> 161 `i `uc
+-> -> 163 `i `uc
+-> -> 156 `i `uc
+-> -> 156 `i `uc
+-> -> 154 `i `uc
+-> -> 154 `i `uc
+-> -> 148 `i `uc
+-> -> 149 `i `uc
+-> -> 151 `i `uc
+-> -> 151 `i `uc
+-> -> 146 `i `uc
+-> -> 141 `i `uc
+-> -> 147 `i `uc
+-> -> 140 `i `uc
+-> -> 142 `i `uc
+-> -> 137 `i `uc
+-> -> 147 `i `uc
+-> -> 146 `i `uc
+-> -> 141 `i `uc
+-> -> 141 `i `uc
+-> -> 0 `i `uc
+..
+]
+"10
+[; ;./Sound.h: 10: const uint8_t Fire[2750] = {0x7a,0x61,0x8b,0xd5,0x38,0x62,0xb7,0x47,0x4f,0xba,0xaf,0x39,0x78,0xb5,0x51,0x6c,0xc4,0x5e,0x3d,0x9d,0xba,0x57,0x52,0xbb,0x6f,0x50,0xbf,0x76,0x48,0x97,0x95,0x3b,0x81,0xb6,0x45,0x85,0xf0,0x68,0x28,0x95,0x66,0x26,0x97,0xc1,0xc1,0xb3,0x69,0x25,0x00,0x8d,0x74,0x96,0xfd,0xeb,0x40,0x00,0x0a,0x00,0x57,0xf5,0xfd,0xfc,0xef,0x27,0x00,0x06,0x91,0x97,0xc8,0xfd,0xd7,0x47,0x00,0x12,0x00,0x61,0xe8,0xfd,0xfc,0xf5,0x2b,0x00,0x2c,0x2e,0x62,0xdc,0xfd,0xf8,0x7c,0x0a,0x09,0x00,0x6b,0xc7,0xde,0xf7,0xfd,0x47,0x00,0x10,0x08,0x2f,0xc6,0xfd,0xef,0xfd,0x78,0x00,0x04,0x49,0x3f,0xa4,0xfd,0xfa,0xe1,0x58,0x0b,0x00,0x44,0x59,0x92,0xfa,0xfd,0xd3,0x3c,0x0c,0x00,0x16,0x94,0xa4,0xd7,0xfd,0xeb,0x3c,0x00,0x0d,0x00,0x47,0xce,0xe9,0xec,0xfd,0x9c,0x05,0x00,0x3b,0x38,0x51,0xd0,0xfc,0xfd,0xd2,0x4e,0x0f,0x00,0x43,0x82,0x78,0xf4,0xfb,0xf5,0x92,0x33,0x00,0x12,0x65,0x5c,0xbc,0xfd,0xf9,0xf2,0x88,0x0d,0x00,0x22,0x7b,0x6c,0xd0,0xfd,0xfd,0xd6,0x48,0x07,0x01,0x00,0x7e,0xbf,0xb0,0xf9,0xfd,0xc9,0x0e,0x00,0x02,0x00,0x7c,0xc8,0xc2,0xf1,0xfd,0xc0,0x41,0x0d,0x00,0x16,0x85,0x7a,0xc5,0xfd,0xf0,0xee,0x84,0x06,0x00,0x24,0x4d,0x6a,0xca,0xfd,0xf2,0xfd,0xbb,0x0f,0x00,0x16,0x19,0x3f,0xb1,0xfa,0xfc,0xf4,0xfd,0x5b,0x00,0x03,0x22,0x34,0x56,0xdb,0xf4,0xfc,0xf9,0xfd,0x45,0x00,0x05,0x04,0x37,0x99,0xe4,0xde,0xf5,0xfd,0xba,0x1f,0x00,0x00,0x00,0x30,0xba,0xb1,0xd5,0xfd,0xfb,0xdb,0x1f,0x00,0x00,0x00,0x23,0xa9,0xd5,0xba,0xf9,0xfc,0xe9,0x62,0x04,0x00,0x00,0x0d,0x95,0xbc,0x9f,0xf1,0xfd,0xf8,0xab,0x43,0x04,0x00,0x0a,0x68,0x77,0x94,0xdb,0xfd,0xf0,0xe8,0xd1,0x22,0x00,0x00,0x0c,0x30,0xa1,0xc9,0xb9,0xf7,0xfd,0xe1,0xab,0x40,0x01,0x00,0x12,0x68,0x6b,0xc0,0xd5,0xd3,0xfd,0xfa,0xc0,0x43,0x0e,0x00,0x00,0x4c,0x6d,0x90,0xe2,0xea,0xdd,0xfb,0xf0,0x8c,0x28,0x03,0x00,0x10,0x5f,0x74,0xb3,0xd4,0xc8,0xf7,0xfc,0xc8,0x88,0x37,0x00,0x00,0x1a,0x52,0x6f,0xb8,0xe4,0xd0,0xdb,0xfd,0xe8,0x95,0x3b,0x0c,0x00,0x05,0x4b,0x77,0x8f,0xcd,0xea,0xd5,0xe3,0xfd,0xce,0x61,0x0b,0x02,0x00,0x10,0x73,0x84,0x9f,0xc6,0xea,0xe0,0xd4,0xfb,0xd5,0x62,0x06,0x00,0x00,0x00,0x65,0xad,0xa3,0xa7,0xcc,0xf4,0xce,0xe1,0xe8,0x8c,0x27,0x00,0x03,0x00,0x2c,0x97,0xa3,0xa6,0xd0,0xcb,0xc0,0xe4,0xf5,0xb3,0x80,0x39,0x02,0x00,0x12,0x3f,0x72,0xa8,0xd3,0xb5,0x9f,0xdd,0xe7,0xc3,0xce,0xbd,0x3d,0x00,0x02,0x00,0x14,0x76,0xb1,0x9d,0xb1,0xce,0xb2,0xb5,0xdb,0xe2,0xb5,0x8e,0x5b,0x07,0x00,0x00,0x0e,0x4f,0x90,0xca,0xc4,0x98,0xb9,0xc2,0xb0,0xcd,0xd2,0x9f,0x6d,0x2f,0x01,0x00,0x09,0x40,0x66,0x9b,0xc7,0xc4,0xa1,0xb5,0xbf,0xaf,0xcc,0xcb,0x9b,0x7e,0x52,0x0c,0x00,0x00,0x35,0x5c,0x89,0xc4,0xbd,0xa4,0xb5,0xb5,0xa0,0xb5,0xcd,0xc4,0x96,0x90,0x56,0x08,0x00,0x02,0x0c,0x47,0x89,0xc4,0xb2,0xac,0xc1,0x99,0x90,0xb6,0xc8,0xad,0xb4,0xa9,0x7f,0x53,0x24,0x03,0x00,0x16,0x54,0x76,0x98,0xc2,0xb6,0xa2,0xae,0xa9,0x8b,0xaa,0xc3,0xac,0xa3,0xab,0x94,0x52,0x26,0x12,0x00,0x06,0x35,0x79,0x8f,0xa5,0xb7,0xba,0xa2,0x97,0xa5,0x8b,0x91,0xb8,0xb6,0x9b,0xa2,0x9c,0x6d,0x4e,0x1f,0x00,0x0f,0x2a,0x3b,0x68,0xa6,0xb0,0xab,0xb8,0xa9,0x91,0x99,0x97,0x85,0x97,0xb6,0xa7,0x98,0x9e,0x95,0x72,0x60,0x32,0x06,0x0b,0x22,0x43,0x54,0x7f,0xa8,0xbb,0xb2,0xa4,0xab,0xa0,0x88,0x8e,0x8d,0x82,0x9a,0xad,0xa5,0x96,0x92,0x93,0x7f,0x64,0x3e,0x27,0x18,0x10,0x33,0x4c,0x62,0x85,0xab,0xb6,0xab,0xac,0xac,0x94,0x8c,0x96,0x88,0x7c,0x86,0x94,0x96,0xa0,0xa2,0x8d,0x85,0x87,0x7c,0x67,0x55,0x33,0x18,0x25,0x34,0x3f,0x53,0x76,0x95,0xa0,0xad,0xb6,0xa8,0x9c,0x9e,0x98,0x89,0x8c,0x8b,0x7f,0x80,0x8b,0x8a,0x8b,0x9d,0x9e,0x90,0x84,0x85,0x7b,0x6e,0x75,0x65,0x44,0x2f,0x30,0x35,0x3a,0x4f,0x66,0x6a,0x81,0x9f,0xa9,0xaa,0xae,0xa8,0x9b,0x97,0x94,0x8a,0x89,0x8c,0x84,0x80,0x80,0x86,0x7d,0x81,0x87,0x8d,0x8d,0x95,0x8c,0x83,0x7e,0x7f,0x77,0x6d,0x73,0x76,0x4e,0x16,0x00,0x11,0x58,0x86,0xb3,0xf1,0xf5,0x66,0x3e,0x37,0xc8,0xb4,0x44,0x42,0x93,0xe9,0x4f,0x46,0x63,0xf5,0x81,0x3e,0x46,0xcd,0xc3,0x3a,0x41,0x86,0xf7,0x51,0x41,0x4e,0xf6,0x8c,0x36,0x37,0xbc,0xdc,0x39,0x3e,0x6b,0xfd,0x60,0x38,0x3d,0xda,0xb9,0x32,0x39,0x85,0xfd,0x55,0x36,0x46,0xe8,0xa9,0x30,0x37,0x96,0xf5,0x4c,0x34,0x4c,0xf3,0x9d,0x2d,0x34,0xa1,0xf8,0x43,0x36,0x4f,0xfa,0x9d,0x28,0x38,0x9c,0xf9,0x48,0x37,0x49,0xed,0xaa,0x2f,0x34,0x8a,0xfd,0x50,0x2d,0x44,0xeb,0xbf,0x2a,0x3d,0x79,0xfd,0x68,0x2f,0x37,0xc6,0xdd,0x33,0x30,0x5d,0xfd,0x8a,0x27,0x35,0x9e,0xf8,0x49,0x34,0x41,0xe2,0xc3,0x29,0x31,0x72,0xfd,0x77,0x2a,0x38,0xac,0xf2,0x40,0x2f,0x45,0xf3,0xbe,0x26,0x36,0x6a,0xfd,0x7d,0x28,0x32,0xac,0xfd,0x40,0x30,0x42,0xd3,0xcf,0x2e,0x33,0x5c,0xfd,0x9d,0x25,0x38,0x81,0xfd,0x69,0x29,0x35,0xb3,0xfc,0x43,0x30,0x44,0xd2,0xdb,0x2e,0x2f,0x54,0xf0,0xad,0x25,0x32,0x6a,0xfd,0x89,0x22,0x39,0x81,0xfd,0x6a,0x25,0x38,0xa7,0xfc,0x4d,0x2f,0x3a,0xc6,0xf5,0x39,0x33,0x45,0xd2,0xdd,0x31,0x30,0x50,0xe0,0xc7,0x2b,0x35,0x58,0xf2,0xb7,0x26,0x35,0x5f,0xfd,0xaa,0x21,0x39,0x66,0xfd,0x9d,0x1f,0x3b,0x6a,0xfd,0x97,0x20,0x38,0x71,0xfc,0x92,0x23,0x39,0x77,0xfd,0x90,0x25,0x39,0x76,0xfd,0x90,0x25,0x3a,0x75,0xfd,0x95,0x25,0x3c,0x6c,0xfd,0xa1,0x22,0x38,0x65,0xfd,0xb0,0x29,0x38,0x5e,0xf5,0xbe,0x29,0x38,0x57,0xe6,0xd3,0x32,0x35,0x4e,0xd3,0xe1,0x3f,0x33,0x49,0xb8,0xf2,0x54,0x2b,0x43,0x9d,0xfb,0x6a,0x26,0x42,0x80,0xfd,0x8d,0x1c,0x35,0x62,0xf3,0xac,0x1a,0x39,0x54,0xe6,0xd3,0x28,0x36,0x46,0xc2,0xf4,0x48,0x2a,0x44,0x96,0xfc,0x78,0x22,0x41,0x71,0xf5,0xab,0x24,0x3d,0x55,0xe2,0xe1,0x38,0x34,0x4a,0xab,0xf9,0x6a,0x23,0x46,0x79,0xf5,0xa7,0x23,0x41,0x57,0xdc,0xe7,0x3c,0x33,0x4c,0x9b,0xf8,0x7e,0x20,0x43,0x69,0xf4,0xc8,0x2c,0x3b,0x52,0xaf,0xf2,0x64,0x25,0x4b,0x74,0xfd,0xb4,0x2a,0x3c,0x52,0xb6,0xf2,0x5d,0x25,0x47,0x76,0xfa,0xb2,0x2a,0x3b,0x53,0xb5,0xf7,0x5e,0x24,0x4b,0x71,0xea,0xbe,0x31,0x38,0x50,0xaa,0xfd,0x74,0x23,0x46,0x5f,0xdd,0xd7,0x3a,0x30,0x4f,0x85,0xf4,0xa0,0x21,0x3e,0x56,0xb4,0xf2,0x65,0x23,0x4a,0x6b,0xe2,0xd5,0x3a,0x35,0x4c,0x88,0xf9,0xa3,0x23,0x3f,0x53,0xa9,0xfd,0x70,0x23,0x4a,0x5a,0xcd,0xe9,0x51,0x2b,0x50,0x6b,0xe6,0xd1,0x38,0x35,0x4e,0x7c,0xf4,0xb7,0x2b,0x3d,0x50,0x91,0xfd,0x98,0x25,0x43,0x55,0xa4,0xfb,0x87,0x22,0x47,0x5a,0xaf,0xf9,0x7a,0x25,0x48,0x5e,0xb5,0xf1,0x6d,0x25,0x4b,0x5c,0xbd,0xeb,0x67,0x20,0x4e,0x5f,0xbf,0xee,0x60,0x25,0x4f,0x5e,0xc5,0xee,0x66,0x27,0x4d,0x60,0xb9,0xeb,0x70,0x20,0x4f,0x5f,0xb2,0xf4,0x76,0x21,0x4a,0x5f,0xa8,0xf9,0x8c,0x26,0x43,0x5f,0x93,0xf4,0x9f,0x26,0x3e,0x60,0x81,0xf3,0xb9,0x3a,0x36,0x5c,0x73,0xdb,0xd3,0x42,0x30,0x55,0x6e,0xbe,0xf3,0x64,0x28,0x47,0x64,0xa0,0xfd,0x88,0x2f,0x40,0x5f,0x80,0xe7,0xc1,0x32,0x3b,0x53,0x79,0xc2,0xf0,0x59,0x2e,0x44,0x6f,0x98,0xfd,0x98,0x30,0x3c,0x5c,0x7f,0xdb,0xdc,0x40,0x39,0x4b,0x74,0x9f,0xfd,0x75,0x2b,0x35,0x62,0x7a,0xde,0xd2,0x3b,0x35,0x47,0x76,0x9b,0xfd,0x7f,0x31,0x38,0x64,0x7d,0xd1,0xe2,0x4a,0x34,0x45,0x73,0x8f,0xf7,0xaa,0x35,0x39,0x57,0x79,0xaf,0xfd,0x74,0x31,0x3f,0x68,0x7f,0xd1,0xe2,0x45,0x35,0x4a,0x6f,0x86,0xf2,0xbe,0x3a,0x3b,0x4f,0x7a,0x99,0xfa,0x9b,0x31,0x3b,0x5c,0x7b,0xa8,0xfb,0x7f,0x2e,0x40,0x61,0x7c,0xb3,0xfb,0x72,0x32,0x42,0x65,0x7c,0xba,0xf5,0x61,0x33,0x43,0x67,0x7f,0xbf,0xf5,0x66,0x31,0x42,0x68,0x7c,0xbf,0xf2,0x68,0x31,0x3c,0x67,0x7d,0xb5,0xf8,0x6d,0x2f,0x3e,0x5e,0x7e,0xa7,0xfa,0x82,0x2d,0x40,0x59,0x7e,0x95,0xf3,0xa7,0x2f,0x3a,0x53,0x7a,0x87,0xe3,0xcc,0x3d,0x34,0x4b,0x76,0x82,0xc5,0xeb,0x5d,0x2d,0x44,0x64,0x7c,0xa1,0xf7,0x8d,0x2b,0x3f,0x57,0x7f,0x87,0xe3,0xcb,0x44,0x3b,0x48,0x6f,0x7f,0xb2,0xf3,0x82,0x2d,0x40,0x5d,0x7a,0x89,0xdd,0xd1,0x40,0x35,0x4b,0x6f,0x80,0xa3,0xf5,0x8c,0x31,0x3c,0x54,0x7b,0x81,0xc7,0xe5,0x5b,0x2e,0x45,0x66,0x80,0x8d,0xe6,0xc1,0x42,0x32,0x4d,0x6f,0x7f,0x9d,0xf1,0x9e,0x34,0x3c,0x50,0x78,0x81,0xad,0xf0,0x8b,0x2a,0x43,0x57,0x7c,0x7e,0xb5,0xf4,0x7e,0x29,0x46,0x58,0x81,0x7f,0xb5,0xef,0x7c,0x2b,0x45,0x58,0x7d,0x81,0xb0,0xf1,0x83,0x2d,0x46,0x56,0x7b,0x82,0xa7,0xeb,0x95,0x32,0x3c,0x57,0x76,0x84,0x96,0xe8,0xb4,0x3e,0x2f,0x54,0x6f,0x86,0x8d,0xd4,0xd9,0x50,0x30,0x46,0x69,0x7f,0x8a,0xb3,0xeb,0x87,0x31,0x3b,0x5a,0x78,0x87,0x94,0xe0,0xc3,0x46,0x39,0x48,0x6f,0x80,0x8d,0xab,0xf5,0x82,0x30,0x3a,0x53,0x72,0x80,0x89,0xc5,0xdc,0x51,0x31,0x3f,0x65,0x77,0x8b,0x92,0xe1,0xb9,0x3e,0x39,0x4c,0x6b,0x7d,0x8c,0x9b,0xec,0xa0,0x38,0x38,0x4f,0x71,0x83,0x8c,0xa4,0xe8,0x9a,0x39,0x37,0x54,0x74,0x80,0x8c,0x9f,0xe8,0xa2,0x37,0x39,0x50,0x73,0x80,0x8b,0x99,0xdf,0xb8,0x42,0x32,0x4e,0x6f,0x7c,0x8c,0x8f,0xcc,0xd5,0x5a,0x30,0x44,0x65,0x78,0x8b,0x8b,0xac,0xe5,0x88,0x35,0x3a,0x56,0x73,0x84,0x8c,0x8f,0xd2,0xc7,0x53,0x30,0x49,0x67,0x7b,0x87,0x8d,0xa2,0xe0,0xa3,0x38,0x37,0x4b,0x72,0x7f,0x8b,0x8a,0xb0,0xe0,0x80,0x30,0x3d,0x55,0x76,0x82,0x8a,0x8c,0xb5,0xdd,0x78,0x2d,0x3c,0x58,0x77,0x7f,0x8a,0x8e,0xae,0xdd,0x84,0x2f,0x3d,0x55,0x73,0x80,0x8b,0x8a,0xa1,0xdd,0x9c,0x37,0x37,0x4c,0x6d,0x80,0x89,0x90,0x93,0xcd,0xc3,0x54,0x31,0x42,0x63,0x79,0x85,0x8d,0x8a,0xa5,0xd9,0x9a,0x35,0x39,0x51,0x6c,0x7e,0x86,0x8c,0x8f,0xb6,0xd3,0x76,0x30,0x3a,0x5c,0x73,0x7f,0x8a,0x87,0x8e,0xb8,0xd0,0x6d,0x2f,0x3f,0x5c,0x72,0x83,0x89,0x8b,0x8f,0xb3,0xd3,0x76,0x32,0x3e,0x57,0x73,0x81,0x87,0x87,0x8c,0xa1,0xd1,0x9b,0x3b,0x37,0x51,0x6e,0x7b,0x85,0x8a,0x8f,0x90,0xbb,0xc7,0x68,0x30,0x40,0x5f,0x75,0x84,0x87,0x8a,0x8e,0x97,0xc5,0xb7,0x53,0x2e,0x46,0x63,0x7a,0x84,0x8b,0x8b,0x8c,0x93,0xc5,0xb1,0x52,0x30,0x46,0x62,0x79,0x83,0x89,0x8b,0x8b,0x8f,0xb5,0xc3,0x6b,0x35,0x3b,0x5b,0x75,0x84,0x8c,0x8d,0x8c,0x86,0x9c,0xc4,0xa6,0x49,0x31,0x4c,0x68,0x7c,0x85,0x8c,0x8d,0x8a,0x89,0xa0,0xc9,0x92,0x3d,0x32,0x49,0x65,0x7a,0x84,0x89,0x8a,0x86,0x84,0x96,0xc4,0xa0,0x49,0x31,0x4a,0x65,0x7b,0x85,0x89,0x8c,0x89,0x87,0x87,0xad,0xc1,0x77,0x34,0x3b,0x56,0x71,0x81,0x8b,0x8c,0x8b,0x89,0x86,0x8a,0xb2,0xbd,0x6c,0x35,0x3d,0x5c,0x73,0x83,0x8a,0x8b,0x8b,0x85,0x87,0x8b,0xa1,0xbd,0x8c,0x3f,0x38,0x50,0x6a,0x7e,0x88,0x8a,0x8c,0x8a,0x87,0x84,0x89,0xa9,0xbb,0x7b,0x37,0x3c,0x59,0x72,0x7d,0x8a,0x88,0x8b,0x8a,0x85,0x85,0x82,0xa1,0xba,0x90,0x44,0x35,0x4e,0x68,0x7c,0x86,0x8b,0x8c,0x8a,0x86,0x86,0x80,0x85,0xa3,0xb7,0x7f,0x3e,0x39,0x52,0x6c,0x80,0x87,0x89,0x8b,0x89,0x86,0x86,0x82,0x7f,0x93,0xb2,0xa6,0x57,0x32,0x44,0x61,0x78,0x84,0x89,0x8a,0x8b,0x84,0x87,0x80,0x80,0x7f,0x8a,0xad,0xaa,0x6b,0x37,0x40,0x5a,0x74,0x82,0x8a,0x8b,0x8a,0x8a,0x84,0x83,0x81,0x7f,0x7d,0x8b,0xac,0xa9,0x6b,0x3b,0x3d,0x5a,0x72,0x80,0x87,0x8b,0x88,0x88,0x84,0x7f,0x82,0x7c,0x80,0x7d,0x8e,0xac,0xa3,0x6a,0x38,0x3f,0x5a,0x72,0x82,0x8a,0x88,0x88,0x89,0x82,0x81,0x7f,0x81,0x81,0x7c,0x82,0x90,0xa6,0xa4,0x6b,0x3e,0x3d,0x59,0x72,0x7f,0x89,0x8b,0x89,0x88,0x86,0x82,0x83,0x7f,0x7e,0x7e,0x7f,0x7e,0x8a,0xa1,0xa9,0x86,0x4b,0x3c,0x4e,0x69,0x7c,0x84,0x8a,0x8a,0x8c,0x86,0x83,0x80,0x81,0x80,0x7c,0x7f,0x7f,0x7c,0x7e,0x8c,0x9e,0xa6,0x81,0x4c,0x3c,0x4d,0x69,0x7a,0x85,0x8a,0x89,0x87,0x86,0x83,0x82,0x82,0x7d,0x80,0x7f,0x7e,0x7d,0x7e,0x80,0x7f,0x8f,0x9c,0xa3,0x86,0x51,0x3d,0x47,0x66,0x77,0x82,0x8b,0x8c,0x8a,0x84,0x80,0x7f,0x7e,0x7c,0x7f,0x7d,0x7a,0x7e,0x7b,0x7e,0x7d,0x7b,0x7c,0x82,0x90,0x9b,0x9a,0x79,0x50,0x3d,0x4e,0x67,0x79,0x84,0x8a,0x8c,0x8c,0x88,0x88,0x80,0x80,0x7f,0x7f,0x80,0x7d,0x80,0x7c,0x7f,0x7e,0x7c,0x7d,0x7f,0x7e,0x7d,0x7f,0x89,0x96,0x98,0x92,0x6e,0x52,0x3f,0x50,0x69,0x7c,0x88,0x8a,0x8c,0x87,0x89,0x84,0x85,0x81,0x7f,0x82,0x7e,0x81,0x7e,0x7c,0x7f,0x80,0x7f,0x7e,0x7f,0x7c,0x7c,0x7c,0x7b,0x7e,0x7e,0x7f,0x7d,0x81,0x8b,0x92,0x90,0x8a,0x6e,0x57,0x47,0x4c,0x63,0x74,0x85,0x8a,0x8d,0x87,0x8a,0x84,0x8a,0xa6,0x78,0x63,0x78,0x6b,0xa1,0x73,0x72,0x73,0x8d,0x8d,0x66,0x7c,0x79,0xa1,0x63,0x7e,0x6d,0x9a,0x78,0x6f,0x77,0x84,0x90,0x63,0x7d,0x70,0xa1,0x66,0x7d,0x69,0x9a,0x79,0x6d,0x75,0x82,0x93,0x66,0x7e,0x70,0x9a,0x6f,0x7c,0x6e,0x8c,0x82,0x73,0x76,0x76,0x94,0x75,0x79,0x6c,0x88,0x8b,0x73,0x73,0x77,0x95,0x78,0x71,0x6e,0x8e,0x88,0x6a,0x75,0x78,0x96,0x6c,0x7a,0x70,0x8c,0x83,0x70,0x79,0x70,0x98,0x76,0x77,0x6c,0x8e,0x8d,0x69,0x76,0x74,0x97,0x73,0x74,0x76,0x81,0x8e,0x6f,0x7b,0x6d,0x96,0x84,0x73,0x70,0x81,0x96,0x6c,0x7a,0x72,0x8b,0x87,0x76,0x74,0x72,0x99,0x79,0x73,0x73,0x84,0x8e,0x6e,0x7d,0x6d,0x8f,0x88,0x73,0x76,0x78,0x98,0x72,0x76,0x74,0x7f,0x93,0x76,0x76,0x6e,0x92,0x87,0x69,0x7b,0x76,0x93,0x7d,0x74,0x73,0x7e,0x9a,0x6b,0x78,0x73,0x85,0x8f,0x77,0x76,0x72,0x92,0x7f,0x70,0x7c,0x74,0x92,0x83,0x71,0x77,0x7e,0x91,0x74,0x79,0x71,0x83,0x99,0x6e,0x77,0x71,0x7f,0x8a,0x71,0x71,0x72,0x8c,0x80,0x6f,0x76,0x71,0x95,0x80,0x6b,0x79,0x74,0x93,0x82,0x71,0x76,0x79,0x90,0x7c,0x78,0x6f,0x7f,0x92,0x72,0x7a,0x74,0x7f,0x95,0x70,0x75,0x76,0x7f,0x97,0x74,0x74,0x77,0x80,0x8d,0x7b,0x74,0x75,0x84,0x8b,0x74,0x75,0x75,0x87,0x8a,0x75,0x7b,0x6e,0x88,0x89,0x72,0x7c,0x72,0x85,0x8d,0x72,0x7c,0x73,0x84,0x8f,0x6e,0x7d,0x74,0x81,0x91,0x6f,0x7c,0x74,0x7f,0x94,0x71,0x7b,0x75,0x7d,0x91,0x74,0x78,0x79,0x7a,0x90,0x79,0x77,0x77,0x78,0x8e,0x7c,0x7a,0x77,0x76,0x88,0x81,0x75,0x73,0x76,0x86,0x89,0x76,0x75,0x77,0x7c,0x8e,0x7c,0x74,0x79,0x77,0x92,0x7c,0x72,0x79,0x73,0x92,0x7c,0x71,0x78,0x78,0x8c,0x7f,0x7a,0x75,0x75,0x7f,0x8b,0x7e,0x73,0x7b,0x76,0x91,0x7e,0x72,0x7f,0x74,0x8f,0x7f,0x75,0x7a,0x76,0x82,0x8b,0x7a,0x74,0x7a,0x76,0x91,0x7a,0x75,0x79,0x77,0x86,0x82,0x7c,0x74,0x78,0x79,0x94,0x77,0x73,0x77,0x78,0x8a,0x7f,0x77,0x76,0x78,0x7d,0x91,0x71,0x78,0x75,0x7b,0x88,0x7f,0x78,0x78,0x74,0x81,0x8d,0x71,0x7b,0x77,0x7c,0x87,0x82,0x73,0x79,0x74,0x84,0x88,0x79,0x79,0x79,0x79,0x86,0x89,0x73,0x7b,0x79,0x7d,0x8a,0x83,0x74,0x78,0x79,0x84,0x83,0x76,0x7c,0x79,0x7b,0x8a,0x7f,0x75,0x7d,0x78,0x7f,0x8c,0x7c,0x74,0x7d,0x7a,0x84,0x89,0x7a,0x78,0x7c,0x7b,0x84,0x82,0x75,0x78,0x7b,0x7f,0x89,0x81,0x76,0x7a,0x7c,0x7f,0x88,0x7b,0x79,0x7d,0x7c,0x82,0x86,0x7d,0x74,0x7b,0x7d,0x84,0x85,0x79,0x79,0x7d,0x7a,0x86,0x86,0x78,0x7a,0x7d,0x7a,0x87,0x85,0x72,0x74,0x76,0x7a,0x87,0x7c,0x71,0x7c,0x76,0x7d,0x87,0x7a,0x78,0x7b,0x77,0x80,0x82,0x7b,0x79,0x7b,0x7a,0x7f,0x84,0x7f,0x79,0x7a,0x7c,0x7f,0x86,0x7f,0x76,0x7e,0x7b,0x7e,0x83,0x7c,0x79,0x7c,0x7e,0x7f,0x82,0x81,0x78,0x7b,0x7d,0x7b,0x86,0x7d,0x79,0x7c,0x7d,0x7f,0x80,0x84,0x7b,0x79,0x7d,0x7c,0x83,0x82,0x78,0x7c,0x7b,0x7f,0x7e,0x83,0x7f,0x78,0x7d,0x7a,0x7f,0x86,0x7b,0x7c,0x7a,0x7e,0x7b,0x84,0x81,0x76,0x7d,0x78,0x7f,0x7e,0x84,0x7c,0x7b,0x7a,0x7e,0x7e,0x81,0x7d,0x7a,0x7c,0x7c,0x7c,0x80,0x81,0x7a,0x7c,0x78,0x7f,0x7e,0x84,0x77,0x7b,0x78,0x7f,0x7d,0x82,0x7f,0x78,0x7e,0x79,0x7f,0x7d,0x84,0x79,0x7d,0x77,0x7e,0x7d,0x81,0x7f,0x79,0x7d,0x79,0x79,0x7c,0x84,0x7b,0x7b,0x78,0x7e,0x7c,0x7f,0x84,0x7d,0x7a,0x7a,0x7d,0x7a,0x7f,0x82,0x00};
+[v _Fire `Cuc ~T0 @X0 -> 2750 `i e ]
+[i _Fire
+:U ..
+-> -> 122 `i `uc
+-> -> 97 `i `uc
+-> -> 139 `i `uc
+-> -> 213 `i `uc
+-> -> 56 `i `uc
+-> -> 98 `i `uc
+-> -> 183 `i `uc
+-> -> 71 `i `uc
+-> -> 79 `i `uc
+-> -> 186 `i `uc
+-> -> 175 `i `uc
+-> -> 57 `i `uc
+-> -> 120 `i `uc
+-> -> 181 `i `uc
+-> -> 81 `i `uc
+-> -> 108 `i `uc
+-> -> 196 `i `uc
+-> -> 94 `i `uc
+-> -> 61 `i `uc
+-> -> 157 `i `uc
+-> -> 186 `i `uc
+-> -> 87 `i `uc
+-> -> 82 `i `uc
+-> -> 187 `i `uc
+-> -> 111 `i `uc
+-> -> 80 `i `uc
+-> -> 191 `i `uc
+-> -> 118 `i `uc
+-> -> 72 `i `uc
+-> -> 151 `i `uc
+-> -> 149 `i `uc
+-> -> 59 `i `uc
+-> -> 129 `i `uc
+-> -> 182 `i `uc
+-> -> 69 `i `uc
+-> -> 133 `i `uc
+-> -> 240 `i `uc
+-> -> 104 `i `uc
+-> -> 40 `i `uc
+-> -> 149 `i `uc
+-> -> 102 `i `uc
+-> -> 38 `i `uc
+-> -> 151 `i `uc
+-> -> 193 `i `uc
+-> -> 193 `i `uc
+-> -> 179 `i `uc
+-> -> 105 `i `uc
+-> -> 37 `i `uc
+-> -> 0 `i `uc
+-> -> 141 `i `uc
+-> -> 116 `i `uc
+-> -> 150 `i `uc
+-> -> 253 `i `uc
+-> -> 235 `i `uc
+-> -> 64 `i `uc
+-> -> 0 `i `uc
+-> -> 10 `i `uc
+-> -> 0 `i `uc
+-> -> 87 `i `uc
+-> -> 245 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 239 `i `uc
+-> -> 39 `i `uc
+-> -> 0 `i `uc
+-> -> 6 `i `uc
+-> -> 145 `i `uc
+-> -> 151 `i `uc
+-> -> 200 `i `uc
+-> -> 253 `i `uc
+-> -> 215 `i `uc
+-> -> 71 `i `uc
+-> -> 0 `i `uc
+-> -> 18 `i `uc
+-> -> 0 `i `uc
+-> -> 97 `i `uc
+-> -> 232 `i `uc
+-> -> 253 `i `uc
+-> -> 252 `i `uc
+-> -> 245 `i `uc
+-> -> 43 `i `uc
+-> -> 0 `i `uc
+-> -> 44 `i `uc
+-> -> 46 `i `uc
+-> -> 98 `i `uc
+-> -> 220 `i `uc
+-> -> 253 `i `uc
+-> -> 248 `i `uc
+-> -> 124 `i `uc
+-> -> 10 `i `uc
+-> -> 9 `i `uc
+-> -> 0 `i `uc
+-> -> 107 `i `uc
+-> -> 199 `i `uc
+-> -> 222 `i `uc
+-> -> 247 `i `uc
+-> -> 253 `i `uc
+-> -> 71 `i `uc
+-> -> 0 `i `uc
+-> -> 16 `i `uc
+-> -> 8 `i `uc
+-> -> 47 `i `uc
+-> -> 198 `i `uc
+-> -> 253 `i `uc
+-> -> 239 `i `uc
+-> -> 253 `i `uc
+-> -> 120 `i `uc
+-> -> 0 `i `uc
+-> -> 4 `i `uc
+-> -> 73 `i `uc
+-> -> 63 `i `uc
+-> -> 164 `i `uc
+-> -> 253 `i `uc
+-> -> 250 `i `uc
+-> -> 225 `i `uc
+-> -> 88 `i `uc
+-> -> 11 `i `uc
+-> -> 0 `i `uc
+-> -> 68 `i `uc
+-> -> 89 `i `uc
+-> -> 146 `i `uc
+-> -> 250 `i `uc
+-> -> 253 `i `uc
+-> -> 211 `i `uc
+-> -> 60 `i `uc
+-> -> 12 `i `uc
+-> -> 0 `i `uc
+-> -> 22 `i `uc
+-> -> 148 `i `uc
+-> -> 164 `i `uc
+-> -> 215 `i `uc
+-> -> 253 `i `uc
+-> -> 235 `i `uc
+-> -> 60 `i `uc
+-> -> 0 `i `uc
+-> -> 13 `i `uc
+-> -> 0 `i `uc
+-> -> 71 `i `uc
+-> -> 206 `i `uc
+-> -> 233 `i `uc
+-> -> 236 `i `uc
+-> -> 253 `i `uc
+-> -> 156 `i `uc
+-> -> 5 `i `uc
+-> -> 0 `i `uc
+-> -> 59 `i `uc
+-> -> 56 `i `uc
+-> -> 81 `i `uc
+-> -> 208 `i `uc
+-> -> 252 `i `uc
+-> -> 253 `i `uc
+-> -> 210 `i `uc
+-> -> 78 `i `uc
+-> -> 15 `i `uc
+-> -> 0 `i `uc
+-> -> 67 `i `uc
+-> -> 130 `i `uc
+-> -> 120 `i `uc
+-> -> 244 `i `uc
+-> -> 251 `i `uc
+-> -> 245 `i `uc
+-> -> 146 `i `uc
+-> -> 51 `i `uc
+-> -> 0 `i `uc
+-> -> 18 `i `uc
+-> -> 101 `i `uc
+-> -> 92 `i `uc
+-> -> 188 `i `uc
+-> -> 253 `i `uc
+-> -> 249 `i `uc
+-> -> 242 `i `uc
+-> -> 136 `i `uc
+-> -> 13 `i `uc
+-> -> 0 `i `uc
+-> -> 34 `i `uc
+-> -> 123 `i `uc
+-> -> 108 `i `uc
+-> -> 208 `i `uc
+-> -> 253 `i `uc
+-> -> 253 `i `uc
+-> -> 214 `i `uc
+-> -> 72 `i `uc
+-> -> 7 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 126 `i `uc
+-> -> 191 `i `uc
+-> -> 176 `i `uc
+-> -> 249 `i `uc
+-> -> 253 `i `uc
+-> -> 201 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 124 `i `uc
+-> -> 200 `i `uc
+-> -> 194 `i `uc
+-> -> 241 `i `uc
+-> -> 253 `i `uc
+-> -> 192 `i `uc
+-> -> 65 `i `uc
+-> -> 13 `i `uc
+-> -> 0 `i `uc
+-> -> 22 `i `uc
+-> -> 133 `i `uc
+-> -> 122 `i `uc
+-> -> 197 `i `uc
+-> -> 253 `i `uc
+-> -> 240 `i `uc
+-> -> 238 `i `uc
+-> -> 132 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `uc
+-> -> 36 `i `uc
+-> -> 77 `i `uc
+-> -> 106 `i `uc
+-> -> 202 `i `uc
+-> -> 253 `i `uc
+-> -> 242 `i `uc
+-> -> 253 `i `uc
+-> -> 187 `i `uc
+-> -> 15 `i `uc
+-> -> 0 `i `uc
+-> -> 22 `i `uc
+-> -> 25 `i `uc
+-> -> 63 `i `uc
+-> -> 177 `i `uc
+-> -> 250 `i `uc
+-> -> 252 `i `uc
+-> -> 244 `i `uc
+-> -> 253 `i `uc
+-> -> 91 `i `uc
+-> -> 0 `i `uc
+-> -> 3 `i `uc
+-> -> 34 `i `uc
+-> -> 52 `i `uc
+-> -> 86 `i `uc
+-> -> 219 `i `uc
+-> -> 244 `i `uc
+-> -> 252 `i `uc
+-> -> 249 `i `uc
+-> -> 253 `i `uc
+-> -> 69 `i `uc
+-> -> 0 `i `uc
+-> -> 5 `i `uc
+-> -> 4 `i `uc
+-> -> 55 `i `uc
+-> -> 153 `i `uc
+-> -> 228 `i `uc
+-> -> 222 `i `uc
+-> -> 245 `i `uc
+-> -> 253 `i `uc
+-> -> 186 `i `uc
+-> -> 31 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 48 `i `uc
+-> -> 186 `i `uc
+-> -> 177 `i `uc
+-> -> 213 `i `uc
+-> -> 253 `i `uc
+-> -> 251 `i `uc
+-> -> 219 `i `uc
+-> -> 31 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 35 `i `uc
+-> -> 169 `i `uc
+-> -> 213 `i `uc
+-> -> 186 `i `uc
+-> -> 249 `i `uc
+-> -> 252 `i `uc
+-> -> 233 `i `uc
+-> -> 98 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 13 `i `uc
+-> -> 149 `i `uc
+-> -> 188 `i `uc
+-> -> 159 `i `uc
+-> -> 241 `i `uc
+-> -> 253 `i `uc
+-> -> 248 `i `uc
+-> -> 171 `i `uc
+-> -> 67 `i `uc
+-> -> 4 `i `uc
+-> -> 0 `i `uc
+-> -> 10 `i `uc
+-> -> 104 `i `uc
+-> -> 119 `i `uc
+-> -> 148 `i `uc
+-> -> 219 `i `uc
+-> -> 253 `i `uc
+-> -> 240 `i `uc
+-> -> 232 `i `uc
+-> -> 209 `i `uc
+-> -> 34 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 12 `i `uc
+-> -> 48 `i `uc
+-> -> 161 `i `uc
+-> -> 201 `i `uc
+-> -> 185 `i `uc
+-> -> 247 `i `uc
+-> -> 253 `i `uc
+-> -> 225 `i `uc
+-> -> 171 `i `uc
+-> -> 64 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 18 `i `uc
+-> -> 104 `i `uc
+-> -> 107 `i `uc
+-> -> 192 `i `uc
+-> -> 213 `i `uc
+-> -> 211 `i `uc
+-> -> 253 `i `uc
+-> -> 250 `i `uc
+-> -> 192 `i `uc
+-> -> 67 `i `uc
+-> -> 14 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 76 `i `uc
+-> -> 109 `i `uc
+-> -> 144 `i `uc
+-> -> 226 `i `uc
+-> -> 234 `i `uc
+-> -> 221 `i `uc
+-> -> 251 `i `uc
+-> -> 240 `i `uc
+-> -> 140 `i `uc
+-> -> 40 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `uc
+-> -> 16 `i `uc
+-> -> 95 `i `uc
+-> -> 116 `i `uc
+-> -> 179 `i `uc
+-> -> 212 `i `uc
+-> -> 200 `i `uc
+-> -> 247 `i `uc
+-> -> 252 `i `uc
+-> -> 200 `i `uc
+-> -> 136 `i `uc
+-> -> 55 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 26 `i `uc
+-> -> 82 `i `uc
+-> -> 111 `i `uc
+-> -> 184 `i `uc
+-> -> 228 `i `uc
+-> -> 208 `i `uc
+-> -> 219 `i `uc
+-> -> 253 `i `uc
+-> -> 232 `i `uc
+-> -> 149 `i `uc
+-> -> 59 `i `uc
+-> -> 12 `i `uc
+-> -> 0 `i `uc
+-> -> 5 `i `uc
+-> -> 75 `i `uc
+-> -> 119 `i `uc
+-> -> 143 `i `uc
+-> -> 205 `i `uc
+-> -> 234 `i `uc
+-> -> 213 `i `uc
+-> -> 227 `i `uc
+-> -> 253 `i `uc
+-> -> 206 `i `uc
+-> -> 97 `i `uc
+-> -> 11 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 16 `i `uc
+-> -> 115 `i `uc
+-> -> 132 `i `uc
+-> -> 159 `i `uc
+-> -> 198 `i `uc
+-> -> 234 `i `uc
+-> -> 224 `i `uc
+-> -> 212 `i `uc
+-> -> 251 `i `uc
+-> -> 213 `i `uc
+-> -> 98 `i `uc
+-> -> 6 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 101 `i `uc
+-> -> 173 `i `uc
+-> -> 163 `i `uc
+-> -> 167 `i `uc
+-> -> 204 `i `uc
+-> -> 244 `i `uc
+-> -> 206 `i `uc
+-> -> 225 `i `uc
+-> -> 232 `i `uc
+-> -> 140 `i `uc
+-> -> 39 `i `uc
+-> -> 0 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `uc
+-> -> 44 `i `uc
+-> -> 151 `i `uc
+-> -> 163 `i `uc
+-> -> 166 `i `uc
+-> -> 208 `i `uc
+-> -> 203 `i `uc
+-> -> 192 `i `uc
+-> -> 228 `i `uc
+-> -> 245 `i `uc
+-> -> 179 `i `uc
+-> -> 128 `i `uc
+-> -> 57 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 18 `i `uc
+-> -> 63 `i `uc
+-> -> 114 `i `uc
+-> -> 168 `i `uc
+-> -> 211 `i `uc
+-> -> 181 `i `uc
+-> -> 159 `i `uc
+-> -> 221 `i `uc
+-> -> 231 `i `uc
+-> -> 195 `i `uc
+-> -> 206 `i `uc
+-> -> 189 `i `uc
+-> -> 61 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 0 `i `uc
+-> -> 20 `i `uc
+-> -> 118 `i `uc
+-> -> 177 `i `uc
+-> -> 157 `i `uc
+-> -> 177 `i `uc
+-> -> 206 `i `uc
+-> -> 178 `i `uc
+-> -> 181 `i `uc
+-> -> 219 `i `uc
+-> -> 226 `i `uc
+-> -> 181 `i `uc
+-> -> 142 `i `uc
+-> -> 91 `i `uc
+-> -> 7 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 14 `i `uc
+-> -> 79 `i `uc
+-> -> 144 `i `uc
+-> -> 202 `i `uc
+-> -> 196 `i `uc
+-> -> 152 `i `uc
+-> -> 185 `i `uc
+-> -> 194 `i `uc
+-> -> 176 `i `uc
+-> -> 205 `i `uc
+-> -> 210 `i `uc
+-> -> 159 `i `uc
+-> -> 109 `i `uc
+-> -> 47 `i `uc
+-> -> 1 `i `uc
+-> -> 0 `i `uc
+-> -> 9 `i `uc
+-> -> 64 `i `uc
+-> -> 102 `i `uc
+-> -> 155 `i `uc
+-> -> 199 `i `uc
+-> -> 196 `i `uc
+-> -> 161 `i `uc
+-> -> 181 `i `uc
+-> -> 191 `i `uc
+-> -> 175 `i `uc
+-> -> 204 `i `uc
+-> -> 203 `i `uc
+-> -> 155 `i `uc
+-> -> 126 `i `uc
+-> -> 82 `i `uc
+-> -> 12 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 53 `i `uc
+-> -> 92 `i `uc
+-> -> 137 `i `uc
+-> -> 196 `i `uc
+-> -> 189 `i `uc
+-> -> 164 `i `uc
+-> -> 181 `i `uc
+-> -> 181 `i `uc
+-> -> 160 `i `uc
+-> -> 181 `i `uc
+-> -> 205 `i `uc
+-> -> 196 `i `uc
+-> -> 150 `i `uc
+-> -> 144 `i `uc
+-> -> 86 `i `uc
+-> -> 8 `i `uc
+-> -> 0 `i `uc
+-> -> 2 `i `uc
+-> -> 12 `i `uc
+-> -> 71 `i `uc
+-> -> 137 `i `uc
+-> -> 196 `i `uc
+-> -> 178 `i `uc
+-> -> 172 `i `uc
+-> -> 193 `i `uc
+-> -> 153 `i `uc
+-> -> 144 `i `uc
+-> -> 182 `i `uc
+-> -> 200 `i `uc
+-> -> 173 `i `uc
+-> -> 180 `i `uc
+-> -> 169 `i `uc
+-> -> 127 `i `uc
+-> -> 83 `i `uc
+-> -> 36 `i `uc
+-> -> 3 `i `uc
+-> -> 0 `i `uc
+-> -> 22 `i `uc
+-> -> 84 `i `uc
+-> -> 118 `i `uc
+-> -> 152 `i `uc
+-> -> 194 `i `uc
+-> -> 182 `i `uc
+-> -> 162 `i `uc
+-> -> 174 `i `uc
+-> -> 169 `i `uc
+-> -> 139 `i `uc
+-> -> 170 `i `uc
+-> -> 195 `i `uc
+-> -> 172 `i `uc
+-> -> 163 `i `uc
+-> -> 171 `i `uc
+-> -> 148 `i `uc
+-> -> 82 `i `uc
+-> -> 38 `i `uc
+-> -> 18 `i `uc
+-> -> 0 `i `uc
+-> -> 6 `i `uc
+-> -> 53 `i `uc
+-> -> 121 `i `uc
+-> -> 143 `i `uc
+-> -> 165 `i `uc
+-> -> 183 `i `uc
+-> -> 186 `i `uc
+-> -> 162 `i `uc
+-> -> 151 `i `uc
+-> -> 165 `i `uc
+-> -> 139 `i `uc
+-> -> 145 `i `uc
+-> -> 184 `i `uc
+-> -> 182 `i `uc
+-> -> 155 `i `uc
+-> -> 162 `i `uc
+-> -> 156 `i `uc
+-> -> 109 `i `uc
+-> -> 78 `i `uc
+-> -> 31 `i `uc
+-> -> 0 `i `uc
+-> -> 15 `i `uc
+-> -> 42 `i `uc
+-> -> 59 `i `uc
+-> -> 104 `i `uc
+-> -> 166 `i `uc
+-> -> 176 `i `uc
+-> -> 171 `i `uc
+-> -> 184 `i `uc
+-> -> 169 `i `uc
+-> -> 145 `i `uc
+-> -> 153 `i `uc
+-> -> 151 `i `uc
+-> -> 133 `i `uc
+-> -> 151 `i `uc
+-> -> 182 `i `uc
+-> -> 167 `i `uc
+-> -> 152 `i `uc
+-> -> 158 `i `uc
+-> -> 149 `i `uc
+-> -> 114 `i `uc
+-> -> 96 `i `uc
+-> -> 50 `i `uc
+-> -> 6 `i `uc
+-> -> 11 `i `uc
+-> -> 34 `i `uc
+-> -> 67 `i `uc
+-> -> 84 `i `uc
+-> -> 127 `i `uc
+-> -> 168 `i `uc
+-> -> 187 `i `uc
+-> -> 178 `i `uc
+-> -> 164 `i `uc
+-> -> 171 `i `uc
+-> -> 160 `i `uc
+-> -> 136 `i `uc
+-> -> 142 `i `uc
+-> -> 141 `i `uc
+-> -> 130 `i `uc
+-> -> 154 `i `uc
+-> -> 173 `i `uc
+-> -> 165 `i `uc
+-> -> 150 `i `uc
+-> -> 146 `i `uc
+-> -> 147 `i `uc
+-> -> 127 `i `uc
+-> -> 100 `i `uc
+-> -> 62 `i `uc
+-> -> 39 `i `uc
+-> -> 24 `i `uc
+-> -> 16 `i `uc
+-> -> 51 `i `uc
+-> -> 76 `i `uc
+-> -> 98 `i `uc
+-> -> 133 `i `uc
+-> -> 171 `i `uc
+-> -> 182 `i `uc
+-> -> 171 `i `uc
+-> -> 172 `i `uc
+-> -> 172 `i `uc
+-> -> 148 `i `uc
+-> -> 140 `i `uc
+-> -> 150 `i `uc
+-> -> 136 `i `uc
+-> -> 124 `i `uc
+-> -> 134 `i `uc
+-> -> 148 `i `uc
+-> -> 150 `i `uc
+-> -> 160 `i `uc
+-> -> 162 `i `uc
+-> -> 141 `i `uc
+-> -> 133 `i `uc
+-> -> 135 `i `uc
+-> -> 124 `i `uc
+-> -> 103 `i `uc
+-> -> 85 `i `uc
+-> -> 51 `i `uc
+-> -> 24 `i `uc
+-> -> 37 `i `uc
+-> -> 52 `i `uc
+-> -> 63 `i `uc
+-> -> 83 `i `uc
+-> -> 118 `i `uc
+-> -> 149 `i `uc
+-> -> 160 `i `uc
+-> -> 173 `i `uc
+-> -> 182 `i `uc
+-> -> 168 `i `uc
+-> -> 156 `i `uc
+-> -> 158 `i `uc
+-> -> 152 `i `uc
+-> -> 137 `i `uc
+-> -> 140 `i `uc
+-> -> 139 `i `uc
+-> -> 127 `i `uc
+-> -> 128 `i `uc
+-> -> 139 `i `uc
+-> -> 138 `i `uc
+-> -> 139 `i `uc
+-> -> 157 `i `uc
+-> -> 158 `i `uc
+-> -> 144 `i `uc
+-> -> 132 `i `uc
+-> -> 133 `i `uc
+-> -> 123 `i `uc
+-> -> 110 `i `uc
+-> -> 117 `i `uc
+-> -> 101 `i `uc
+-> -> 68 `i `uc
+-> -> 47 `i `uc
+-> -> 48 `i `uc
+-> -> 53 `i `uc
+-> -> 58 `i `uc
+-> -> 79 `i `uc
+-> -> 102 `i `uc
+-> -> 106 `i `uc
+-> -> 129 `i `uc
+-> -> 159 `i `uc
+-> -> 169 `i `uc
+-> -> 170 `i `uc
+-> -> 174 `i `uc
+-> -> 168 `i `uc
+-> -> 155 `i `uc
+-> -> 151 `i `uc
+-> -> 148 `i `uc
+-> -> 138 `i `uc
+-> -> 137 `i `uc
+-> -> 140 `i `uc
+-> -> 132 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 134 `i `uc
+-> -> 125 `i `uc
+-> -> 129 `i `uc
+-> -> 135 `i `uc
+-> -> 141 `i `uc
+-> -> 141 `i `uc
+-> -> 149 `i `uc
+-> -> 140 `i `uc
+-> -> 131 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 119 `i `uc
+-> -> 109 `i `uc
+-> -> 115 `i `uc
+-> -> 118 `i `uc
+-> -> 78 `i `uc
+-> -> 22 `i `uc
+-> -> 0 `i `uc
+-> -> 17 `i `uc
+-> -> 88 `i `uc
+-> -> 134 `i `uc
+-> -> 179 `i `uc
+-> -> 241 `i `uc
+-> -> 245 `i `uc
+-> -> 102 `i `uc
+-> -> 62 `i `uc
+-> -> 55 `i `uc
+-> -> 200 `i `uc
+-> -> 180 `i `uc
+-> -> 68 `i `uc
+-> -> 66 `i `uc
+-> -> 147 `i `uc
+-> -> 233 `i `uc
+-> -> 79 `i `uc
+-> -> 70 `i `uc
+-> -> 99 `i `uc
+-> -> 245 `i `uc
+-> -> 129 `i `uc
+-> -> 62 `i `uc
+-> -> 70 `i `uc
+-> -> 205 `i `uc
+-> -> 195 `i `uc
+-> -> 58 `i `uc
+-> -> 65 `i `uc
+-> -> 134 `i `uc
+-> -> 247 `i `uc
+-> -> 81 `i `uc
+-> -> 65 `i `uc
+-> -> 78 `i `uc
+-> -> 246 `i `uc
+-> -> 140 `i `uc
+-> -> 54 `i `uc
+-> -> 55 `i `uc
+-> -> 188 `i `uc
+-> -> 220 `i `uc
+-> -> 57 `i `uc
+-> -> 62 `i `uc
+-> -> 107 `i `uc
+-> -> 253 `i `uc
+-> -> 96 `i `uc
+-> -> 56 `i `uc
+-> -> 61 `i `uc
+-> -> 218 `i `uc
+-> -> 185 `i `uc
+-> -> 50 `i `uc
+-> -> 57 `i `uc
+-> -> 133 `i `uc
+-> -> 253 `i `uc
+-> -> 85 `i `uc
+-> -> 54 `i `uc
+-> -> 70 `i `uc
+-> -> 232 `i `uc
+-> -> 169 `i `uc
+-> -> 48 `i `uc
+-> -> 55 `i `uc
+-> -> 150 `i `uc
+-> -> 245 `i `uc
+-> -> 76 `i `uc
+-> -> 52 `i `uc
+-> -> 76 `i `uc
+-> -> 243 `i `uc
+-> -> 157 `i `uc
+-> -> 45 `i `uc
+-> -> 52 `i `uc
+-> -> 161 `i `uc
+-> -> 248 `i `uc
+-> -> 67 `i `uc
+-> -> 54 `i `uc
+-> -> 79 `i `uc
+-> -> 250 `i `uc
+-> -> 157 `i `uc
+-> -> 40 `i `uc
+-> -> 56 `i `uc
+-> -> 156 `i `uc
+-> -> 249 `i `uc
+-> -> 72 `i `uc
+-> -> 55 `i `uc
+-> -> 73 `i `uc
+-> -> 237 `i `uc
+-> -> 170 `i `uc
+-> -> 47 `i `uc
+-> -> 52 `i `uc
+-> -> 138 `i `uc
+-> -> 253 `i `uc
+-> -> 80 `i `uc
+-> -> 45 `i `uc
+-> -> 68 `i `uc
+-> -> 235 `i `uc
+-> -> 191 `i `uc
+-> -> 42 `i `uc
+-> -> 61 `i `uc
+-> -> 121 `i `uc
+-> -> 253 `i `uc
+-> -> 104 `i `uc
+-> -> 47 `i `uc
+-> -> 55 `i `uc
+-> -> 198 `i `uc
+-> -> 221 `i `uc
+-> -> 51 `i `uc
+-> -> 48 `i `uc
+-> -> 93 `i `uc
+-> -> 253 `i `uc
+-> -> 138 `i `uc
+-> -> 39 `i `uc
+-> -> 53 `i `uc
+-> -> 158 `i `uc
+-> -> 248 `i `uc
+-> -> 73 `i `uc
+-> -> 52 `i `uc
+-> -> 65 `i `uc
+-> -> 226 `i `uc
+-> -> 195 `i `uc
+-> -> 41 `i `uc
+-> -> 49 `i `uc
+-> -> 114 `i `uc
+-> -> 253 `i `uc
+-> -> 119 `i `uc
+-> -> 42 `i `uc
+-> -> 56 `i `uc
+-> -> 172 `i `uc
+-> -> 242 `i `uc
+-> -> 64 `i `uc
+-> -> 47 `i `uc
+-> -> 69 `i `uc
+-> -> 243 `i `uc
+-> -> 190 `i `uc
+-> -> 38 `i `uc
+-> -> 54 `i `uc
+-> -> 106 `i `uc
+-> -> 253 `i `uc
+-> -> 125 `i `uc
+-> -> 40 `i `uc
+-> -> 50 `i `uc
+-> -> 172 `i `uc
+-> -> 253 `i `uc
+-> -> 64 `i `uc
+-> -> 48 `i `uc
+-> -> 66 `i `uc
+-> -> 211 `i `uc
+-> -> 207 `i `uc
+-> -> 46 `i `uc
+-> -> 51 `i `uc
+-> -> 92 `i `uc
+-> -> 253 `i `uc
+-> -> 157 `i `uc
+-> -> 37 `i `uc
+-> -> 56 `i `uc
+-> -> 129 `i `uc
+-> -> 253 `i `uc
+-> -> 105 `i `uc
+-> -> 41 `i `uc
+-> -> 53 `i `uc
+-> -> 179 `i `uc
+-> -> 252 `i `uc
+-> -> 67 `i `uc
+-> -> 48 `i `uc
+-> -> 68 `i `uc
+-> -> 210 `i `uc
+-> -> 219 `i `uc
+-> -> 46 `i `uc
+-> -> 47 `i `uc
+-> -> 84 `i `uc
+-> -> 240 `i `uc
+-> -> 173 `i `uc
+-> -> 37 `i `uc
+-> -> 50 `i `uc
+-> -> 106 `i `uc
+-> -> 253 `i `uc
+-> -> 137 `i `uc
+-> -> 34 `i `uc
+-> -> 57 `i `uc
+-> -> 129 `i `uc
+-> -> 253 `i `uc
+-> -> 106 `i `uc
+-> -> 37 `i `uc
+-> -> 56 `i `uc
+-> -> 167 `i `uc
+-> -> 252 `i `uc
+-> -> 77 `i `uc
+-> -> 47 `i `uc
+-> -> 58 `i `uc
+-> -> 198 `i `uc
+-> -> 245 `i `uc
+-> -> 57 `i `uc
+-> -> 51 `i `uc
+-> -> 69 `i `uc
+-> -> 210 `i `uc
+-> -> 221 `i `uc
+-> -> 49 `i `uc
+-> -> 48 `i `uc
+-> -> 80 `i `uc
+-> -> 224 `i `uc
+-> -> 199 `i `uc
+-> -> 43 `i `uc
+-> -> 53 `i `uc
+-> -> 88 `i `uc
+-> -> 242 `i `uc
+-> -> 183 `i `uc
+-> -> 38 `i `uc
+-> -> 53 `i `uc
+-> -> 95 `i `uc
+-> -> 253 `i `uc
+-> -> 170 `i `uc
+-> -> 33 `i `uc
+-> -> 57 `i `uc
+-> -> 102 `i `uc
+-> -> 253 `i `uc
+-> -> 157 `i `uc
+-> -> 31 `i `uc
+-> -> 59 `i `uc
+-> -> 106 `i `uc
+-> -> 253 `i `uc
+-> -> 151 `i `uc
+-> -> 32 `i `uc
+-> -> 56 `i `uc
+-> -> 113 `i `uc
+-> -> 252 `i `uc
+-> -> 146 `i `uc
+-> -> 35 `i `uc
+-> -> 57 `i `uc
+-> -> 119 `i `uc
+-> -> 253 `i `uc
+-> -> 144 `i `uc
+-> -> 37 `i `uc
+-> -> 57 `i `uc
+-> -> 118 `i `uc
+-> -> 253 `i `uc
+-> -> 144 `i `uc
+-> -> 37 `i `uc
+-> -> 58 `i `uc
+-> -> 117 `i `uc
+-> -> 253 `i `uc
+-> -> 149 `i `uc
+-> -> 37 `i `uc
+-> -> 60 `i `uc
+-> -> 108 `i `uc
+-> -> 253 `i `uc
+-> -> 161 `i `uc
+-> -> 34 `i `uc
+-> -> 56 `i `uc
+-> -> 101 `i `uc
+-> -> 253 `i `uc
+-> -> 176 `i `uc
+-> -> 41 `i `uc
+-> -> 56 `i `uc
+-> -> 94 `i `uc
+-> -> 245 `i `uc
+-> -> 190 `i `uc
+-> -> 41 `i `uc
+-> -> 56 `i `uc
+-> -> 87 `i `uc
+-> -> 230 `i `uc
+-> -> 211 `i `uc
+-> -> 50 `i `uc
+-> -> 53 `i `uc
+-> -> 78 `i `uc
+-> -> 211 `i `uc
+-> -> 225 `i `uc
+-> -> 63 `i `uc
+-> -> 51 `i `uc
+-> -> 73 `i `uc
+-> -> 184 `i `uc
+-> -> 242 `i `uc
+-> -> 84 `i `uc
+-> -> 43 `i `uc
+-> -> 67 `i `uc
+-> -> 157 `i `uc
+-> -> 251 `i `uc
+-> -> 106 `i `uc
+-> -> 38 `i `uc
+-> -> 66 `i `uc
+-> -> 128 `i `uc
+-> -> 253 `i `uc
+-> -> 141 `i `uc
+-> -> 28 `i `uc
+-> -> 53 `i `uc
+-> -> 98 `i `uc
+-> -> 243 `i `uc
+-> -> 172 `i `uc
+-> -> 26 `i `uc
+-> -> 57 `i `uc
+-> -> 84 `i `uc
+-> -> 230 `i `uc
+-> -> 211 `i `uc
+-> -> 40 `i `uc
+-> -> 54 `i `uc
+-> -> 70 `i `uc
+-> -> 194 `i `uc
+-> -> 244 `i `uc
+-> -> 72 `i `uc
+-> -> 42 `i `uc
+-> -> 68 `i `uc
+-> -> 150 `i `uc
+-> -> 252 `i `uc
+-> -> 120 `i `uc
+-> -> 34 `i `uc
+-> -> 65 `i `uc
+-> -> 113 `i `uc
+-> -> 245 `i `uc
+-> -> 171 `i `uc
+-> -> 36 `i `uc
+-> -> 61 `i `uc
+-> -> 85 `i `uc
+-> -> 226 `i `uc
+-> -> 225 `i `uc
+-> -> 56 `i `uc
+-> -> 52 `i `uc
+-> -> 74 `i `uc
+-> -> 171 `i `uc
+-> -> 249 `i `uc
+-> -> 106 `i `uc
+-> -> 35 `i `uc
+-> -> 70 `i `uc
+-> -> 121 `i `uc
+-> -> 245 `i `uc
+-> -> 167 `i `uc
+-> -> 35 `i `uc
+-> -> 65 `i `uc
+-> -> 87 `i `uc
+-> -> 220 `i `uc
+-> -> 231 `i `uc
+-> -> 60 `i `uc
+-> -> 51 `i `uc
+-> -> 76 `i `uc
+-> -> 155 `i `uc
+-> -> 248 `i `uc
+-> -> 126 `i `uc
+-> -> 32 `i `uc
+-> -> 67 `i `uc
+-> -> 105 `i `uc
+-> -> 244 `i `uc
+-> -> 200 `i `uc
+-> -> 44 `i `uc
+-> -> 59 `i `uc
+-> -> 82 `i `uc
+-> -> 175 `i `uc
+-> -> 242 `i `uc
+-> -> 100 `i `uc
+-> -> 37 `i `uc
+-> -> 75 `i `uc
+-> -> 116 `i `uc
+-> -> 253 `i `uc
+-> -> 180 `i `uc
+-> -> 42 `i `uc
+-> -> 60 `i `uc
+-> -> 82 `i `uc
+-> -> 182 `i `uc
+-> -> 242 `i `uc
+-> -> 93 `i `uc
+-> -> 37 `i `uc
+-> -> 71 `i `uc
+-> -> 118 `i `uc
+-> -> 250 `i `uc
+-> -> 178 `i `uc
+-> -> 42 `i `uc
+-> -> 59 `i `uc
+-> -> 83 `i `uc
+-> -> 181 `i `uc
+-> -> 247 `i `uc
+-> -> 94 `i `uc
+-> -> 36 `i `uc
+-> -> 75 `i `uc
+-> -> 113 `i `uc
+-> -> 234 `i `uc
+-> -> 190 `i `uc
+-> -> 49 `i `uc
+-> -> 56 `i `uc
+-> -> 80 `i `uc
+-> -> 170 `i `uc
+-> -> 253 `i `uc
+-> -> 116 `i `uc
+-> -> 35 `i `uc
+-> -> 70 `i `uc
+-> -> 95 `i `uc
+-> -> 221 `i `uc
+-> -> 215 `i `uc
+-> -> 58 `i `uc
+-> -> 48 `i `uc
+-> -> 79 `i `uc
+-> -> 133 `i `uc
+-> -> 244 `i `uc
+-> -> 160 `i `uc
+-> -> 33 `i `uc
+-> -> 62 `i `uc
+-> -> 86 `i `uc
+-> -> 180 `i `uc
+-> -> 242 `i `uc
+-> -> 101 `i `uc
+-> -> 35 `i `uc
+-> -> 74 `i `uc
+-> -> 107 `i `uc
+-> -> 226 `i `uc
+-> -> 213 `i `uc
+-> -> 58 `i `uc
+-> -> 53 `i `uc
+-> -> 76 `i `uc
+-> -> 136 `i `uc
+-> -> 249 `i `uc
+-> -> 163 `i `uc
+-> -> 35 `i `uc
+-> -> 63 `i `uc
+-> -> 83 `i `uc
+-> -> 169 `i `uc
+-> -> 253 `i `uc
+-> -> 112 `i `uc
+-> -> 35 `i `uc
+-> -> 74 `i `uc
+-> -> 90 `i `uc
+-> -> 205 `i `uc
+-> -> 233 `i `uc
+-> -> 81 `i `uc
+-> -> 43 `i `uc
+-> -> 80 `i `uc
+-> -> 107 `i `uc
+-> -> 230 `i `uc
+-> -> 209 `i `uc
+-> -> 56 `i `uc
+-> -> 53 `i `uc
+-> -> 78 `i `uc
+-> -> 124 `i `uc
+-> -> 244 `i `uc
+-> -> 183 `i `uc
+-> -> 43 `i `uc
+-> -> 61 `i `uc
+-> -> 80 `i `uc
+-> -> 145 `i `uc
+-> -> 253 `i `uc
+-> -> 152 `i `uc
+-> -> 37 `i `uc
+-> -> 67 `i `uc
+-> -> 85 `i `uc
+-> -> 164 `i `uc
+-> -> 251 `i `uc
+-> -> 135 `i `uc
+-> -> 34 `i `uc
+-> -> 71 `i `uc
+-> -> 90 `i `uc
+-> -> 175 `i `uc
+-> -> 249 `i `uc
+-> -> 122 `i `uc
+-> -> 37 `i `uc
+-> -> 72 `i `uc
+-> -> 94 `i `uc
+-> -> 181 `i `uc
+-> -> 241 `i `uc
+-> -> 109 `i `uc
+-> -> 37 `i `uc
+-> -> 75 `i `uc
+-> -> 92 `i `uc
+-> -> 189 `i `uc
+-> -> 235 `i `uc
+-> -> 103 `i `uc
+-> -> 32 `i `uc
+-> -> 78 `i `uc
+-> -> 95 `i `uc
+-> -> 191 `i `uc
+-> -> 238 `i `uc
+-> -> 96 `i `uc
+-> -> 37 `i `uc
+-> -> 79 `i `uc
+-> -> 94 `i `uc
+-> -> 197 `i `uc
+-> -> 238 `i `uc
+-> -> 102 `i `uc
+-> -> 39 `i `uc
+-> -> 77 `i `uc
+-> -> 96 `i `uc
+-> -> 185 `i `uc
+-> -> 235 `i `uc
+-> -> 112 `i `uc
+-> -> 32 `i `uc
+-> -> 79 `i `uc
+-> -> 95 `i `uc
+-> -> 178 `i `uc
+-> -> 244 `i `uc
+-> -> 118 `i `uc
+-> -> 33 `i `uc
+-> -> 74 `i `uc
+-> -> 95 `i `uc
+-> -> 168 `i `uc
+-> -> 249 `i `uc
+-> -> 140 `i `uc
+-> -> 38 `i `uc
+-> -> 67 `i `uc
+-> -> 95 `i `uc
+-> -> 147 `i `uc
+-> -> 244 `i `uc
+-> -> 159 `i `uc
+-> -> 38 `i `uc
+-> -> 62 `i `uc
+-> -> 96 `i `uc
+-> -> 129 `i `uc
+-> -> 243 `i `uc
+-> -> 185 `i `uc
+-> -> 58 `i `uc
+-> -> 54 `i `uc
+-> -> 92 `i `uc
+-> -> 115 `i `uc
+-> -> 219 `i `uc
+-> -> 211 `i `uc
+-> -> 66 `i `uc
+-> -> 48 `i `uc
+-> -> 85 `i `uc
+-> -> 110 `i `uc
+-> -> 190 `i `uc
+-> -> 243 `i `uc
+-> -> 100 `i `uc
+-> -> 40 `i `uc
+-> -> 71 `i `uc
+-> -> 100 `i `uc
+-> -> 160 `i `uc
+-> -> 253 `i `uc
+-> -> 136 `i `uc
+-> -> 47 `i `uc
+-> -> 64 `i `uc
+-> -> 95 `i `uc
+-> -> 128 `i `uc
+-> -> 231 `i `uc
+-> -> 193 `i `uc
+-> -> 50 `i `uc
+-> -> 59 `i `uc
+-> -> 83 `i `uc
+-> -> 121 `i `uc
+-> -> 194 `i `uc
+-> -> 240 `i `uc
+-> -> 89 `i `uc
+-> -> 46 `i `uc
+-> -> 68 `i `uc
+-> -> 111 `i `uc
+-> -> 152 `i `uc
+-> -> 253 `i `uc
+-> -> 152 `i `uc
+-> -> 48 `i `uc
+-> -> 60 `i `uc
+-> -> 92 `i `uc
+-> -> 127 `i `uc
+-> -> 219 `i `uc
+-> -> 220 `i `uc
+-> -> 64 `i `uc
+-> -> 57 `i `uc
+-> -> 75 `i `uc
+-> -> 116 `i `uc
+-> -> 159 `i `uc
+-> -> 253 `i `uc
+-> -> 117 `i `uc
+-> -> 43 `i `uc
+-> -> 53 `i `uc
+-> -> 98 `i `uc
+-> -> 122 `i `uc
+-> -> 222 `i `uc
+-> -> 210 `i `uc
+-> -> 59 `i `uc
+-> -> 53 `i `uc
+-> -> 71 `i `uc
+-> -> 118 `i `uc
+-> -> 155 `i `uc
+-> -> 253 `i `uc
+-> -> 127 `i `uc
+-> -> 49 `i `uc
+-> -> 56 `i `uc
+-> -> 100 `i `uc
+-> -> 125 `i `uc
+-> -> 209 `i `uc
+-> -> 226 `i `uc
+-> -> 74 `i `uc
+-> -> 52 `i `uc
+-> -> 69 `i `uc
+-> -> 115 `i `uc
+-> -> 143 `i `uc
+-> -> 247 `i `uc
+-> -> 170 `i `uc
+-> -> 53 `i `uc
+-> -> 57 `i `uc
+-> -> 87 `i `uc
+-> -> 121 `i `uc
+-> -> 175 `i `uc
+-> -> 253 `i `uc
+-> -> 116 `i `uc
+-> -> 49 `i `uc
+-> -> 63 `i `uc
+-> -> 104 `i `uc
+-> -> 127 `i `uc
+-> -> 209 `i `uc
+-> -> 226 `i `uc
+-> -> 69 `i `uc
+-> -> 53 `i `uc
+-> -> 74 `i `uc
+-> -> 111 `i `uc
+-> -> 134 `i `uc
+-> -> 242 `i `uc
+-> -> 190 `i `uc
+-> -> 58 `i `uc
+-> -> 59 `i `uc
+-> -> 79 `i `uc
+-> -> 122 `i `uc
+-> -> 153 `i `uc
+-> -> 250 `i `uc
+-> -> 155 `i `uc
+-> -> 49 `i `uc
+-> -> 59 `i `uc
+-> -> 92 `i `uc
+-> -> 123 `i `uc
+-> -> 168 `i `uc
+-> -> 251 `i `uc
+-> -> 127 `i `uc
+-> -> 46 `i `uc
+-> -> 64 `i `uc
+-> -> 97 `i `uc
+-> -> 124 `i `uc
+-> -> 179 `i `uc
+-> -> 251 `i `uc
+-> -> 114 `i `uc
+-> -> 50 `i `uc
+-> -> 66 `i `uc
+-> -> 101 `i `uc
+-> -> 124 `i `uc
+-> -> 186 `i `uc
+-> -> 245 `i `uc
+-> -> 97 `i `uc
+-> -> 51 `i `uc
+-> -> 67 `i `uc
+-> -> 103 `i `uc
+-> -> 127 `i `uc
+-> -> 191 `i `uc
+-> -> 245 `i `uc
+-> -> 102 `i `uc
+-> -> 49 `i `uc
+-> -> 66 `i `uc
+-> -> 104 `i `uc
+-> -> 124 `i `uc
+-> -> 191 `i `uc
+-> -> 242 `i `uc
+-> -> 104 `i `uc
+-> -> 49 `i `uc
+-> -> 60 `i `uc
+-> -> 103 `i `uc
+-> -> 125 `i `uc
+-> -> 181 `i `uc
+-> -> 248 `i `uc
+-> -> 109 `i `uc
+-> -> 47 `i `uc
+-> -> 62 `i `uc
+-> -> 94 `i `uc
+-> -> 126 `i `uc
+-> -> 167 `i `uc
+-> -> 250 `i `uc
+-> -> 130 `i `uc
+-> -> 45 `i `uc
+-> -> 64 `i `uc
+-> -> 89 `i `uc
+-> -> 126 `i `uc
+-> -> 149 `i `uc
+-> -> 243 `i `uc
+-> -> 167 `i `uc
+-> -> 47 `i `uc
+-> -> 58 `i `uc
+-> -> 83 `i `uc
+-> -> 122 `i `uc
+-> -> 135 `i `uc
+-> -> 227 `i `uc
+-> -> 204 `i `uc
+-> -> 61 `i `uc
+-> -> 52 `i `uc
+-> -> 75 `i `uc
+-> -> 118 `i `uc
+-> -> 130 `i `uc
+-> -> 197 `i `uc
+-> -> 235 `i `uc
+-> -> 93 `i `uc
+-> -> 45 `i `uc
+-> -> 68 `i `uc
+-> -> 100 `i `uc
+-> -> 124 `i `uc
+-> -> 161 `i `uc
+-> -> 247 `i `uc
+-> -> 141 `i `uc
+-> -> 43 `i `uc
+-> -> 63 `i `uc
+-> -> 87 `i `uc
+-> -> 127 `i `uc
+-> -> 135 `i `uc
+-> -> 227 `i `uc
+-> -> 203 `i `uc
+-> -> 68 `i `uc
+-> -> 59 `i `uc
+-> -> 72 `i `uc
+-> -> 111 `i `uc
+-> -> 127 `i `uc
+-> -> 178 `i `uc
+-> -> 243 `i `uc
+-> -> 130 `i `uc
+-> -> 45 `i `uc
+-> -> 64 `i `uc
+-> -> 93 `i `uc
+-> -> 122 `i `uc
+-> -> 137 `i `uc
+-> -> 221 `i `uc
+-> -> 209 `i `uc
+-> -> 64 `i `uc
+-> -> 53 `i `uc
+-> -> 75 `i `uc
+-> -> 111 `i `uc
+-> -> 128 `i `uc
+-> -> 163 `i `uc
+-> -> 245 `i `uc
+-> -> 140 `i `uc
+-> -> 49 `i `uc
+-> -> 60 `i `uc
+-> -> 84 `i `uc
+-> -> 123 `i `uc
+-> -> 129 `i `uc
+-> -> 199 `i `uc
+-> -> 229 `i `uc
+-> -> 91 `i `uc
+-> -> 46 `i `uc
+-> -> 69 `i `uc
+-> -> 102 `i `uc
+-> -> 128 `i `uc
+-> -> 141 `i `uc
+-> -> 230 `i `uc
+-> -> 193 `i `uc
+-> -> 66 `i `uc
+-> -> 50 `i `uc
+-> -> 77 `i `uc
+-> -> 111 `i `uc
+-> -> 127 `i `uc
+-> -> 157 `i `uc
+-> -> 241 `i `uc
+-> -> 158 `i `uc
+-> -> 52 `i `uc
+-> -> 60 `i `uc
+-> -> 80 `i `uc
+-> -> 120 `i `uc
+-> -> 129 `i `uc
+-> -> 173 `i `uc
+-> -> 240 `i `uc
+-> -> 139 `i `uc
+-> -> 42 `i `uc
+-> -> 67 `i `uc
+-> -> 87 `i `uc
+-> -> 124 `i `uc
+-> -> 126 `i `uc
+-> -> 181 `i `uc
+-> -> 244 `i `uc
+-> -> 126 `i `uc
+-> -> 41 `i `uc
+-> -> 70 `i `uc
+-> -> 88 `i `uc
+-> -> 129 `i `uc
+-> -> 127 `i `uc
+-> -> 181 `i `uc
+-> -> 239 `i `uc
+-> -> 124 `i `uc
+-> -> 43 `i `uc
+-> -> 69 `i `uc
+-> -> 88 `i `uc
+-> -> 125 `i `uc
+-> -> 129 `i `uc
+-> -> 176 `i `uc
+-> -> 241 `i `uc
+-> -> 131 `i `uc
+-> -> 45 `i `uc
+-> -> 70 `i `uc
+-> -> 86 `i `uc
+-> -> 123 `i `uc
+-> -> 130 `i `uc
+-> -> 167 `i `uc
+-> -> 235 `i `uc
+-> -> 149 `i `uc
+-> -> 50 `i `uc
+-> -> 60 `i `uc
+-> -> 87 `i `uc
+-> -> 118 `i `uc
+-> -> 132 `i `uc
+-> -> 150 `i `uc
+-> -> 232 `i `uc
+-> -> 180 `i `uc
+-> -> 62 `i `uc
+-> -> 47 `i `uc
+-> -> 84 `i `uc
+-> -> 111 `i `uc
+-> -> 134 `i `uc
+-> -> 141 `i `uc
+-> -> 212 `i `uc
+-> -> 217 `i `uc
+-> -> 80 `i `uc
+-> -> 48 `i `uc
+-> -> 70 `i `uc
+-> -> 105 `i `uc
+-> -> 127 `i `uc
+-> -> 138 `i `uc
+-> -> 179 `i `uc
+-> -> 235 `i `uc
+-> -> 135 `i `uc
+-> -> 49 `i `uc
+-> -> 59 `i `uc
+-> -> 90 `i `uc
+-> -> 120 `i `uc
+-> -> 135 `i `uc
+-> -> 148 `i `uc
+-> -> 224 `i `uc
+-> -> 195 `i `uc
+-> -> 70 `i `uc
+-> -> 57 `i `uc
+-> -> 72 `i `uc
+-> -> 111 `i `uc
+-> -> 128 `i `uc
+-> -> 141 `i `uc
+-> -> 171 `i `uc
+-> -> 245 `i `uc
+-> -> 130 `i `uc
+-> -> 48 `i `uc
+-> -> 58 `i `uc
+-> -> 83 `i `uc
+-> -> 114 `i `uc
+-> -> 128 `i `uc
+-> -> 137 `i `uc
+-> -> 197 `i `uc
+-> -> 220 `i `uc
+-> -> 81 `i `uc
+-> -> 49 `i `uc
+-> -> 63 `i `uc
+-> -> 101 `i `uc
+-> -> 119 `i `uc
+-> -> 139 `i `uc
+-> -> 146 `i `uc
+-> -> 225 `i `uc
+-> -> 185 `i `uc
+-> -> 62 `i `uc
+-> -> 57 `i `uc
+-> -> 76 `i `uc
+-> -> 107 `i `uc
+-> -> 125 `i `uc
+-> -> 140 `i `uc
+-> -> 155 `i `uc
+-> -> 236 `i `uc
+-> -> 160 `i `uc
+-> -> 56 `i `uc
+-> -> 56 `i `uc
+-> -> 79 `i `uc
+-> -> 113 `i `uc
+-> -> 131 `i `uc
+-> -> 140 `i `uc
+-> -> 164 `i `uc
+-> -> 232 `i `uc
+-> -> 154 `i `uc
+-> -> 57 `i `uc
+-> -> 55 `i `uc
+-> -> 84 `i `uc
+-> -> 116 `i `uc
+-> -> 128 `i `uc
+-> -> 140 `i `uc
+-> -> 159 `i `uc
+-> -> 232 `i `uc
+-> -> 162 `i `uc
+-> -> 55 `i `uc
+-> -> 57 `i `uc
+-> -> 80 `i `uc
+-> -> 115 `i `uc
+-> -> 128 `i `uc
+-> -> 139 `i `uc
+-> -> 153 `i `uc
+-> -> 223 `i `uc
+-> -> 184 `i `uc
+-> -> 66 `i `uc
+-> -> 50 `i `uc
+-> -> 78 `i `uc
+-> -> 111 `i `uc
+-> -> 124 `i `uc
+-> -> 140 `i `uc
+-> -> 143 `i `uc
+-> -> 204 `i `uc
+-> -> 213 `i `uc
+-> -> 90 `i `uc
+-> -> 48 `i `uc
+-> -> 68 `i `uc
+-> -> 101 `i `uc
+-> -> 120 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 172 `i `uc
+-> -> 229 `i `uc
+-> -> 136 `i `uc
+-> -> 53 `i `uc
+-> -> 58 `i `uc
+-> -> 86 `i `uc
+-> -> 115 `i `uc
+-> -> 132 `i `uc
+-> -> 140 `i `uc
+-> -> 143 `i `uc
+-> -> 210 `i `uc
+-> -> 199 `i `uc
+-> -> 83 `i `uc
+-> -> 48 `i `uc
+-> -> 73 `i `uc
+-> -> 103 `i `uc
+-> -> 123 `i `uc
+-> -> 135 `i `uc
+-> -> 141 `i `uc
+-> -> 162 `i `uc
+-> -> 224 `i `uc
+-> -> 163 `i `uc
+-> -> 56 `i `uc
+-> -> 55 `i `uc
+-> -> 75 `i `uc
+-> -> 114 `i `uc
+-> -> 127 `i `uc
+-> -> 139 `i `uc
+-> -> 138 `i `uc
+-> -> 176 `i `uc
+-> -> 224 `i `uc
+-> -> 128 `i `uc
+-> -> 48 `i `uc
+-> -> 61 `i `uc
+-> -> 85 `i `uc
+-> -> 118 `i `uc
+-> -> 130 `i `uc
+-> -> 138 `i `uc
+-> -> 140 `i `uc
+-> -> 181 `i `uc
+-> -> 221 `i `uc
+-> -> 120 `i `uc
+-> -> 45 `i `uc
+-> -> 60 `i `uc
+-> -> 88 `i `uc
+-> -> 119 `i `uc
+-> -> 127 `i `uc
+-> -> 138 `i `uc
+-> -> 142 `i `uc
+-> -> 174 `i `uc
+-> -> 221 `i `uc
+-> -> 132 `i `uc
+-> -> 47 `i `uc
+-> -> 61 `i `uc
+-> -> 85 `i `uc
+-> -> 115 `i `uc
+-> -> 128 `i `uc
+-> -> 139 `i `uc
+-> -> 138 `i `uc
+-> -> 161 `i `uc
+-> -> 221 `i `uc
+-> -> 156 `i `uc
+-> -> 55 `i `uc
+-> -> 55 `i `uc
+-> -> 76 `i `uc
+-> -> 109 `i `uc
+-> -> 128 `i `uc
+-> -> 137 `i `uc
+-> -> 144 `i `uc
+-> -> 147 `i `uc
+-> -> 205 `i `uc
+-> -> 195 `i `uc
+-> -> 84 `i `uc
+-> -> 49 `i `uc
+-> -> 66 `i `uc
+-> -> 99 `i `uc
+-> -> 121 `i `uc
+-> -> 133 `i `uc
+-> -> 141 `i `uc
+-> -> 138 `i `uc
+-> -> 165 `i `uc
+-> -> 217 `i `uc
+-> -> 154 `i `uc
+-> -> 53 `i `uc
+-> -> 57 `i `uc
+-> -> 81 `i `uc
+-> -> 108 `i `uc
+-> -> 126 `i `uc
+-> -> 134 `i `uc
+-> -> 140 `i `uc
+-> -> 143 `i `uc
+-> -> 182 `i `uc
+-> -> 211 `i `uc
+-> -> 118 `i `uc
+-> -> 48 `i `uc
+-> -> 58 `i `uc
+-> -> 92 `i `uc
+-> -> 115 `i `uc
+-> -> 127 `i `uc
+-> -> 138 `i `uc
+-> -> 135 `i `uc
+-> -> 142 `i `uc
+-> -> 184 `i `uc
+-> -> 208 `i `uc
+-> -> 109 `i `uc
+-> -> 47 `i `uc
+-> -> 63 `i `uc
+-> -> 92 `i `uc
+-> -> 114 `i `uc
+-> -> 131 `i `uc
+-> -> 137 `i `uc
+-> -> 139 `i `uc
+-> -> 143 `i `uc
+-> -> 179 `i `uc
+-> -> 211 `i `uc
+-> -> 118 `i `uc
+-> -> 50 `i `uc
+-> -> 62 `i `uc
+-> -> 87 `i `uc
+-> -> 115 `i `uc
+-> -> 129 `i `uc
+-> -> 135 `i `uc
+-> -> 135 `i `uc
+-> -> 140 `i `uc
+-> -> 161 `i `uc
+-> -> 209 `i `uc
+-> -> 155 `i `uc
+-> -> 59 `i `uc
+-> -> 55 `i `uc
+-> -> 81 `i `uc
+-> -> 110 `i `uc
+-> -> 123 `i `uc
+-> -> 133 `i `uc
+-> -> 138 `i `uc
+-> -> 143 `i `uc
+-> -> 144 `i `uc
+-> -> 187 `i `uc
+-> -> 199 `i `uc
+-> -> 104 `i `uc
+-> -> 48 `i `uc
+-> -> 64 `i `uc
+-> -> 95 `i `uc
+-> -> 117 `i `uc
+-> -> 132 `i `uc
+-> -> 135 `i `uc
+-> -> 138 `i `uc
+-> -> 142 `i `uc
+-> -> 151 `i `uc
+-> -> 197 `i `uc
+-> -> 183 `i `uc
+-> -> 83 `i `uc
+-> -> 46 `i `uc
+-> -> 70 `i `uc
+-> -> 99 `i `uc
+-> -> 122 `i `uc
+-> -> 132 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 140 `i `uc
+-> -> 147 `i `uc
+-> -> 197 `i `uc
+-> -> 177 `i `uc
+-> -> 82 `i `uc
+-> -> 48 `i `uc
+-> -> 70 `i `uc
+-> -> 98 `i `uc
+-> -> 121 `i `uc
+-> -> 131 `i `uc
+-> -> 137 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 143 `i `uc
+-> -> 181 `i `uc
+-> -> 195 `i `uc
+-> -> 107 `i `uc
+-> -> 53 `i `uc
+-> -> 59 `i `uc
+-> -> 91 `i `uc
+-> -> 117 `i `uc
+-> -> 132 `i `uc
+-> -> 140 `i `uc
+-> -> 141 `i `uc
+-> -> 140 `i `uc
+-> -> 134 `i `uc
+-> -> 156 `i `uc
+-> -> 196 `i `uc
+-> -> 166 `i `uc
+-> -> 73 `i `uc
+-> -> 49 `i `uc
+-> -> 76 `i `uc
+-> -> 104 `i `uc
+-> -> 124 `i `uc
+-> -> 133 `i `uc
+-> -> 140 `i `uc
+-> -> 141 `i `uc
+-> -> 138 `i `uc
+-> -> 137 `i `uc
+-> -> 160 `i `uc
+-> -> 201 `i `uc
+-> -> 146 `i `uc
+-> -> 61 `i `uc
+-> -> 50 `i `uc
+-> -> 73 `i `uc
+-> -> 101 `i `uc
+-> -> 122 `i `uc
+-> -> 132 `i `uc
+-> -> 137 `i `uc
+-> -> 138 `i `uc
+-> -> 134 `i `uc
+-> -> 132 `i `uc
+-> -> 150 `i `uc
+-> -> 196 `i `uc
+-> -> 160 `i `uc
+-> -> 73 `i `uc
+-> -> 49 `i `uc
+-> -> 74 `i `uc
+-> -> 101 `i `uc
+-> -> 123 `i `uc
+-> -> 133 `i `uc
+-> -> 137 `i `uc
+-> -> 140 `i `uc
+-> -> 137 `i `uc
+-> -> 135 `i `uc
+-> -> 135 `i `uc
+-> -> 173 `i `uc
+-> -> 193 `i `uc
+-> -> 119 `i `uc
+-> -> 52 `i `uc
+-> -> 59 `i `uc
+-> -> 86 `i `uc
+-> -> 113 `i `uc
+-> -> 129 `i `uc
+-> -> 139 `i `uc
+-> -> 140 `i `uc
+-> -> 139 `i `uc
+-> -> 137 `i `uc
+-> -> 134 `i `uc
+-> -> 138 `i `uc
+-> -> 178 `i `uc
+-> -> 189 `i `uc
+-> -> 108 `i `uc
+-> -> 53 `i `uc
+-> -> 61 `i `uc
+-> -> 92 `i `uc
+-> -> 115 `i `uc
+-> -> 131 `i `uc
+-> -> 138 `i `uc
+-> -> 139 `i `uc
+-> -> 139 `i `uc
+-> -> 133 `i `uc
+-> -> 135 `i `uc
+-> -> 139 `i `uc
+-> -> 161 `i `uc
+-> -> 189 `i `uc
+-> -> 140 `i `uc
+-> -> 63 `i `uc
+-> -> 56 `i `uc
+-> -> 80 `i `uc
+-> -> 106 `i `uc
+-> -> 126 `i `uc
+-> -> 136 `i `uc
+-> -> 138 `i `uc
+-> -> 140 `i `uc
+-> -> 138 `i `uc
+-> -> 135 `i `uc
+-> -> 132 `i `uc
+-> -> 137 `i `uc
+-> -> 169 `i `uc
+-> -> 187 `i `uc
+-> -> 123 `i `uc
+-> -> 55 `i `uc
+-> -> 60 `i `uc
+-> -> 89 `i `uc
+-> -> 114 `i `uc
+-> -> 125 `i `uc
+-> -> 138 `i `uc
+-> -> 136 `i `uc
+-> -> 139 `i `uc
+-> -> 138 `i `uc
+-> -> 133 `i `uc
+-> -> 133 `i `uc
+-> -> 130 `i `uc
+-> -> 161 `i `uc
+-> -> 186 `i `uc
+-> -> 144 `i `uc
+-> -> 68 `i `uc
+-> -> 53 `i `uc
+-> -> 78 `i `uc
+-> -> 104 `i `uc
+-> -> 124 `i `uc
+-> -> 134 `i `uc
+-> -> 139 `i `uc
+-> -> 140 `i `uc
+-> -> 138 `i `uc
+-> -> 134 `i `uc
+-> -> 134 `i `uc
+-> -> 128 `i `uc
+-> -> 133 `i `uc
+-> -> 163 `i `uc
+-> -> 183 `i `uc
+-> -> 127 `i `uc
+-> -> 62 `i `uc
+-> -> 57 `i `uc
+-> -> 82 `i `uc
+-> -> 108 `i `uc
+-> -> 128 `i `uc
+-> -> 135 `i `uc
+-> -> 137 `i `uc
+-> -> 139 `i `uc
+-> -> 137 `i `uc
+-> -> 134 `i `uc
+-> -> 134 `i `uc
+-> -> 130 `i `uc
+-> -> 127 `i `uc
+-> -> 147 `i `uc
+-> -> 178 `i `uc
+-> -> 166 `i `uc
+-> -> 87 `i `uc
+-> -> 50 `i `uc
+-> -> 68 `i `uc
+-> -> 97 `i `uc
+-> -> 120 `i `uc
+-> -> 132 `i `uc
+-> -> 137 `i `uc
+-> -> 138 `i `uc
+-> -> 139 `i `uc
+-> -> 132 `i `uc
+-> -> 135 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 127 `i `uc
+-> -> 138 `i `uc
+-> -> 173 `i `uc
+-> -> 170 `i `uc
+-> -> 107 `i `uc
+-> -> 55 `i `uc
+-> -> 64 `i `uc
+-> -> 90 `i `uc
+-> -> 116 `i `uc
+-> -> 130 `i `uc
+-> -> 138 `i `uc
+-> -> 139 `i `uc
+-> -> 138 `i `uc
+-> -> 138 `i `uc
+-> -> 132 `i `uc
+-> -> 131 `i `uc
+-> -> 129 `i `uc
+-> -> 127 `i `uc
+-> -> 125 `i `uc
+-> -> 139 `i `uc
+-> -> 172 `i `uc
+-> -> 169 `i `uc
+-> -> 107 `i `uc
+-> -> 59 `i `uc
+-> -> 61 `i `uc
+-> -> 90 `i `uc
+-> -> 114 `i `uc
+-> -> 128 `i `uc
+-> -> 135 `i `uc
+-> -> 139 `i `uc
+-> -> 136 `i `uc
+-> -> 136 `i `uc
+-> -> 132 `i `uc
+-> -> 127 `i `uc
+-> -> 130 `i `uc
+-> -> 124 `i `uc
+-> -> 128 `i `uc
+-> -> 125 `i `uc
+-> -> 142 `i `uc
+-> -> 172 `i `uc
+-> -> 163 `i `uc
+-> -> 106 `i `uc
+-> -> 56 `i `uc
+-> -> 63 `i `uc
+-> -> 90 `i `uc
+-> -> 114 `i `uc
+-> -> 130 `i `uc
+-> -> 138 `i `uc
+-> -> 136 `i `uc
+-> -> 136 `i `uc
+-> -> 137 `i `uc
+-> -> 130 `i `uc
+-> -> 129 `i `uc
+-> -> 127 `i `uc
+-> -> 129 `i `uc
+-> -> 129 `i `uc
+-> -> 124 `i `uc
+-> -> 130 `i `uc
+-> -> 144 `i `uc
+-> -> 166 `i `uc
+-> -> 164 `i `uc
+-> -> 107 `i `uc
+-> -> 62 `i `uc
+-> -> 61 `i `uc
+-> -> 89 `i `uc
+-> -> 114 `i `uc
+-> -> 127 `i `uc
+-> -> 137 `i `uc
+-> -> 139 `i `uc
+-> -> 137 `i `uc
+-> -> 136 `i `uc
+-> -> 134 `i `uc
+-> -> 130 `i `uc
+-> -> 131 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 138 `i `uc
+-> -> 161 `i `uc
+-> -> 169 `i `uc
+-> -> 134 `i `uc
+-> -> 75 `i `uc
+-> -> 60 `i `uc
+-> -> 78 `i `uc
+-> -> 105 `i `uc
+-> -> 124 `i `uc
+-> -> 132 `i `uc
+-> -> 138 `i `uc
+-> -> 138 `i `uc
+-> -> 140 `i `uc
+-> -> 134 `i `uc
+-> -> 131 `i `uc
+-> -> 128 `i `uc
+-> -> 129 `i `uc
+-> -> 128 `i `uc
+-> -> 124 `i `uc
+-> -> 127 `i `uc
+-> -> 127 `i `uc
+-> -> 124 `i `uc
+-> -> 126 `i `uc
+-> -> 140 `i `uc
+-> -> 158 `i `uc
+-> -> 166 `i `uc
+-> -> 129 `i `uc
+-> -> 76 `i `uc
+-> -> 60 `i `uc
+-> -> 77 `i `uc
+-> -> 105 `i `uc
+-> -> 122 `i `uc
+-> -> 133 `i `uc
+-> -> 138 `i `uc
+-> -> 137 `i `uc
+-> -> 135 `i `uc
+-> -> 134 `i `uc
+-> -> 131 `i `uc
+-> -> 130 `i `uc
+-> -> 130 `i `uc
+-> -> 125 `i `uc
+-> -> 128 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 125 `i `uc
+-> -> 126 `i `uc
+-> -> 128 `i `uc
+-> -> 127 `i `uc
+-> -> 143 `i `uc
+-> -> 156 `i `uc
+-> -> 163 `i `uc
+-> -> 134 `i `uc
+-> -> 81 `i `uc
+-> -> 61 `i `uc
+-> -> 71 `i `uc
+-> -> 102 `i `uc
+-> -> 119 `i `uc
+-> -> 130 `i `uc
+-> -> 139 `i `uc
+-> -> 140 `i `uc
+-> -> 138 `i `uc
+-> -> 132 `i `uc
+-> -> 128 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 124 `i `uc
+-> -> 127 `i `uc
+-> -> 125 `i `uc
+-> -> 122 `i `uc
+-> -> 126 `i `uc
+-> -> 123 `i `uc
+-> -> 126 `i `uc
+-> -> 125 `i `uc
+-> -> 123 `i `uc
+-> -> 124 `i `uc
+-> -> 130 `i `uc
+-> -> 144 `i `uc
+-> -> 155 `i `uc
+-> -> 154 `i `uc
+-> -> 121 `i `uc
+-> -> 80 `i `uc
+-> -> 61 `i `uc
+-> -> 78 `i `uc
+-> -> 103 `i `uc
+-> -> 121 `i `uc
+-> -> 132 `i `uc
+-> -> 138 `i `uc
+-> -> 140 `i `uc
+-> -> 140 `i `uc
+-> -> 136 `i `uc
+-> -> 136 `i `uc
+-> -> 128 `i `uc
+-> -> 128 `i `uc
+-> -> 127 `i `uc
+-> -> 127 `i `uc
+-> -> 128 `i `uc
+-> -> 125 `i `uc
+-> -> 128 `i `uc
+-> -> 124 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 124 `i `uc
+-> -> 125 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 125 `i `uc
+-> -> 127 `i `uc
+-> -> 137 `i `uc
+-> -> 150 `i `uc
+-> -> 152 `i `uc
+-> -> 146 `i `uc
+-> -> 110 `i `uc
+-> -> 82 `i `uc
+-> -> 63 `i `uc
+-> -> 80 `i `uc
+-> -> 105 `i `uc
+-> -> 124 `i `uc
+-> -> 136 `i `uc
+-> -> 138 `i `uc
+-> -> 140 `i `uc
+-> -> 135 `i `uc
+-> -> 137 `i `uc
+-> -> 132 `i `uc
+-> -> 133 `i `uc
+-> -> 129 `i `uc
+-> -> 127 `i `uc
+-> -> 130 `i `uc
+-> -> 126 `i `uc
+-> -> 129 `i `uc
+-> -> 126 `i `uc
+-> -> 124 `i `uc
+-> -> 127 `i `uc
+-> -> 128 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 124 `i `uc
+-> -> 124 `i `uc
+-> -> 124 `i `uc
+-> -> 123 `i `uc
+-> -> 126 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 125 `i `uc
+-> -> 129 `i `uc
+-> -> 139 `i `uc
+-> -> 146 `i `uc
+-> -> 144 `i `uc
+-> -> 138 `i `uc
+-> -> 110 `i `uc
+-> -> 87 `i `uc
+-> -> 71 `i `uc
+-> -> 76 `i `uc
+-> -> 99 `i `uc
+-> -> 116 `i `uc
+-> -> 133 `i `uc
+-> -> 138 `i `uc
+-> -> 141 `i `uc
+-> -> 135 `i `uc
+-> -> 138 `i `uc
+-> -> 132 `i `uc
+-> -> 138 `i `uc
+-> -> 166 `i `uc
+-> -> 120 `i `uc
+-> -> 99 `i `uc
+-> -> 120 `i `uc
+-> -> 107 `i `uc
+-> -> 161 `i `uc
+-> -> 115 `i `uc
+-> -> 114 `i `uc
+-> -> 115 `i `uc
+-> -> 141 `i `uc
+-> -> 141 `i `uc
+-> -> 102 `i `uc
+-> -> 124 `i `uc
+-> -> 121 `i `uc
+-> -> 161 `i `uc
+-> -> 99 `i `uc
+-> -> 126 `i `uc
+-> -> 109 `i `uc
+-> -> 154 `i `uc
+-> -> 120 `i `uc
+-> -> 111 `i `uc
+-> -> 119 `i `uc
+-> -> 132 `i `uc
+-> -> 144 `i `uc
+-> -> 99 `i `uc
+-> -> 125 `i `uc
+-> -> 112 `i `uc
+-> -> 161 `i `uc
+-> -> 102 `i `uc
+-> -> 125 `i `uc
+-> -> 105 `i `uc
+-> -> 154 `i `uc
+-> -> 121 `i `uc
+-> -> 109 `i `uc
+-> -> 117 `i `uc
+-> -> 130 `i `uc
+-> -> 147 `i `uc
+-> -> 102 `i `uc
+-> -> 126 `i `uc
+-> -> 112 `i `uc
+-> -> 154 `i `uc
+-> -> 111 `i `uc
+-> -> 124 `i `uc
+-> -> 110 `i `uc
+-> -> 140 `i `uc
+-> -> 130 `i `uc
+-> -> 115 `i `uc
+-> -> 118 `i `uc
+-> -> 118 `i `uc
+-> -> 148 `i `uc
+-> -> 117 `i `uc
+-> -> 121 `i `uc
+-> -> 108 `i `uc
+-> -> 136 `i `uc
+-> -> 139 `i `uc
+-> -> 115 `i `uc
+-> -> 115 `i `uc
+-> -> 119 `i `uc
+-> -> 149 `i `uc
+-> -> 120 `i `uc
+-> -> 113 `i `uc
+-> -> 110 `i `uc
+-> -> 142 `i `uc
+-> -> 136 `i `uc
+-> -> 106 `i `uc
+-> -> 117 `i `uc
+-> -> 120 `i `uc
+-> -> 150 `i `uc
+-> -> 108 `i `uc
+-> -> 122 `i `uc
+-> -> 112 `i `uc
+-> -> 140 `i `uc
+-> -> 131 `i `uc
+-> -> 112 `i `uc
+-> -> 121 `i `uc
+-> -> 112 `i `uc
+-> -> 152 `i `uc
+-> -> 118 `i `uc
+-> -> 119 `i `uc
+-> -> 108 `i `uc
+-> -> 142 `i `uc
+-> -> 141 `i `uc
+-> -> 105 `i `uc
+-> -> 118 `i `uc
+-> -> 116 `i `uc
+-> -> 151 `i `uc
+-> -> 115 `i `uc
+-> -> 116 `i `uc
+-> -> 118 `i `uc
+-> -> 129 `i `uc
+-> -> 142 `i `uc
+-> -> 111 `i `uc
+-> -> 123 `i `uc
+-> -> 109 `i `uc
+-> -> 150 `i `uc
+-> -> 132 `i `uc
+-> -> 115 `i `uc
+-> -> 112 `i `uc
+-> -> 129 `i `uc
+-> -> 150 `i `uc
+-> -> 108 `i `uc
+-> -> 122 `i `uc
+-> -> 114 `i `uc
+-> -> 139 `i `uc
+-> -> 135 `i `uc
+-> -> 118 `i `uc
+-> -> 116 `i `uc
+-> -> 114 `i `uc
+-> -> 153 `i `uc
+-> -> 121 `i `uc
+-> -> 115 `i `uc
+-> -> 115 `i `uc
+-> -> 132 `i `uc
+-> -> 142 `i `uc
+-> -> 110 `i `uc
+-> -> 125 `i `uc
+-> -> 109 `i `uc
+-> -> 143 `i `uc
+-> -> 136 `i `uc
+-> -> 115 `i `uc
+-> -> 118 `i `uc
+-> -> 120 `i `uc
+-> -> 152 `i `uc
+-> -> 114 `i `uc
+-> -> 118 `i `uc
+-> -> 116 `i `uc
+-> -> 127 `i `uc
+-> -> 147 `i `uc
+-> -> 118 `i `uc
+-> -> 118 `i `uc
+-> -> 110 `i `uc
+-> -> 146 `i `uc
+-> -> 135 `i `uc
+-> -> 105 `i `uc
+-> -> 123 `i `uc
+-> -> 118 `i `uc
+-> -> 147 `i `uc
+-> -> 125 `i `uc
+-> -> 116 `i `uc
+-> -> 115 `i `uc
+-> -> 126 `i `uc
+-> -> 154 `i `uc
+-> -> 107 `i `uc
+-> -> 120 `i `uc
+-> -> 115 `i `uc
+-> -> 133 `i `uc
+-> -> 143 `i `uc
+-> -> 119 `i `uc
+-> -> 118 `i `uc
+-> -> 114 `i `uc
+-> -> 146 `i `uc
+-> -> 127 `i `uc
+-> -> 112 `i `uc
+-> -> 124 `i `uc
+-> -> 116 `i `uc
+-> -> 146 `i `uc
+-> -> 131 `i `uc
+-> -> 113 `i `uc
+-> -> 119 `i `uc
+-> -> 126 `i `uc
+-> -> 145 `i `uc
+-> -> 116 `i `uc
+-> -> 121 `i `uc
+-> -> 113 `i `uc
+-> -> 131 `i `uc
+-> -> 153 `i `uc
+-> -> 110 `i `uc
+-> -> 119 `i `uc
+-> -> 113 `i `uc
+-> -> 127 `i `uc
+-> -> 138 `i `uc
+-> -> 113 `i `uc
+-> -> 113 `i `uc
+-> -> 114 `i `uc
+-> -> 140 `i `uc
+-> -> 128 `i `uc
+-> -> 111 `i `uc
+-> -> 118 `i `uc
+-> -> 113 `i `uc
+-> -> 149 `i `uc
+-> -> 128 `i `uc
+-> -> 107 `i `uc
+-> -> 121 `i `uc
+-> -> 116 `i `uc
+-> -> 147 `i `uc
+-> -> 130 `i `uc
+-> -> 113 `i `uc
+-> -> 118 `i `uc
+-> -> 121 `i `uc
+-> -> 144 `i `uc
+-> -> 124 `i `uc
+-> -> 120 `i `uc
+-> -> 111 `i `uc
+-> -> 127 `i `uc
+-> -> 146 `i `uc
+-> -> 114 `i `uc
+-> -> 122 `i `uc
+-> -> 116 `i `uc
+-> -> 127 `i `uc
+-> -> 149 `i `uc
+-> -> 112 `i `uc
+-> -> 117 `i `uc
+-> -> 118 `i `uc
+-> -> 127 `i `uc
+-> -> 151 `i `uc
+-> -> 116 `i `uc
+-> -> 116 `i `uc
+-> -> 119 `i `uc
+-> -> 128 `i `uc
+-> -> 141 `i `uc
+-> -> 123 `i `uc
+-> -> 116 `i `uc
+-> -> 117 `i `uc
+-> -> 132 `i `uc
+-> -> 139 `i `uc
+-> -> 116 `i `uc
+-> -> 117 `i `uc
+-> -> 117 `i `uc
+-> -> 135 `i `uc
+-> -> 138 `i `uc
+-> -> 117 `i `uc
+-> -> 123 `i `uc
+-> -> 110 `i `uc
+-> -> 136 `i `uc
+-> -> 137 `i `uc
+-> -> 114 `i `uc
+-> -> 124 `i `uc
+-> -> 114 `i `uc
+-> -> 133 `i `uc
+-> -> 141 `i `uc
+-> -> 114 `i `uc
+-> -> 124 `i `uc
+-> -> 115 `i `uc
+-> -> 132 `i `uc
+-> -> 143 `i `uc
+-> -> 110 `i `uc
+-> -> 125 `i `uc
+-> -> 116 `i `uc
+-> -> 129 `i `uc
+-> -> 145 `i `uc
+-> -> 111 `i `uc
+-> -> 124 `i `uc
+-> -> 116 `i `uc
+-> -> 127 `i `uc
+-> -> 148 `i `uc
+-> -> 113 `i `uc
+-> -> 123 `i `uc
+-> -> 117 `i `uc
+-> -> 125 `i `uc
+-> -> 145 `i `uc
+-> -> 116 `i `uc
+-> -> 120 `i `uc
+-> -> 121 `i `uc
+-> -> 122 `i `uc
+-> -> 144 `i `uc
+-> -> 121 `i `uc
+-> -> 119 `i `uc
+-> -> 119 `i `uc
+-> -> 120 `i `uc
+-> -> 142 `i `uc
+-> -> 124 `i `uc
+-> -> 122 `i `uc
+-> -> 119 `i `uc
+-> -> 118 `i `uc
+-> -> 136 `i `uc
+-> -> 129 `i `uc
+-> -> 117 `i `uc
+-> -> 115 `i `uc
+-> -> 118 `i `uc
+-> -> 134 `i `uc
+-> -> 137 `i `uc
+-> -> 118 `i `uc
+-> -> 117 `i `uc
+-> -> 119 `i `uc
+-> -> 124 `i `uc
+-> -> 142 `i `uc
+-> -> 124 `i `uc
+-> -> 116 `i `uc
+-> -> 121 `i `uc
+-> -> 119 `i `uc
+-> -> 146 `i `uc
+-> -> 124 `i `uc
+-> -> 114 `i `uc
+-> -> 121 `i `uc
+-> -> 115 `i `uc
+-> -> 146 `i `uc
+-> -> 124 `i `uc
+-> -> 113 `i `uc
+-> -> 120 `i `uc
+-> -> 120 `i `uc
+-> -> 140 `i `uc
+-> -> 127 `i `uc
+-> -> 122 `i `uc
+-> -> 117 `i `uc
+-> -> 117 `i `uc
+-> -> 127 `i `uc
+-> -> 139 `i `uc
+-> -> 126 `i `uc
+-> -> 115 `i `uc
+-> -> 123 `i `uc
+-> -> 118 `i `uc
+-> -> 145 `i `uc
+-> -> 126 `i `uc
+-> -> 114 `i `uc
+-> -> 127 `i `uc
+-> -> 116 `i `uc
+-> -> 143 `i `uc
+-> -> 127 `i `uc
+-> -> 117 `i `uc
+-> -> 122 `i `uc
+-> -> 118 `i `uc
+-> -> 130 `i `uc
+-> -> 139 `i `uc
+-> -> 122 `i `uc
+-> -> 116 `i `uc
+-> -> 122 `i `uc
+-> -> 118 `i `uc
+-> -> 145 `i `uc
+-> -> 122 `i `uc
+-> -> 117 `i `uc
+-> -> 121 `i `uc
+-> -> 119 `i `uc
+-> -> 134 `i `uc
+-> -> 130 `i `uc
+-> -> 124 `i `uc
+-> -> 116 `i `uc
+-> -> 120 `i `uc
+-> -> 121 `i `uc
+-> -> 148 `i `uc
+-> -> 119 `i `uc
+-> -> 115 `i `uc
+-> -> 119 `i `uc
+-> -> 120 `i `uc
+-> -> 138 `i `uc
+-> -> 127 `i `uc
+-> -> 119 `i `uc
+-> -> 118 `i `uc
+-> -> 120 `i `uc
+-> -> 125 `i `uc
+-> -> 145 `i `uc
+-> -> 113 `i `uc
+-> -> 120 `i `uc
+-> -> 117 `i `uc
+-> -> 123 `i `uc
+-> -> 136 `i `uc
+-> -> 127 `i `uc
+-> -> 120 `i `uc
+-> -> 120 `i `uc
+-> -> 116 `i `uc
+-> -> 129 `i `uc
+-> -> 141 `i `uc
+-> -> 113 `i `uc
+-> -> 123 `i `uc
+-> -> 119 `i `uc
+-> -> 124 `i `uc
+-> -> 135 `i `uc
+-> -> 130 `i `uc
+-> -> 115 `i `uc
+-> -> 121 `i `uc
+-> -> 116 `i `uc
+-> -> 132 `i `uc
+-> -> 136 `i `uc
+-> -> 121 `i `uc
+-> -> 121 `i `uc
+-> -> 121 `i `uc
+-> -> 121 `i `uc
+-> -> 134 `i `uc
+-> -> 137 `i `uc
+-> -> 115 `i `uc
+-> -> 123 `i `uc
+-> -> 121 `i `uc
+-> -> 125 `i `uc
+-> -> 138 `i `uc
+-> -> 131 `i `uc
+-> -> 116 `i `uc
+-> -> 120 `i `uc
+-> -> 121 `i `uc
+-> -> 132 `i `uc
+-> -> 131 `i `uc
+-> -> 118 `i `uc
+-> -> 124 `i `uc
+-> -> 121 `i `uc
+-> -> 123 `i `uc
+-> -> 138 `i `uc
+-> -> 127 `i `uc
+-> -> 117 `i `uc
+-> -> 125 `i `uc
+-> -> 120 `i `uc
+-> -> 127 `i `uc
+-> -> 140 `i `uc
+-> -> 124 `i `uc
+-> -> 116 `i `uc
+-> -> 125 `i `uc
+-> -> 122 `i `uc
+-> -> 132 `i `uc
+-> -> 137 `i `uc
+-> -> 122 `i `uc
+-> -> 120 `i `uc
+-> -> 124 `i `uc
+-> -> 123 `i `uc
+-> -> 132 `i `uc
+-> -> 130 `i `uc
+-> -> 117 `i `uc
+-> -> 120 `i `uc
+-> -> 123 `i `uc
+-> -> 127 `i `uc
+-> -> 137 `i `uc
+-> -> 129 `i `uc
+-> -> 118 `i `uc
+-> -> 122 `i `uc
+-> -> 124 `i `uc
+-> -> 127 `i `uc
+-> -> 136 `i `uc
+-> -> 123 `i `uc
+-> -> 121 `i `uc
+-> -> 125 `i `uc
+-> -> 124 `i `uc
+-> -> 130 `i `uc
+-> -> 134 `i `uc
+-> -> 125 `i `uc
+-> -> 116 `i `uc
+-> -> 123 `i `uc
+-> -> 125 `i `uc
+-> -> 132 `i `uc
+-> -> 133 `i `uc
+-> -> 121 `i `uc
+-> -> 121 `i `uc
+-> -> 125 `i `uc
+-> -> 122 `i `uc
+-> -> 134 `i `uc
+-> -> 134 `i `uc
+-> -> 120 `i `uc
+-> -> 122 `i `uc
+-> -> 125 `i `uc
+-> -> 122 `i `uc
+-> -> 135 `i `uc
+-> -> 133 `i `uc
+-> -> 114 `i `uc
+-> -> 116 `i `uc
+-> -> 118 `i `uc
+-> -> 122 `i `uc
+-> -> 135 `i `uc
+-> -> 124 `i `uc
+-> -> 113 `i `uc
+-> -> 124 `i `uc
+-> -> 118 `i `uc
+-> -> 125 `i `uc
+-> -> 135 `i `uc
+-> -> 122 `i `uc
+-> -> 120 `i `uc
+-> -> 123 `i `uc
+-> -> 119 `i `uc
+-> -> 128 `i `uc
+-> -> 130 `i `uc
+-> -> 123 `i `uc
+-> -> 121 `i `uc
+-> -> 123 `i `uc
+-> -> 122 `i `uc
+-> -> 127 `i `uc
+-> -> 132 `i `uc
+-> -> 127 `i `uc
+-> -> 121 `i `uc
+-> -> 122 `i `uc
+-> -> 124 `i `uc
+-> -> 127 `i `uc
+-> -> 134 `i `uc
+-> -> 127 `i `uc
+-> -> 118 `i `uc
+-> -> 126 `i `uc
+-> -> 123 `i `uc
+-> -> 126 `i `uc
+-> -> 131 `i `uc
+-> -> 124 `i `uc
+-> -> 121 `i `uc
+-> -> 124 `i `uc
+-> -> 126 `i `uc
+-> -> 127 `i `uc
+-> -> 130 `i `uc
+-> -> 129 `i `uc
+-> -> 120 `i `uc
+-> -> 123 `i `uc
+-> -> 125 `i `uc
+-> -> 123 `i `uc
+-> -> 134 `i `uc
+-> -> 125 `i `uc
+-> -> 121 `i `uc
+-> -> 124 `i `uc
+-> -> 125 `i `uc
+-> -> 127 `i `uc
+-> -> 128 `i `uc
+-> -> 132 `i `uc
+-> -> 123 `i `uc
+-> -> 121 `i `uc
+-> -> 125 `i `uc
+-> -> 124 `i `uc
+-> -> 131 `i `uc
+-> -> 130 `i `uc
+-> -> 120 `i `uc
+-> -> 124 `i `uc
+-> -> 123 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 131 `i `uc
+-> -> 127 `i `uc
+-> -> 120 `i `uc
+-> -> 125 `i `uc
+-> -> 122 `i `uc
+-> -> 127 `i `uc
+-> -> 134 `i `uc
+-> -> 123 `i `uc
+-> -> 124 `i `uc
+-> -> 122 `i `uc
+-> -> 126 `i `uc
+-> -> 123 `i `uc
+-> -> 132 `i `uc
+-> -> 129 `i `uc
+-> -> 118 `i `uc
+-> -> 125 `i `uc
+-> -> 120 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 132 `i `uc
+-> -> 124 `i `uc
+-> -> 123 `i `uc
+-> -> 122 `i `uc
+-> -> 126 `i `uc
+-> -> 126 `i `uc
+-> -> 129 `i `uc
+-> -> 125 `i `uc
+-> -> 122 `i `uc
+-> -> 124 `i `uc
+-> -> 124 `i `uc
+-> -> 124 `i `uc
+-> -> 128 `i `uc
+-> -> 129 `i `uc
+-> -> 122 `i `uc
+-> -> 124 `i `uc
+-> -> 120 `i `uc
+-> -> 127 `i `uc
+-> -> 126 `i `uc
+-> -> 132 `i `uc
+-> -> 119 `i `uc
+-> -> 123 `i `uc
+-> -> 120 `i `uc
+-> -> 127 `i `uc
+-> -> 125 `i `uc
+-> -> 130 `i `uc
+-> -> 127 `i `uc
+-> -> 120 `i `uc
+-> -> 126 `i `uc
+-> -> 121 `i `uc
+-> -> 127 `i `uc
+-> -> 125 `i `uc
+-> -> 132 `i `uc
+-> -> 121 `i `uc
+-> -> 125 `i `uc
+-> -> 119 `i `uc
+-> -> 126 `i `uc
+-> -> 125 `i `uc
+-> -> 129 `i `uc
+-> -> 127 `i `uc
+-> -> 121 `i `uc
+-> -> 125 `i `uc
+-> -> 121 `i `uc
+-> -> 121 `i `uc
+-> -> 124 `i `uc
+-> -> 132 `i `uc
+-> -> 123 `i `uc
+-> -> 123 `i `uc
+-> -> 120 `i `uc
+-> -> 126 `i `uc
+-> -> 124 `i `uc
+-> -> 127 `i `uc
+-> -> 132 `i `uc
+-> -> 125 `i `uc
+-> -> 122 `i `uc
+-> -> 122 `i `uc
+-> -> 125 `i `uc
+-> -> 122 `i `uc
+-> -> 127 `i `uc
+-> -> 130 `i `uc
+-> -> 0 `i `uc
+..
+]
+"26 Main.c
+[; ;Main.c: 26: char CycleDirection = 0x00;
+[v _CycleDirection `uc ~T0 @X0 1 e ]
+[i _CycleDirection
+-> -> 0 `i `uc
+]
+"27
+[; ;Main.c: 27: char CycleState = 0x00;
+[v _CycleState `uc ~T0 @X0 1 e ]
+[i _CycleState
+-> -> 0 `i `uc
+]
+"28
+[; ;Main.c: 28: int RandomValue = 0x00;
+[v _RandomValue `i ~T0 @X0 1 e ]
+[i _RandomValue
+-> 0 `i
+]
+"29
+[; ;Main.c: 29: float VolumeSetting = 0x00;
+[v _VolumeSetting `f ~T0 @X0 1 e ]
+[i _VolumeSetting
+-> -> 0 `i `f
+]
+"31
+[; ;Main.c: 31: void playsound(void){
+[v _playsound `(v ~T0 @X0 1 ef ]
+{
+[e :U _playsound ]
+[f ]
+"32
+[; ;Main.c: 32:     ADC_StartConversion();
+[e ( _ADC_StartConversion ..  ]
+"33
+[; ;Main.c: 33:     while(!ADC_IsConversionDone());
+[e $U 593  ]
+[e :U 594 ]
+[e :U 593 ]
+[e $ ! != -> ( _ADC_IsConversionDone ..  `i -> 0 `i 594  ]
+[e :U 595 ]
+"34
+[; ;Main.c: 34:     VolumeSetting = ((float)ADC_GetConversionResult())/(float)(0x03B5);
+[e = _VolumeSetting / -> ( _ADC_GetConversionResult ..  `f -> -> 949 `i `f ]
+"35
+[; ;Main.c: 35:     LATAbits.LATA5 = 0;
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
+"36
+[; ;Main.c: 36:     LATCbits.LATC4 = 1;
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+"37
+[; ;Main.c: 37:     for(int i = 0; i < sizeof(Fire) ; i++){
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < -> _i `ui -> # _Fire `ui 596  ]
+[e $U 597  ]
+[e :U 596 ]
+{
+"38
+[; ;Main.c: 38:         DAC_SetOutput(Fire[i]*VolumeSetting);
+[e ( _DAC_SetOutput (1 -> * -> -> *U + &U _Fire * -> -> _i `ui `ux -> -> # *U &U _Fire `ui `ux `i `f _VolumeSetting `uc ]
+"39
+[; ;Main.c: 39:         _delay((unsigned long)((125)*(16000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 125 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"40
+[; ;Main.c: 40:     }
+}
+[e ++ _i -> 1 `i ]
+[e $ < -> _i `ui -> # _Fire `ui 596  ]
+[e :U 597 ]
+}
+"41
+[; ;Main.c: 41:     LATAbits.LATA5 = 1;
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+"42
+[; ;Main.c: 42:     LATCbits.LATC4 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"43
+[; ;Main.c: 43:     _delay((unsigned long)((315)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 315 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"44
+[; ;Main.c: 44:     LATAbits.LATA5 = 0;
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
+"45
+[; ;Main.c: 45:     LATCbits.LATC4 = 1;
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+"46
+[; ;Main.c: 46:     for(int i = 0; i < sizeof(Beat_A) ; i++){
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < -> _i `ui -> # _Beat_A `ui 599  ]
+[e $U 600  ]
+[e :U 599 ]
+{
+"47
+[; ;Main.c: 47:         DAC_SetOutput(Beat_A[i]*VolumeSetting);
+[e ( _DAC_SetOutput (1 -> * -> -> *U + &U _Beat_A * -> -> _i `ui `ux -> -> # *U &U _Beat_A `ui `ux `i `f _VolumeSetting `uc ]
+"48
+[; ;Main.c: 48:         _delay((unsigned long)((125)*(16000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 125 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"49
+[; ;Main.c: 49:     }
+}
+[e ++ _i -> 1 `i ]
+[e $ < -> _i `ui -> # _Beat_A `ui 599  ]
+[e :U 600 ]
+}
+"50
+[; ;Main.c: 50:     LATAbits.LATA5 = 1;
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+"51
+[; ;Main.c: 51:     LATCbits.LATC4 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"52
+[; ;Main.c: 52:     _delay((unsigned long)((254)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 254 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"53
+[; ;Main.c: 53:     LATAbits.LATA5 = 0;
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
+"54
+[; ;Main.c: 54:     LATCbits.LATC4 = 1;
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+"55
+[; ;Main.c: 55:     for(int i = 0; i < sizeof(Beat_B) ; i++){
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < -> _i `ui -> # _Beat_B `ui 602  ]
+[e $U 603  ]
+[e :U 602 ]
+{
+"56
+[; ;Main.c: 56:         DAC_SetOutput(Beat_B[i]*VolumeSetting);
+[e ( _DAC_SetOutput (1 -> * -> -> *U + &U _Beat_B * -> -> _i `ui `ux -> -> # *U &U _Beat_B `ui `ux `i `f _VolumeSetting `uc ]
+"57
+[; ;Main.c: 57:         _delay((unsigned long)((125)*(16000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 125 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"58
+[; ;Main.c: 58:     }
+}
+[e ++ _i -> 1 `i ]
+[e $ < -> _i `ui -> # _Beat_B `ui 602  ]
+[e :U 603 ]
+}
+"59
+[; ;Main.c: 59:     LATAbits.LATA5 = 1;
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+"60
+[; ;Main.c: 60:     LATCbits.LATC4 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"61
+[; ;Main.c: 61:     _delay((unsigned long)((258)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 258 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"62
+[; ;Main.c: 62:     LATAbits.LATA5 = 0;
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
+"63
+[; ;Main.c: 63:     LATCbits.LATC4 = 1;
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+"64
+[; ;Main.c: 64:     for(int i = 0; i < sizeof(Beat_C) ; i++){
+{
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+[e $ < -> _i `ui -> # _Beat_C `ui 605  ]
+[e $U 606  ]
+[e :U 605 ]
+{
+"65
+[; ;Main.c: 65:         DAC_SetOutput(Beat_C[i]*VolumeSetting);
+[e ( _DAC_SetOutput (1 -> * -> -> *U + &U _Beat_C * -> -> _i `ui `ux -> -> # *U &U _Beat_C `ui `ux `i `f _VolumeSetting `uc ]
+"66
+[; ;Main.c: 66:         _delay((unsigned long)((125)*(16000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 125 `i `d / -> -> 16000000 `l `d .4000000.0 `ul ]
+"67
+[; ;Main.c: 67:     }
+}
+[e ++ _i -> 1 `i ]
+[e $ < -> _i `ui -> # _Beat_C `ui 605  ]
+[e :U 606 ]
+}
+"68
+[; ;Main.c: 68:     LATAbits.LATA5 = 1;
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+"69
+[; ;Main.c: 69:     LATCbits.LATC4 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"70
+[; ;Main.c: 70: }
+[e :UE 592 ]
+}
+"72
+[; ;Main.c: 72: void Lightcycle(void) {
+[v _Lightcycle `(v ~T0 @X0 1 ef ]
+{
+[e :U _Lightcycle ]
+[f ]
+"74
+[; ;Main.c: 74:     RandomValue = rand();
+[e = _RandomValue ( _rand ..  ]
+"75
+[; ;Main.c: 75:     if (RandomValue < 983)
+[e $ ! < _RandomValue -> 983 `i 609  ]
+"76
+[; ;Main.c: 76:         CycleDirection ^= 0x01;
+[e =^ _CycleDirection -> -> 1 `i `uc ]
+[e :U 609 ]
+"78
+[; ;Main.c: 78:     switch(CycleState) {
+[e $U 611  ]
+{
+"79
+[; ;Main.c: 79:         case 0 :
+[e :U 612 ]
+"80
+[; ;Main.c: 80:             LATAbits.LATA2 = 0;
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+"81
+[; ;Main.c: 81:             LATCbits.LATC0 = 0;
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+"82
+[; ;Main.c: 82:             LATCbits.LATC2 = 1;
+[e = . . _LATCbits 0 2 -> -> 1 `i `uc ]
+"83
+[; ;Main.c: 83:             break;
+[e $U 610  ]
+"84
+[; ;Main.c: 84:         case 1 :
+[e :U 613 ]
+"85
+[; ;Main.c: 85:             LATCbits.LATC2 = 0;
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+"86
+[; ;Main.c: 86:             LATCbits.LATC1 = 0;
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+"87
+[; ;Main.c: 87:             LATAbits.LATA2 = 1;
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+"88
+[; ;Main.c: 88:             break;
+[e $U 610  ]
+"89
+[; ;Main.c: 89:         case 2 :
+[e :U 614 ]
+"90
+[; ;Main.c: 90:             LATAbits.LATA2 = 0;
+[e = . . _LATAbits 0 2 -> -> 0 `i `uc ]
+"91
+[; ;Main.c: 91:             LATCbits.LATC0 = 0;
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+"92
+[; ;Main.c: 92:             LATCbits.LATC1 = 1;
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+"93
+[; ;Main.c: 93:             break;
+[e $U 610  ]
+"94
+[; ;Main.c: 94:         case 3 :
+[e :U 615 ]
+"95
+[; ;Main.c: 95:             LATCbits.LATC1 = 0;
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+"96
+[; ;Main.c: 96:             LATCbits.LATC2 = 0;
+[e = . . _LATCbits 0 2 -> -> 0 `i `uc ]
+"97
+[; ;Main.c: 97:             LATCbits.LATC0 = 1;
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+"98
+[; ;Main.c: 98:             break;
+[e $U 610  ]
+"99
+[; ;Main.c: 99:         default :
+[e :U 616 ]
+"100
+[; ;Main.c: 100:             break;
+[e $U 610  ]
+"101
+[; ;Main.c: 101:     }
+}
+[e $U 610  ]
+[e :U 611 ]
+[e [\ -> _CycleState `i , $ -> 0 `i 612
+ , $ -> 1 `i 613
+ , $ -> 2 `i 614
+ , $ -> 3 `i 615
+ 616 ]
+[e :U 610 ]
+"103
+[; ;Main.c: 103:     if (CycleDirection == 0){
+[e $ ! == -> _CycleDirection `i -> 0 `i 617  ]
+{
+"104
+[; ;Main.c: 104:         CycleState++;
+[e ++ _CycleState -> -> 1 `i `uc ]
+"105
+[; ;Main.c: 105:         if (CycleState == 4)
+[e $ ! == -> _CycleState `i -> 4 `i 618  ]
+"106
+[; ;Main.c: 106:             CycleState = 0;
+[e = _CycleState -> -> 0 `i `uc ]
+[e :U 618 ]
+"107
+[; ;Main.c: 107:     }
+}
+[e $U 619  ]
+"108
+[; ;Main.c: 108:     else {
+[e :U 617 ]
+{
+"109
+[; ;Main.c: 109:         CycleState--;
+[e -- _CycleState -> -> 1 `i `uc ]
+"110
+[; ;Main.c: 110:         if (CycleState == 0xff)
+[e $ ! == -> _CycleState `i -> 255 `i 620  ]
+"111
+[; ;Main.c: 111:             CycleState = 3;
+[e = _CycleState -> -> 3 `i `uc ]
+[e :U 620 ]
+"112
+[; ;Main.c: 112:     }
+}
+[e :U 619 ]
+"113
+[; ;Main.c: 113: }
+[e :UE 608 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"115
+[; ;Main.c: 115: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"117
+[; ;Main.c: 117:     SYSTEM_Initialize();
+[e ( _SYSTEM_Initialize ..  ]
+"118
+[; ;Main.c: 118:     TMR0_SetInterruptHandler(Lightcycle);
+[e ( _TMR0_SetInterruptHandler (1 &U _Lightcycle ]
+"119
+[; ;Main.c: 119:     (INTCONbits.GIE = 1);
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"121
+[; ;Main.c: 121:     LATAbits.LATA5 = 1;
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+"122
+[; ;Main.c: 122:     _delay((unsigned long)((500)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"123
+[; ;Main.c: 123:     LATAbits.LATA5 = 0;
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
+"124
+[; ;Main.c: 124:     _delay((unsigned long)((500)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"125
+[; ;Main.c: 125:     LATAbits.LATA5 = 1;
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+"126
+[; ;Main.c: 126:     _delay((unsigned long)((500)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"127
+[; ;Main.c: 127:     LATAbits.LATA5 = 0;
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
+"128
+[; ;Main.c: 128:     _delay((unsigned long)((500)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"129
+[; ;Main.c: 129:     LATAbits.LATA5 = 1;
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+"130
+[; ;Main.c: 130:     _delay((unsigned long)((500)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"131
+[; ;Main.c: 131:     LATAbits.LATA5 = 0;
+[e = . . _LATAbits 0 5 -> -> 0 `i `uc ]
+"132
+[; ;Main.c: 132:     _delay((unsigned long)((500)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"133
+[; ;Main.c: 133:     LATAbits.LATA5 = 1;
+[e = . . _LATAbits 0 5 -> -> 1 `i `uc ]
+"136
+[; ;Main.c: 136:     while(1) {
+[e :U 623 ]
+{
+"137
+[; ;Main.c: 137:         RandomValue = rand();
+[e = _RandomValue ( _rand ..  ]
+"138
+[; ;Main.c: 138:         if (RandomValue < 9830)
+[e $ ! < _RandomValue -> 9830 `i 625  ]
+"139
+[; ;Main.c: 139:             playsound();
+[e ( _playsound ..  ]
+[e :U 625 ]
+"140
+[; ;Main.c: 140:         _delay((unsigned long)((12000)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 12000 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"141
+[; ;Main.c: 141:         LATCbits.LATC4 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"142
+[; ;Main.c: 142:         _delay((unsigned long)((500)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"143
+[; ;Main.c: 143:         LATCbits.LATC4 = 1;
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+"144
+[; ;Main.c: 144:         _delay((unsigned long)((12000)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 12000 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"145
+[; ;Main.c: 145:         LATCbits.LATC4 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"146
+[; ;Main.c: 146:         _delay((unsigned long)((500)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"147
+[; ;Main.c: 147:         LATCbits.LATC4 = 1;
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+"148
+[; ;Main.c: 148:         _delay((unsigned long)((12000)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 12000 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"149
+[; ;Main.c: 149:         LATCbits.LATC4 = 0;
+[e = . . _LATCbits 0 4 -> -> 0 `i `uc ]
+"150
+[; ;Main.c: 150:         _delay((unsigned long)((500)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"151
+[; ;Main.c: 151:         LATCbits.LATC4 = 1;
+[e = . . _LATCbits 0 4 -> -> 1 `i `uc ]
+"152
+[; ;Main.c: 152:         _delay((unsigned long)((12000)*(16000000/4000.0)));
+[e ( __delay (1 -> * -> -> 12000 `i `d / -> -> 16000000 `l `d .4000.0 `ul ]
+"153
+[; ;Main.c: 153:     }
+}
+[e :U 622 ]
+[e $U 623  ]
+[e :U 624 ]
+"154
+[; ;Main.c: 154:     return;
+[e $UE 621  ]
+"155
+[; ;Main.c: 155: }
+[e :UE 621 ]
+}

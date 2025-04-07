@@ -1,0 +1,74 @@
+# Game Roms
+1942
+Arkanoid
+Asteroids
+Bubble Bobble
+Centipede
+Commando
+Double Dragon
+Dig Dug
+Donkey Kong 3
+Frogger
+Galaga
+Space Invaders
+Joust
+Jungle Hunt
+Lunar Lander
+Mario Bros
+Missile Command
+Pacman
+Popeye
+Prisoners of War
+QBert
+Rally Bike
+Scramble
+Tetris Plus
+Aero Fighters
+Cobra Command
+Contra
+Double Dragon 2
+Elevator Action
+Galaga 3
+Galaxian
+Ms Pacman
+Tempest
+Defender (Needs Manual Controls Tuning)
+Berzerk
+
+# Installed Rom Names (- => Loading Image Done)
+-1942.cfg
+-aerofgt.cfg
+-arkanoid.cfg
+-asteroid.cfg
+-berzerk.cfg
+-bublbobl.cfg
+-centiped.cfg
+-cobracom.cfg
+-commando.cfg
+-contra.cfg
+-ddragon.cfg
+-ddragon2.cfg
+-defender.cfg
+-digdug.cfg
+-dkong3.cfg
+-elevator.cfg
+-frogger.cfg
+-galaga.cfg
+-galaga3m.cfg
+-galmidw.cfg
+-invaders.cfg
+-joust.cfg
+-junglhbr.cfg
+-llander.cfg
+-mario.cfg
+-missile.cfg
+-mspacman.cfg
+-pacman.cfg
+-popeye.cfg
+-pow.cfg
+-qbert.cfg
+-rallybik.cfg
+-scramble.cfg
+-tempest.cfg
+-tetris.cfg
+-tetrisp.cfg
